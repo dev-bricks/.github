@@ -1,18 +1,18 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dev-bricks/.github/main/profile/logo.jpg" alt="dev-bricks" width="400">
-</p>
+# dev-bricks
 
-<h3 align="center">dev-bricks</h3>
-<p align="center"><i>Developer tools, IDEs & code analysis</i></p>
+**Developer tools, IDEs & API testing utilities.**
 
----
+## Our Tools
 
-Lightweight development environments, code analyzers, and API tools for Python developers.
+| App | Description |
+|-----|------------|
+| [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight Python IDE & sandbox |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | Central developer dashboard |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Code method analysis tool |
+| [apiprober](https://github.com/dev-bricks/apiprober) | API endpoint testing & probing |
 
-### Projects
+## Part of the open-bricks ecosystem
 
-DevCenter, pythonbox, MethodenAnalyser, apiprober
+dev-bricks is part of [open-bricks](https://github.com/open-bricks) — an ecosystem of open-source desktop software, AI infrastructure, developer tools, and research repositories.
 
----
-
-**License:** MIT
+**File management:** [file-bricks](https://github.com/file-bricks) · **AI infrastructure:** [ellmos-ai](https://github.com/ellmos-ai) · **Document tools:** [doc-bricks](https://github.com/doc-bricks) · **Research:** [research-line](https://github.com/research-line)
