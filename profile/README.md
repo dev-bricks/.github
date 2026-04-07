@@ -1,18 +1,20 @@
 # dev-bricks
 
-**Developer tools, IDEs & API testing utilities.**
+**Developer tools, IDEs, and API testing utilities, built with Python and PySide6.**
+
+dev-bricks provides desktop applications for code analysis, sandboxed execution, project management, and API discovery.
 
 ## Our Tools
 
 | App | Description |
-|-----|------------|
-| [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight Python IDE & sandbox |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | Central developer dashboard |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Code method analysis tool |
-| [apiprober](https://github.com/dev-bricks/apiprober) | API endpoint testing & probing |
+|-----|-------------|
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | Central developer dashboard for local projects and Git repos |
+| [pythonbox](https://github.com/dev-bricks/pythonbox) | Sandboxed Python execution environment for safe testing |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analyzer with AST analysis |
+| [apiprober](https://github.com/dev-bricks/apiprober) | Systematic API discovery with OpenAPI detection |
 
-## Part of the open-bricks ecosystem
+## Part of the open-bricks suite
 
-dev-bricks is part of [open-bricks](https://github.com/open-bricks) — an ecosystem of open-source desktop software, AI infrastructure, developer tools, and research repositories.
+[open-bricks](https://github.com/open-bricks) · [file-bricks](https://github.com/file-bricks) · [doc-bricks](https://github.com/doc-bricks)
 
-**File management:** [file-bricks](https://github.com/file-bricks) · **AI infrastructure:** [ellmos-ai](https://github.com/ellmos-ai) · **Document tools:** [doc-bricks](https://github.com/doc-bricks) · **Research:** [research-line](https://github.com/research-line)
+Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
