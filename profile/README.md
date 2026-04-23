@@ -1,20 +1,22 @@
 # dev-bricks
 
-**Developer tools, IDEs, and API testing utilities, built with Python and PySide6.**
+**Developer tools, IDEs, code analysis utilities, and API exploration software.**
 
-dev-bricks provides desktop applications for code analysis, sandboxed execution, project management, and API discovery.
+dev-bricks builds local-first tools for software development workflows: editing code, analyzing projects, probing APIs, and managing developer workspaces without depending on heavy cloud platforms.
 
-## Our Tools
+## Public Apps
 
 | App | Description |
 |-----|-------------|
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | Central developer dashboard for local projects and Git repos |
-| [pythonbox](https://github.com/dev-bricks/pythonbox) | Sandboxed Python execution environment for safe testing |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analyzer with AST analysis |
-| [apiprober](https://github.com/dev-bricks/apiprober) | Systematic API discovery with OpenAPI detection |
-| [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Fast local Markdown viewer/editor that fits coding and LLM-heavy Markdown workflows |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | Central developer dashboard for local projects, Git repositories, and workflow entry points |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | Multi-language PySide6 code editor with LSP, terminal, project view, and Git integration |
+| [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight Python IDE with debugger and sandbox-style local execution workflows |
+| [apiprober](https://github.com/dev-bricks/apiprober) | Systematic API probing and discovery for undocumented REST services |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analyzer for imports, dead definitions, and structural similarities |
 
-## Part of the open-bricks suite
+## Ecosystem
+
+dev-bricks is the developer-facing branch of the brick suite:
 
 [open-bricks](https://github.com/open-bricks) · [file-bricks](https://github.com/file-bricks) · [doc-bricks](https://github.com/doc-bricks)
 
