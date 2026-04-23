@@ -12,6 +12,7 @@ dev-bricks provides desktop applications for code analysis, sandboxed execution,
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | Sandboxed Python execution environment for safe testing |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analyzer with AST analysis |
 | [apiprober](https://github.com/dev-bricks/apiprober) | Systematic API discovery with OpenAPI detection |
+| [CleanMarkdown](https://github.com/doc-bricks/CleanMarkdown) | Fast local Markdown viewer/editor that fits coding and LLM-heavy Markdown workflows |
 
 ## Part of the open-bricks suite
 
