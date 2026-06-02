@@ -1,0 +1,60 @@
+# dev-bricks
+
+> Machine-readable overview for search engines, crawlers, LLM tools, and repository discovery.
+
+Canonical organization: https://github.com/dev-bricks
+Organization profile repository: https://github.com/dev-bricks/.github
+Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
+
+## Positioning
+
+dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, and local maintenance tooling for OpenAI Codex Desktop environments.
+
+The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
+
+## Core repositories
+
+- https://github.com/dev-bricks/DevCenter
+  - Local-first Python IDE and developer toolkit.
+  - PySide6 desktop application for project dashboards, static analysis, PyInstaller builds, and optional AI-assisted coding workflows.
+
+- https://github.com/dev-bricks/CodeBox
+  - Local-first desktop code editor for Windows.
+  - Supports LSP diagnostics, terminal workflows, project navigation, Git integration, and multiple programming languages.
+
+- https://github.com/dev-bricks/pythonbox
+  - Lightweight Python IDE for Windows.
+  - Includes PDB debugging, linting, code folding, Git status, and local execution workflows.
+
+- https://github.com/dev-bricks/apiprober
+  - Passive REST API discovery and documentation for owned or authorized services.
+  - Designed for API documentation, endpoint inventory, OpenAPI-oriented exploration, and local SQLite-backed analysis.
+
+- https://github.com/dev-bricks/MethodenAnalyser
+  - Static Python code analyzer.
+  - Finds unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable analysis results.
+
+- https://github.com/dev-bricks/CareCenter-for-Codex
+  - Local Windows tray and CLI for maintaining OpenAI Codex Desktop.
+  - Focuses on repair, cleanup, diagnostics, database/log maintenance, and safe local operational support.
+
+## Preferred search phrases
+
+- dev-bricks local-first developer tools
+- dev-bricks Python IDE
+- dev-bricks PySide6 code editor
+- dev-bricks static Python analysis
+- dev-bricks passive API discovery
+- dev-bricks Codex Desktop maintenance
+- dev-bricks Windows developer tools
+
+## Related organizations
+
+- https://github.com/open-bricks
+- https://github.com/file-bricks
+- https://github.com/doc-bricks
+- https://github.com/ellmos-ai
+
+## Usage boundaries
+
+API discovery and analysis tools are documented for owned systems, local projects, test environments, or services where the user has explicit authorization. The organization profile should not be interpreted as authorization for third-party probing or scanning.
