@@ -4,6 +4,8 @@ Organization profile and community health files for [dev-bricks](https://github.
 
 This repository controls the public organization overview shown on GitHub and the shared contribution, security, issue, and pull request templates used across the dev-bricks developer-tool projects.
 
+The profile README also serves as the public repository directory for the organization. Keep it synchronized with the live public repo list when new dev-bricks projects are added.
+
 ## Files
 
 | Path | Purpose |

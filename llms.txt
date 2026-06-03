@@ -12,7 +12,11 @@ dev-bricks is a GitHub organization for local-first developer tools, desktop IDE
 
 The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
 
-## Core repositories
+## Public repository directory
+
+- https://github.com/dev-bricks/.github
+  - Organization profile and shared community health repository.
+  - Maintains the public GitHub start page, issue templates, security policy, contribution guidance, and this machine-readable repository index.
 
 - https://github.com/dev-bricks/DevCenter
   - Local-first Python IDE and developer toolkit.
@@ -45,6 +49,7 @@ The projects are intended for developers who want small, inspectable, local appl
 - dev-bricks PySide6 code editor
 - dev-bricks static Python analysis
 - dev-bricks passive API discovery
+- dev-bricks OpenAPI inventory
 - dev-bricks Codex Desktop maintenance
 - dev-bricks Windows developer tools
 

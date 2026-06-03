@@ -19,6 +19,18 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Static Python analysis for imports, dead definitions, and similar blocks | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) |
 | Local maintenance tray and CLI for OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) |
 
+## Public Repository Directory
+
+| Repository | Role |
+|---|---|
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | Local-first Python IDE and developer toolkit with project dashboards, static analysis, PyInstaller workflows, and optional AI-assisted coding |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | PySide6 desktop code editor with LSP diagnostics, terminal workflows, project navigation, Git integration, and multi-language support |
+| [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight Windows Python IDE with PDB debugging, linting, code folding, Git status, and local execution workflows |
+| [apiprober](https://github.com/dev-bricks/apiprober) | Passive REST API discovery, endpoint inventory, and OpenAPI-oriented documentation for owned or explicitly authorized services |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python analyzer for unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable findings |
+| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
+| [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, security policy, contribution guidance, and machine-readable repository context |
+
 ## Project Families
 
 | Family | Repositories | Focus |
@@ -34,6 +46,17 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 - **Windows pragmatism:** desktop apps prioritize reliable local execution, predictable packaging, and low setup overhead.
 - **Clear boundaries:** security-adjacent tools such as API discovery are documented for owned or explicitly authorized services.
 - **Readable automation:** scripts, tests, and exports are kept understandable for both humans and LLM-assisted maintenance.
+
+## Search and Discovery
+
+Useful phrases for finding dev-bricks projects on GitHub and external search:
+
+- dev-bricks local-first developer tools
+- dev-bricks Python IDE and PySide6 code editor
+- dev-bricks static Python analysis
+- dev-bricks passive REST API discovery and OpenAPI inventory
+- dev-bricks Codex Desktop maintenance
+- dev-bricks Windows developer tools
 
 ## Machine-Readable Context
 
