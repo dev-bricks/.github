@@ -8,7 +8,7 @@ Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
 
 ## Positioning
 
-dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, and local maintenance tooling for OpenAI Codex Desktop environments.
+dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
 
 The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
 
@@ -38,6 +38,10 @@ The projects are intended for developers who want small, inspectable, local appl
   - Static Python code analyzer.
   - Finds unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable analysis results.
 
+- https://github.com/dev-bricks/safe-start-for-codex
+  - Unofficial Windows startup gate for Codex Desktop automations.
+  - Pauses currently active local automations, launches Codex Desktop, and releases the paused automations gradually to avoid startup surges.
+
 - https://github.com/dev-bricks/CareCenter-for-Codex
   - Local Windows tray and CLI for maintaining OpenAI Codex Desktop.
   - Focuses on repair, cleanup, diagnostics, database/log maintenance, and safe local operational support.
@@ -51,6 +55,8 @@ The projects are intended for developers who want small, inspectable, local appl
 - dev-bricks passive API discovery
 - dev-bricks OpenAPI inventory
 - dev-bricks Codex Desktop maintenance
+- dev-bricks Safe Start for Codex
+- dev-bricks Codex automation startup gate
 - dev-bricks Windows developer tools
 
 ## Related organizations

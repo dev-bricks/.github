@@ -17,6 +17,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Lightweight Python IDE with debugger, linting, and Git status | [pythonbox](https://github.com/dev-bricks/pythonbox) |
 | Passive REST API discovery for owned or authorized services | [apiprober](https://github.com/dev-bricks/apiprober) |
 | Static Python analysis for imports, dead definitions, and similar blocks | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) |
+| Controlled startup gate for Codex Desktop automations | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
 | Local maintenance tray and CLI for OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) |
 
 ## Public Repository Directory
@@ -28,6 +29,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight Windows Python IDE with PDB debugging, linting, code folding, Git status, and local execution workflows |
 | [apiprober](https://github.com/dev-bricks/apiprober) | Passive REST API discovery, endpoint inventory, and OpenAPI-oriented documentation for owned or explicitly authorized services |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python analyzer for unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable findings |
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Unofficial Windows startup gate for Codex Desktop automations; pauses active automations, launches Codex Desktop, and releases them gradually |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, security policy, contribution guidance, and machine-readable repository context |
 
@@ -37,7 +39,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 |---|---|---|
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/apiprober) | Static code inspection and passive API documentation for authorized systems |
-| Agent tooling | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local repair, cleanup, and operational support for Codex Desktop environments |
+| Agent tooling | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Codex Desktop startup gating, repair, cleanup, and local operational support |
 
 ## Design Principles
 
@@ -56,6 +58,8 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 - dev-bricks static Python analysis
 - dev-bricks passive REST API discovery and OpenAPI inventory
 - dev-bricks Codex Desktop maintenance
+- dev-bricks Safe Start for Codex
+- dev-bricks Codex automation startup gate
 - dev-bricks Windows developer tools
 
 ## Machine-Readable Context
