@@ -8,7 +8,7 @@ Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
 
 ## Positioning
 
-dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
+dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, Gemini CLI integration, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
 
 The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
 
@@ -38,6 +38,12 @@ The projects are intended for developers who want small, inspectable, local appl
   - Static Python code analyzer.
   - Finds unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable analysis results.
 
+- https://github.com/dev-bricks/companion-for-agy
+  - PTY-based wrapper for agy (Antigravity CLI / Gemini CLI).
+  - Captures Gemini responses via ANSI color extraction from the terminal buffer.
+  - Enables Claude Code, Codex, and CI/CD pipelines to programmatically read agy output.
+  - Available on npm: companion-for-agy.
+
 - https://github.com/dev-bricks/safe-start-for-codex
   - Unofficial Windows startup gate for Codex Desktop automations.
   - Pauses currently active local automations, launches Codex Desktop, and releases the paused automations gradually to avoid startup surges.
@@ -57,6 +63,9 @@ The projects are intended for developers who want small, inspectable, local appl
 - dev-bricks Codex Desktop maintenance
 - dev-bricks Safe Start for Codex
 - dev-bricks Codex automation startup gate
+- dev-bricks companion for agy
+- dev-bricks Gemini CLI wrapper
+- dev-bricks multi-agent orchestration
 - dev-bricks Windows developer tools
 
 ## Related organizations
