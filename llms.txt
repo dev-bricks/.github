@@ -42,7 +42,7 @@ The projects are intended for developers who want small, inspectable, local appl
   - PTY-based wrapper for agy (Antigravity CLI / Gemini CLI).
   - Captures Gemini responses via ANSI color extraction from the terminal buffer.
   - Enables Claude Code, Codex, and CI/CD pipelines to programmatically read agy output.
-  - Available on npm: companion-for-agy.
+  - Available on npm: https://www.npmjs.com/package/companion-for-agy
 
 - https://github.com/dev-bricks/safe-start-for-codex
   - Unofficial Windows startup gate for Codex Desktop automations.
@@ -51,6 +51,14 @@ The projects are intended for developers who want small, inspectable, local appl
 - https://github.com/dev-bricks/CareCenter-for-Codex
   - Local Windows tray and CLI for maintaining OpenAI Codex Desktop.
   - Focuses on repair, cleanup, diagnostics, database/log maintenance, and safe local operational support.
+
+## Audience
+
+- Python developers who want lightweight, local desktop tooling without cloud dependency
+- Developers working with OpenAI Codex Desktop, Gemini CLI (agy), or Claude Code
+- Teams maintaining internal Python codebases and needing static analysis tools
+- API developers documenting or inventorying REST endpoints on owned or authorized services
+- Windows-first developers looking for local IDE and code editing tools
 
 ## Preferred search phrases
 
@@ -78,3 +86,5 @@ The projects are intended for developers who want small, inspectable, local appl
 ## Usage boundaries
 
 API discovery and analysis tools are documented for owned systems, local projects, test environments, or services where the user has explicit authorization. The organization profile should not be interpreted as authorization for third-party probing or scanning.
+
+## Last-checked: 2026-06-10
