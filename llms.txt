@@ -1,3 +1,5 @@
+## Last-checked: 2026-06-11
+
 # dev-bricks
 
 > Machine-readable overview for search engines, crawlers, LLM tools, and repository discovery.
@@ -60,21 +62,23 @@ The projects are intended for developers who want small, inspectable, local appl
 - API developers documenting or inventorying REST endpoints on owned or authorized services
 - Windows-first developers looking for local IDE and code editing tools
 
-## Preferred search phrases
+## Search Phrases
 
-- dev-bricks local-first developer tools
-- dev-bricks Python IDE
-- dev-bricks PySide6 code editor
-- dev-bricks static Python analysis
-- dev-bricks passive API discovery
-- dev-bricks OpenAPI inventory
-- dev-bricks Codex Desktop maintenance
-- dev-bricks Safe Start for Codex
-- dev-bricks Codex automation startup gate
-- dev-bricks companion for agy
-- dev-bricks Gemini CLI wrapper
-- dev-bricks multi-agent orchestration
-- dev-bricks Windows developer tools
+```
+dev-bricks local-first developer tools
+dev-bricks Python IDE
+dev-bricks PySide6 code editor
+dev-bricks static Python analysis
+dev-bricks passive API discovery
+dev-bricks OpenAPI inventory
+dev-bricks Codex Desktop maintenance
+dev-bricks Safe Start for Codex
+dev-bricks Codex automation startup gate
+dev-bricks companion for agy
+dev-bricks Gemini CLI wrapper
+dev-bricks multi-agent orchestration
+dev-bricks Windows developer tools
+```
 
 ## Related organizations
 
@@ -86,5 +90,3 @@ The projects are intended for developers who want small, inspectable, local appl
 ## Usage boundaries
 
 API discovery and analysis tools are documented for owned systems, local projects, test environments, or services where the user has explicit authorization. The organization profile should not be interpreted as authorization for third-party probing or scanning.
-
-## Last-checked: 2026-06-11
