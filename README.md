@@ -3,6 +3,7 @@
 Organization profile and community health files for [dev-bricks](https://github.com/dev-bricks).
 
 This repository controls the public organization overview shown on GitHub and the shared contribution, security, issue, and pull request templates used across the dev-bricks developer-tool projects.
+It also keeps the organization-level community workflows for stale issue handling and first-contributor welcomes.
 
 The profile README also serves as the public repository directory for the organization. Keep it synchronized with the live public repo list when new dev-bricks projects are added.
 
@@ -16,3 +17,4 @@ The profile README also serves as the public repository directory for the organi
 | `SECURITY.md` | Shared security policy |
 | `ISSUE_TEMPLATE/` | Shared issue templates |
 | `PULL_REQUEST_TEMPLATE.md` | Shared pull request checklist |
+| `.github/workflows/` | Shared community workflows for stale handling and first interactions |

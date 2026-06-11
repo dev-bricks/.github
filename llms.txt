@@ -16,7 +16,7 @@ The projects are intended for developers who want small, inspectable, local appl
 
 - https://github.com/dev-bricks/.github
   - Organization profile and shared community health repository.
-  - Maintains the public GitHub start page, issue templates, security policy, contribution guidance, and this machine-readable repository index.
+  - Maintains the public GitHub start page, issue templates, community workflows, security policy, contribution guidance, and this machine-readable repository index.
 
 - https://github.com/dev-bricks/DevCenter
   - Local-first Python IDE and developer toolkit.
@@ -87,4 +87,4 @@ The projects are intended for developers who want small, inspectable, local appl
 
 API discovery and analysis tools are documented for owned systems, local projects, test environments, or services where the user has explicit authorization. The organization profile should not be interpreted as authorization for third-party probing or scanning.
 
-## Last-checked: 2026-06-10
+## Last-checked: 2026-06-11
