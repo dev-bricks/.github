@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.jpg" alt="dev-bricks logo" width="120">
+  <img src="./logo.jpg" alt="dev-bricks logo" width="925">
 </p>
 
 # dev-bricks
