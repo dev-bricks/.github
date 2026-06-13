@@ -1,4 +1,4 @@
-## Last-checked: 2026-06-11
+## Last-checked: 2026-06-14
 
 # dev-bricks
 
@@ -54,6 +54,11 @@ The projects are intended for developers who want small, inspectable, local appl
   - Local Windows tray and CLI for maintaining OpenAI Codex Desktop.
   - Focuses on repair, cleanup, diagnostics, database/log maintenance, and safe local operational support.
 
+- https://github.com/dev-bricks/fable-5-hunter
+  - Zero-dependency availability watcher for the Claude Fable 5 model in the Claude Code CLI.
+  - Polls periodically and notifies you the moment the model is reachable again.
+  - Delivers via Telegram, Discord, ntfy, desktop notification, or file fallback; runs 24/7 with autostart on Windows and macOS.
+
 ## Audience
 
 - Python developers who want lightweight, local desktop tooling without cloud dependency
@@ -76,6 +81,8 @@ dev-bricks Safe Start for Codex
 dev-bricks Codex automation startup gate
 dev-bricks companion for agy
 dev-bricks Gemini CLI wrapper
+dev-bricks Claude Fable 5 availability watcher
+dev-bricks Claude Code model monitor
 dev-bricks multi-agent orchestration
 dev-bricks Windows developer tools
 ```
