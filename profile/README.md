@@ -21,7 +21,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Controlled startup gate for Codex Desktop automations | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
 | Local maintenance tray and CLI for OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) |
 
-## Public Repository Directory
+## Repository Directory
 
 | Repository | Role |
 |---|---|
@@ -33,6 +33,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) · [npm](https://www.npmjs.com/package/companion-for-agy) | PTY-based wrapper for agy (Gemini CLI) that captures responses via ANSI color extraction; enables Claude Code, Codex, and CI/CD to read agy output |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Unofficial Windows startup gate for Codex Desktop automations; pauses active automations, launches Codex Desktop, and releases them gradually |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
+| [ticket-master](https://github.com/dev-bricks/ticket-master) *(private)* | Cross-platform, multi-provider ticket router; type a bug or request into a triage console, it is filed as a structured ticket, scored, and routed to the right AI provider or sub-agent for an immediate fix or into the project's task management |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, community workflows, security policy, contribution guidance, and machine-readable repository context |
 
 ## Project Families
@@ -41,7 +42,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 |---|---|---|
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/apiprober) | Static code inspection and passive API documentation for authorized systems |
-| Agent tooling | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Gemini CLI response capture, Codex Desktop startup gating, repair, cleanup, and local operational support |
+| Agent tooling | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [ticket-master](https://github.com/dev-bricks/ticket-master) *(private)* | Gemini CLI response capture, Codex Desktop startup gating, repair, cleanup, local operational support, and AI-provider ticket routing |
 
 ## Design Principles
 
@@ -78,4 +79,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-06-11 -->
+<!-- last-checked: 2026-06-14 -->
