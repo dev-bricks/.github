@@ -21,6 +21,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Controlled startup gate for Codex Desktop automations | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
 | Local maintenance tray and CLI for OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) |
 | Get notified the moment Claude Fable 5 is reachable again in Claude Code | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) |
+| Portable multi-agent file-lock system with scopes, expiry, and stale-cleanup | [lock-master](https://github.com/dev-bricks/lock-master) |
 
 ## Repository Directory
 
@@ -36,6 +37,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Zero-dependency watcher that polls the Claude Code CLI for Claude Fable 5 and notifies you the moment it is reachable again — via Telegram, Discord, ntfy, desktop toast, or file fallback |
 | [ticket-master](https://github.com/dev-bricks/ticket-master) | Cross-platform, multi-provider ticket router; type a bug or request into a triage console, it is filed as a structured ticket, scored, and routed to the right AI provider or sub-agent for an immediate fix or into the project's task management |
+| [lock-master](https://github.com/dev-bricks/lock-master) | Portable multi-agent file-lock system — LOCK*.txt-based project/component locking with scopes, expiry, stale-cleanup and a fast overview cache |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, community workflows, security policy, contribution guidance, and machine-readable repository context |
 
 ## Project Families
@@ -44,7 +46,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 |---|---|---|
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/apiprober) | Static code inspection and passive API documentation for authorized systems |
-| Agent tooling | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter), [ticket-master](https://github.com/dev-bricks/ticket-master) | Gemini CLI response capture, Codex Desktop startup gating, repair, cleanup, local operational support, Claude model availability monitoring, and AI-provider ticket routing |
+| Agent tooling | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter), [ticket-master](https://github.com/dev-bricks/ticket-master), [lock-master](https://github.com/dev-bricks/lock-master) | Gemini CLI response capture, Codex Desktop startup gating, repair, cleanup, local operational support, Claude model availability monitoring, AI-provider ticket routing, and portable multi-agent file locking |
 
 ## Design Principles
 
@@ -68,6 +70,7 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 - dev-bricks companion for agy Gemini CLI wrapper
 - dev-bricks Claude Fable 5 availability watcher for Claude Code
 - dev-bricks multi-agent orchestration tools
+- dev-bricks lock-master multi-agent file locking
 - dev-bricks Windows developer tools
 
 ## Machine-Readable Context
