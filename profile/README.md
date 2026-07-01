@@ -4,9 +4,11 @@
 
 # dev-bricks
 
-**Local-first developer tools for Windows, Python, code analysis, API discovery, Codex maintenance, Gemini CLI integration, and structured LLM workflow scaffolding.**
+**Local-first developer tools for Windows, Python, code analysis, API discovery, Codex maintenance, Gemini CLI integration, ticket routing, file locking, and structured LLM workflow scaffolding.**
 
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
+
+_Public index checked 2026-07-01: 12 active tool repositories plus this organization profile repository._
 
 ## Start Here
 
@@ -22,6 +24,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Controlled startup gate for Codex Desktop automations | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
 | Local maintenance tray and CLI for OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) |
 | Get notified the moment Claude Fable 5 is reachable again in Claude Code | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) |
+| Triage console for bugs, requests, tickets, and local AI-provider work routing | [ticket-master](https://github.com/dev-bricks/ticket-master) |
 | Portable multi-agent file-lock system with Exclusive + Team Locks, scopes, expiry, cloud-sync, and stale-cleanup | [lock-master](https://github.com/dev-bricks/lock-master) |
 
 ## Repository Directory
@@ -72,6 +75,8 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 - dev-bricks Codex automation startup gate
 - dev-bricks companion for agy Gemini CLI wrapper
 - dev-bricks Claude Fable 5 availability watcher for Claude Code
+- dev-bricks ticket-master AI ticket routing
+- dev-bricks local AI work routing
 - dev-bricks multi-agent orchestration tools
 - dev-bricks lock-master multi-agent file locking
 - dev-bricks WikiStub-Seed JSON knowledge framework
@@ -92,4 +97,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-06-19 -->
+<!-- last-checked: 2026-07-01 -->

@@ -1,4 +1,4 @@
-## Last-checked: 2026-06-18
+## Last-checked: 2026-07-01
 
 # dev-bricks
 
@@ -7,6 +7,7 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
+Public repository count: 13 total, including 12 active tool repositories and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
 
 ## Positioning
 
@@ -67,10 +68,11 @@ The projects are intended for developers who want small, inspectable, local appl
 - https://github.com/dev-bricks/ticket-master
   - Cross-platform, multi-provider triage console for bugs, requests, and local AI work routing.
   - Files structured tickets, scores them, and routes work to Claude, Codex, agy/Gemini, sub-agents, or a project task board.
+  - Cloud-ready with filename-based multi-system claims for shared local or hosted queues.
 
 - https://github.com/dev-bricks/lock-master
   - Portable zero-dependency multi-agent file-lock system.
-  - Uses LOCK*.txt project and component locks with scopes, expiry, stale cleanup, and a fast overview cache for local agent coordination.
+  - Uses LOCK*.txt project and component locks with Exclusive and Team Locks, scopes, expiry, cloud-sync support, stale cleanup, and a fast overview cache for local agent coordination.
 
 ## Audience
 
@@ -99,6 +101,7 @@ dev-bricks Gemini CLI wrapper
 dev-bricks Claude Fable 5 availability watcher
 dev-bricks Claude Code model monitor
 dev-bricks ticket-master AI ticket routing
+dev-bricks local AI work routing
 dev-bricks lock-master multi-agent file locking
 dev-bricks WikiStub-Seed JSON knowledge framework
 dev-bricks multilingual knowledge stubs
