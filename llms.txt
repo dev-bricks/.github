@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-01
+## Last-checked: 2026-07-11
 
 # dev-bricks
 
@@ -7,11 +7,11 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 13 total, including 12 active tool repositories and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Public repository count: 14 total, including 13 active tool repositories and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
 
 ## Positioning
 
-dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, Gemini CLI integration, multi-agent workflow routing, file locking, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
+dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, Gemini CLI integration, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
 
 The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
 
@@ -73,6 +73,9 @@ The projects are intended for developers who want small, inspectable, local appl
 - https://github.com/dev-bricks/lock-master
   - Portable zero-dependency multi-agent file-lock system.
   - Uses LOCK*.txt project and component locks with Exclusive and Team Locks, scopes, expiry, cloud-sync support, stale cleanup, and a fast overview cache for local agent coordination.
+- https://github.com/dev-bricks/sync-master
+  - Serverless cross-machine sync yard for multi-agent AI setups.
+  - Slot-per-host write ownership, a gated daily sync ritual with an agent-neutral skill and a zero-dependency gate script, message channels, agent-rule snapshots, and a bootstrap runbook for bringing up fresh machines.
 
 ## Audience
 

@@ -4,11 +4,11 @@
 
 # dev-bricks
 
-**Local-first developer tools for Windows, Python, code analysis, API discovery, Codex maintenance, Gemini CLI integration, ticket routing, file locking, and structured LLM workflow scaffolding.**
+**Local-first developer tools for Windows, Python, code analysis, API discovery, Codex maintenance, Gemini CLI integration, ticket routing, file locking, cross-machine agent sync, and structured LLM workflow scaffolding.**
 
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
-_Public index checked 2026-07-01: 12 active tool repositories plus this organization profile repository._
+_Public index checked 2026-07-11: 13 active tool repositories plus this organization profile repository._
 
 ## Start Here
 
@@ -26,6 +26,7 @@ _Public index checked 2026-07-01: 12 active tool repositories plus this organiza
 | Get notified the moment Claude Fable 5 is reachable again in Claude Code | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) |
 | Triage console for bugs, requests, tickets, and local AI-provider work routing | [ticket-master](https://github.com/dev-bricks/ticket-master) |
 | Portable multi-agent file-lock system with Exclusive + Team Locks, scopes, expiry, cloud-sync, and stale-cleanup | [lock-master](https://github.com/dev-bricks/lock-master) |
+| Serverless cross-machine sync yard for multi-agent setups — slot rule, gated daily ritual, bootstrap runbook | [sync-master](https://github.com/dev-bricks/sync-master) |
 
 ## Repository Directory
 
@@ -43,6 +44,7 @@ _Public index checked 2026-07-01: 12 active tool repositories plus this organiza
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Zero-dependency watcher that polls the Claude Code CLI for Claude Fable 5 and notifies you the moment it is reachable again — via Telegram, Discord, ntfy, desktop toast, or file fallback |
 | [ticket-master](https://github.com/dev-bricks/ticket-master) | Cross-platform, multi-provider ticket router; type a bug or request into a triage console, it is filed as a structured ticket, scored, and routed to the right AI provider or sub-agent. Cloud-ready with filename-based multi-system claims |
 | [lock-master](https://github.com/dev-bricks/lock-master) | Portable multi-agent file-lock system — Exclusive and Team Locks (LOCK*.txt) with scopes, expiry, cloud-sync support, stale-cleanup and a fast overview cache |
+| [sync-master](https://github.com/dev-bricks/sync-master) | Serverless "sync yard" for people who run several machines and several AI agents — slot-per-host write ownership, a gated daily sync ritual (agent-neutral skill plus zero-dependency gate script), message channels, agent-rule snapshots, and a bootstrap runbook that brings up a fresh machine from the yard alone |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, community workflows, security policy, contribution guidance, and machine-readable repository context |
 
 ## Project Families
@@ -51,7 +53,8 @@ _Public index checked 2026-07-01: 12 active tool repositories plus this organiza
 |---|---|---|
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/apiprober) | Static code inspection and passive API documentation for authorized systems |
-| Agent tooling | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter), [ticket-master](https://github.com/dev-bricks/ticket-master), [lock-master](https://github.com/dev-bricks/lock-master) | Gemini CLI response capture, Codex Desktop startup gating, repair, cleanup, local operational support, Claude model availability monitoring, AI-provider ticket routing, and portable multi-agent file locking with team coordination |
+| Cross-agent infrastructure | [lock-master](https://github.com/dev-bricks/lock-master), [ticket-master](https://github.com/dev-bricks/ticket-master), [sync-master](https://github.com/dev-bricks/sync-master), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | The coordination layer for multi-agent, multi-machine setups: portable file locking, ticket routing, serverless cross-machine sync, and Gemini CLI response capture — used by (but independent of) the [ellmos-ai](https://github.com/ellmos-ai) ecosystem |
+| Agent tooling | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Codex Desktop startup gating, repair, cleanup, local operational support, and Claude model availability monitoring |
 | Knowledge scaffolding | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Structured JSON and Markdown seed data for documentation glossaries, learning maps, ontology seeds, local RAG, and LLM context pipelines |
 
 ## Design Principles
@@ -79,6 +82,9 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 - dev-bricks local AI work routing
 - dev-bricks multi-agent orchestration tools
 - dev-bricks lock-master multi-agent file locking
+- dev-bricks sync-master cross-machine agent sync
+- dev-bricks serverless sync yard for AI agents
+- dev-bricks cross-agent infrastructure lock ticket sync
 - dev-bricks WikiStub-Seed JSON knowledge framework
 - dev-bricks multilingual knowledge stubs
 - dev-bricks LLM knowledge base seed
@@ -97,4 +103,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-07-01 -->
+<!-- last-checked: 2026-07-11 -->
