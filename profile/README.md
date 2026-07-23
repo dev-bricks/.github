@@ -8,7 +8,7 @@
 
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
-_Public index checked 2026-07-11: 13 active tool repositories plus this organization profile repository._
+_Public index checked 2026-07-23: 13 active tool repositories plus one archived (fable-5-hunter) and this organization profile repository._
 
 ## Start Here
 
@@ -23,10 +23,11 @@ _Public index checked 2026-07-11: 13 active tool repositories plus this organiza
 | PTY-based wrapper to capture agy (Gemini CLI) responses · [npm](https://www.npmjs.com/package/companion-for-agy) | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) |
 | Controlled startup gate for Codex Desktop automations | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
 | Local maintenance tray and CLI for OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) |
-| Get notified the moment Claude Fable 5 is reachable again in Claude Code | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) |
+| Get notified the moment Claude Fable 5 is reachable again in Claude Code *(archived)* | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) |
 | Triage console for bugs, requests, tickets, and local AI-provider work routing | [ticket-master](https://github.com/dev-bricks/ticket-master) |
 | Portable multi-agent file-lock system with Exclusive + Team Locks, scopes, expiry, cloud-sync, and stale-cleanup | [lock-master](https://github.com/dev-bricks/lock-master) |
 | Serverless cross-machine sync yard for multi-agent setups — slot rule, gated daily ritual, bootstrap runbook | [sync-master](https://github.com/dev-bricks/sync-master) |
+| Keep several machines' SQLite databases in step without a server — verified snapshots + merge policies | [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync) |
 
 ## Repository Directory
 
@@ -41,10 +42,11 @@ _Public index checked 2026-07-11: 13 active tool repositories plus this organiza
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) · [npm](https://www.npmjs.com/package/companion-for-agy) | PTY-based wrapper for agy (Gemini CLI) that captures responses via ANSI color extraction; enables Claude Code, Codex, and CI/CD to read agy output |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Unofficial Windows startup gate for Codex Desktop automations; pauses active automations, launches Codex Desktop, and releases them gradually |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
-| [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Zero-dependency watcher that polls the Claude Code CLI for Claude Fable 5 and notifies you the moment it is reachable again — via Telegram, Discord, ntfy, desktop toast, or file fallback |
+| [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Zero-dependency watcher that polls the Claude Code CLI for Claude Fable 5 and notifies you the moment it is reachable again — via Telegram, Discord, ntfy, desktop toast, or file fallback |
 | [ticket-master](https://github.com/dev-bricks/ticket-master) | Cross-platform, multi-provider ticket router; type a bug or request into a triage console, it is filed as a structured ticket, scored, and routed to the right AI provider or sub-agent. Cloud-ready with filename-based multi-system claims |
 | [lock-master](https://github.com/dev-bricks/lock-master) | Portable multi-agent file-lock system — Exclusive and Team Locks (LOCK*.txt) with scopes, expiry, cloud-sync support, stale-cleanup and a fast overview cache |
 | [sync-master](https://github.com/dev-bricks/sync-master) | Serverless "sync yard" for people who run several machines and several AI agents — slot-per-host write ownership, a gated daily sync ritual (agent-neutral skill plus zero-dependency gate script), message channels, agent-rule snapshots, and a bootstrap runbook that brings up a fresh machine from the yard alone |
+| [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync) | User-neutral SQLite sync over verified transit snapshots and per-table merge policies (row-level last-write-wins) — companion to sync-master, zero dependencies |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, community workflows, security policy, contribution guidance, and machine-readable repository context |
 
 ## Project Families
@@ -53,8 +55,8 @@ _Public index checked 2026-07-11: 13 active tool repositories plus this organiza
 |---|---|---|
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/apiprober) | Static code inspection and passive API documentation for authorized systems |
-| Cross-agent infrastructure | [lock-master](https://github.com/dev-bricks/lock-master), [ticket-master](https://github.com/dev-bricks/ticket-master), [sync-master](https://github.com/dev-bricks/sync-master), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | The coordination layer for multi-agent, multi-machine setups: portable file locking, ticket routing, serverless cross-machine sync, and Gemini CLI response capture — lock-master, ticket-master, and sync-master are listed as core components in the [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) manifest, while remaining independently usable outside that stack |
-| Agent tooling | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Codex Desktop startup gating, repair, cleanup, local operational support, and Claude model availability monitoring |
+| Cross-agent infrastructure | [lock-master](https://github.com/dev-bricks/lock-master), [ticket-master](https://github.com/dev-bricks/ticket-master), [sync-master](https://github.com/dev-bricks/sync-master), [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | The coordination layer for multi-agent, multi-machine setups: portable file locking, ticket routing, serverless cross-machine file and database sync, and Gemini CLI response capture — lock-master, ticket-master, and sync-master are listed as core components in the [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) manifest, while remaining independently usable outside that stack |
+| Agent tooling | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Codex Desktop startup gating, repair, cleanup, local operational support, and Claude model availability monitoring (archived) |
 | Knowledge scaffolding | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Structured JSON and Markdown seed data for documentation glossaries, learning maps, ontology seeds, local RAG, and LLM context pipelines |
 
 ## Design Principles
