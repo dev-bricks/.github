@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-11
+## Last-checked: 2026-07-25
 
 # dev-bricks
 
@@ -7,7 +7,7 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 14 total, including 13 active tool repositories and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Public repository count: 15 total, including 13 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
 
 ## Positioning
 
@@ -61,7 +61,7 @@ The projects are intended for developers who want small, inspectable, local appl
   - Focuses on repair, cleanup, diagnostics, database/log maintenance, and safe local operational support.
 
 - https://github.com/dev-bricks/fable-5-hunter
-  - Zero-dependency availability watcher for the Claude Fable 5 model in the Claude Code CLI.
+  - Zero-dependency availability watcher for the Claude Fable 5 model in the Claude Code CLI (archived).
   - Polls periodically and notifies you the moment the model is reachable again.
   - Delivers via Telegram, Discord, ntfy, desktop notification, or file fallback; runs 24/7 with autostart on Windows and macOS.
 
@@ -73,9 +73,15 @@ The projects are intended for developers who want small, inspectable, local appl
 - https://github.com/dev-bricks/lock-master
   - Portable zero-dependency multi-agent file-lock system.
   - Uses LOCK*.txt project and component locks with Exclusive and Team Locks, scopes, expiry, cloud-sync support, stale cleanup, and a fast overview cache for local agent coordination.
+
 - https://github.com/dev-bricks/sync-master
   - Serverless cross-machine sync yard for multi-agent AI setups.
   - Slot-per-host write ownership, a gated daily sync ritual with an agent-neutral skill and a zero-dependency gate script, message channels, agent-rule snapshots, and a bootstrap runbook for bringing up fresh machines.
+
+- https://github.com/dev-bricks/sqlite-transit-sync
+  - User-neutral zero-dependency SQLite database sync module.
+  - Synchronizes local SQLite databases across devices via verified transit snapshots and table-level merge policies (row-level last-write-wins).
+  - Acts as an offline-first companion to sync-master for multi-agent or multi-machine setups without live network databases.
 
 ## Audience
 
@@ -106,6 +112,10 @@ dev-bricks Claude Code model monitor
 dev-bricks ticket-master AI ticket routing
 dev-bricks local AI work routing
 dev-bricks lock-master multi-agent file locking
+dev-bricks sync-master cross-machine agent sync
+dev-bricks sqlite-transit-sync serverless SQLite sync
+dev-bricks SQLite transit snapshots
+dev-bricks row-level merge policies SQLite
 dev-bricks WikiStub-Seed JSON knowledge framework
 dev-bricks multilingual knowledge stubs
 dev-bricks LLM knowledge base seed

@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./logo.jpg" alt="dev-bricks logo" width="925">
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-14%20Public%20Repos-blue" alt="Public Repos"></a>
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-success" alt="Local First"></a>
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-available-orange" alt="llms.txt"></a>
 </p>
 
 # dev-bricks
@@ -8,7 +11,7 @@
 
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
-_Public index checked 2026-07-23: 13 active tool repositories plus one archived (fable-5-hunter) and this organization profile repository._
+_Public index checked 2026-07-25: 14 active repositories (13 tool repositories + organization profile repository) plus 1 archived repository (fable-5-hunter)._
 
 ## Start Here
 
@@ -59,6 +62,37 @@ _Public index checked 2026-07-23: 13 active tool repositories plus one archived 
 | Agent tooling | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Codex Desktop startup gating, repair, cleanup, local operational support, and Claude model availability monitoring (archived) |
 | Knowledge scaffolding | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Structured JSON and Markdown seed data for documentation glossaries, learning maps, ontology seeds, local RAG, and LLM context pipelines |
 
+## Architecture Overview
+
+```mermaid
+flowchart TD
+  subgraph IDE["Desktop & Developer Tools"]
+    DC["DevCenter<br/>Python IDE & Dashboard"]
+    CB["CodeBox<br/>PySide6 Code Editor"]
+    PB["pythonbox<br/>Lightweight Python IDE"]
+    MA["MethodenAnalyser<br/>Static Code Analyzer"]
+    AP["apiprober<br/>Passive REST API Discovery"]
+  end
+
+  subgraph INFRA["Cross-Agent & Multi-Machine Infrastructure"]
+    LM["lock-master<br/>Exclusive & Team File Locks"]
+    TM["ticket-master<br/>AI Work & Ticket Router"]
+    SM["sync-master<br/>Serverless Sync Yard"]
+    STS["sqlite-transit-sync<br/>SQLite Transit Snapshots"]
+    AGY["companion-for-agy<br/>Gemini CLI Response Capture"]
+  end
+
+  subgraph AGENT["Codex & Knowledge Scaffolding"]
+    SSC["safe-start-for-codex<br/>Codex Startup Gate"]
+    CCC["CareCenter-for-Codex<br/>Codex Maintenance Tray"]
+    WSS["WikiStub-Seed<br/>Bilingual Knowledge Seed"]
+  end
+
+  DC --- INFRA
+  CB --- INFRA
+  INFRA --- AGENT
+```
+
 ## Design Principles
 
 - **Local first:** project data, analysis results, and editor state stay on the user's machine by default.
@@ -85,6 +119,8 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 - dev-bricks multi-agent orchestration tools
 - dev-bricks lock-master multi-agent file locking
 - dev-bricks sync-master cross-machine agent sync
+- dev-bricks sqlite-transit-sync serverless SQLite sync
+- dev-bricks SQLite transit snapshots row-level merge policies
 - dev-bricks serverless sync yard for AI agents
 - dev-bricks cross-agent infrastructure lock ticket sync
 - dev-bricks WikiStub-Seed JSON knowledge framework
@@ -105,4 +141,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-07-11 -->
+<!-- last-checked: 2026-07-25 -->

@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-07-01. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page.
+Last checked: 2026-07-25. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 14 active repositories (13 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
 
 | Repository | Public role |
 |---|---|
@@ -22,9 +22,11 @@ Last checked: 2026-07-01. Public-only list from live GitHub metadata; private or
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local repair, cleanup, and diagnostics tray/CLI for Codex Desktop |
-| [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Claude Fable 5 availability watcher for Claude Code |
+| [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Claude Fable 5 availability watcher for Claude Code |
 | [ticket-master](https://github.com/dev-bricks/ticket-master) | Multi-provider triage console for bugs, requests, tickets, and local AI work routing |
 | [lock-master](https://github.com/dev-bricks/lock-master) | Portable multi-agent file-lock system with Exclusive and Team Locks |
+| [sync-master](https://github.com/dev-bricks/sync-master) | Serverless cross-machine sync yard for multi-agent setups |
+| [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync) | Zero-dependency SQLite database sync via verified transit snapshots and table merge policies |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared community files, and machine-readable public index |
 
 ## Files
