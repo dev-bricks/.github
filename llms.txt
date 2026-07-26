@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-25
+## Last-checked: 2026-07-26
 
 # dev-bricks
 
@@ -7,7 +7,7 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 15 total, including 13 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Public repository count: 17 total, including 15 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
 
 ## Positioning
 
@@ -55,6 +55,11 @@ The projects are intended for developers who want small, inspectable, local appl
 - https://github.com/dev-bricks/safe-start-for-codex
   - Unofficial Windows startup gate for Codex Desktop automations.
   - Pauses currently active local automations, launches Codex Desktop, and releases the paused automations gradually to avoid startup surges.
+
+- https://github.com/dev-bricks/automizer-for-claude-desktop
+  - Unofficial scheduler and automation-control utility for Claude Desktop.
+  - Creates and changes planned Claude Desktop tasks reliably from inside the app, from outside it, or while the app is closed.
+  - Search focus: Claude Desktop scheduled tasks, Claude automation control, Windows local automation maintenance.
 
 - https://github.com/dev-bricks/CareCenter-for-Codex
   - Local Windows tray and CLI for maintaining OpenAI Codex Desktop.
@@ -105,6 +110,8 @@ dev-bricks OpenAPI inventory
 dev-bricks Codex Desktop maintenance
 dev-bricks Safe Start for Codex
 dev-bricks Codex automation startup gate
+dev-bricks automizer for Claude Desktop
+dev-bricks Claude Desktop scheduled tasks automation
 dev-bricks companion for agy
 dev-bricks Gemini CLI wrapper
 dev-bricks Claude Fable 5 availability watcher

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-14%20Public%20Repos-blue" alt="Public Repos"></a>
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-16%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-success" alt="Local First"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-available-orange" alt="llms.txt"></a>
@@ -11,7 +11,11 @@
 
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
-_Public index checked 2026-07-25: 14 active repositories (13 tool repositories + organization profile repository) plus 1 archived repository (fable-5-hunter)._
+> [!NOTE]
+> Public index checked 2026-07-26 from live GitHub metadata: 16 active repositories (15 tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`). Private or internal work is intentionally excluded from this public directory.
+
+> [!TIP]
+> Start with `CodeBox` or `pythonbox` for local IDE work, `apiprober` or `MethodenAnalyser` for project inspection, and `lock-master` + `ticket-master` + `sync-master` for multi-agent coordination.
 
 ## Start Here
 
@@ -25,6 +29,7 @@ _Public index checked 2026-07-25: 14 active repositories (13 tool repositories +
 | JSON knowledge stubs for research, documentation, learning maps, and LLM context pipelines | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) |
 | PTY-based wrapper to capture agy (Gemini CLI) responses · [npm](https://www.npmjs.com/package/companion-for-agy) | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) |
 | Controlled startup gate for Codex Desktop automations | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
+| Scheduler and automation-control utility for Claude Desktop | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) |
 | Local maintenance tray and CLI for OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) |
 | Get notified the moment Claude Fable 5 is reachable again in Claude Code *(archived)* | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) |
 | Triage console for bugs, requests, tickets, and local AI-provider work routing | [ticket-master](https://github.com/dev-bricks/ticket-master) |
@@ -44,6 +49,7 @@ _Public index checked 2026-07-25: 14 active repositories (13 tool repositories +
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Local-first bilingual JSON knowledge framework with 630+ DE/EN stubs, prepared ES/ZH/JA/RU language slots, Markdown export, and PWA-ready data scaffolding for AI research, documentation, ontology seeds, and LLM workflows |
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) · [npm](https://www.npmjs.com/package/companion-for-agy) | PTY-based wrapper for agy (Gemini CLI) that captures responses via ANSI color extraction; enables Claude Code, Codex, and CI/CD to read agy output |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Unofficial Windows startup gate for Codex Desktop automations; pauses active automations, launches Codex Desktop, and releases them gradually |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial tool for reliably creating and changing planned Claude Desktop tasks from inside the app, from outside it, or while the app is closed |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Zero-dependency watcher that polls the Claude Code CLI for Claude Fable 5 and notifies you the moment it is reachable again — via Telegram, Discord, ntfy, desktop toast, or file fallback |
 | [ticket-master](https://github.com/dev-bricks/ticket-master) | Cross-platform, multi-provider ticket router; type a bug or request into a triage console, it is filed as a structured ticket, scored, and routed to the right AI provider or sub-agent. Cloud-ready with filename-based multi-system claims |
@@ -59,7 +65,7 @@ _Public index checked 2026-07-25: 14 active repositories (13 tool repositories +
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/apiprober) | Static code inspection and passive API documentation for authorized systems |
 | Cross-agent infrastructure | [lock-master](https://github.com/dev-bricks/lock-master), [ticket-master](https://github.com/dev-bricks/ticket-master), [sync-master](https://github.com/dev-bricks/sync-master), [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | The coordination layer for multi-agent, multi-machine setups: portable file locking, ticket routing, serverless cross-machine file and database sync, and Gemini CLI response capture — lock-master, ticket-master, and sync-master are listed as core components in the [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) manifest, while remaining independently usable outside that stack |
-| Agent tooling | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Codex Desktop startup gating, repair, cleanup, local operational support, and Claude model availability monitoring (archived) |
+| Agent tooling | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Codex Desktop startup gating, Claude Desktop automation control, Codex repair and cleanup, local operational support, and Claude model availability monitoring (archived) |
 | Knowledge scaffolding | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Structured JSON and Markdown seed data for documentation glossaries, learning maps, ontology seeds, local RAG, and LLM context pipelines |
 
 ## Architecture Overview
@@ -84,6 +90,7 @@ flowchart TD
 
   subgraph AGENT["Codex & Knowledge Scaffolding"]
     SSC["safe-start-for-codex<br/>Codex Startup Gate"]
+    ACD["automizer-for-claude-desktop<br/>Claude Automation Control"]
     CCC["CareCenter-for-Codex<br/>Codex Maintenance Tray"]
     WSS["WikiStub-Seed<br/>Bilingual Knowledge Seed"]
   end
@@ -112,6 +119,8 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 - dev-bricks Codex Desktop maintenance
 - dev-bricks Safe Start for Codex
 - dev-bricks Codex automation startup gate
+- dev-bricks automizer for Claude Desktop
+- dev-bricks Claude Desktop scheduled tasks automation
 - dev-bricks companion for agy Gemini CLI wrapper
 - dev-bricks Claude Fable 5 availability watcher for Claude Code
 - dev-bricks ticket-master AI ticket routing
@@ -141,4 +150,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-07-25 -->
+<!-- last-checked: 2026-07-26 -->

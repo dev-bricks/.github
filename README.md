@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-07-25. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 14 active repositories (13 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
+Last checked: 2026-07-26. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 16 active repositories (15 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
 
 | Repository | Public role |
 |---|---|
@@ -21,6 +21,7 @@ Last checked: 2026-07-25. Public-only list from live GitHub metadata; private or
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual JSON knowledge-stub framework for documentation, ontology seeds, RAG, and LLM workflows |
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial scheduler and automation-control tool for Claude Desktop |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local repair, cleanup, and diagnostics tray/CLI for Codex Desktop |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Claude Fable 5 availability watcher for Claude Code |
 | [ticket-master](https://github.com/dev-bricks/ticket-master) | Multi-provider triage console for bugs, requests, tickets, and local AI work routing |
