@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-27
+## Last-checked: 2026-07-28
 
 # dev-bricks
 
@@ -46,8 +46,8 @@ The projects are intended for developers who want small, inspectable, local appl
   - Ships 630+ compact German/English knowledge stubs across 12 scientific and cultural domains, with prepared ES/ZH/JA/RU language slots.
   - Includes Python tools for validation, statistics, consistency checks, Markdown export, and PWA-ready data scaffolding.
 
-- https://github.com/dev-bricks/comas
-  - COMAS - COMmunication for Autonomous Subagents.
+- https://github.com/dev-bricks/coma
+  - COMAS - COMmunication for Autonomous Subagents (repository dev-bricks/coma).
   - Zero-dependency Python standard-library lifecycle, file-protocol IPC, status polling, process isolation, and subagent coordination layer.
   - Search focus: subagent process control, file-based IPC protocol, subagent status polling, autonomous subagent framework.
 
@@ -84,14 +84,14 @@ The projects are intended for developers who want small, inspectable, local appl
   - Portable zero-dependency multi-agent file-lock system.
   - Uses LOCK*.txt project and component locks with Exclusive and Team Locks, scopes, expiry, cloud-sync support, stale cleanup, and a fast overview cache for local agent coordination.
 
-- https://github.com/dev-bricks/sync-master
-  - Serverless cross-machine sync yard for multi-agent AI setups.
+- https://github.com/dev-bricks/system-gap-master
+  - Serverless cross-machine sync yard for multi-agent AI setups (repository dev-bricks/system-gap-master, sync-master).
   - Slot-per-host write ownership, a gated daily sync ritual with an agent-neutral skill and a zero-dependency gate script, message channels, agent-rule snapshots, and a bootstrap runbook for bringing up fresh machines.
 
 - https://github.com/dev-bricks/sqlite-transit-sync
   - User-neutral zero-dependency SQLite database sync module.
   - Synchronizes local SQLite databases across devices via verified transit snapshots and table-level merge policies (row-level last-write-wins).
-  - Acts as an offline-first companion to sync-master for multi-agent or multi-machine setups without live network databases.
+  - Acts as an offline-first companion to system-gap-master for multi-agent or multi-machine setups without live network databases.
 
 ## Audience
 
@@ -109,8 +109,8 @@ The projects are intended for developers who want small, inspectable, local appl
 dev-bricks local-first developer tools
 dev-bricks Python IDE
 dev-bricks PySide6 code editor
-dev-bricks comas subagent lifecycle
-dev-bricks communication for autonomous subagents
+dev-bricks coma subagent lifecycle
+dev-bricks coma communication for autonomous subagents
 dev-bricks subagent file protocol status polling
 dev-bricks static Python analysis
 dev-bricks passive API discovery
@@ -127,6 +127,7 @@ dev-bricks Claude Code model monitor
 dev-bricks ticket-master AI ticket routing
 dev-bricks local AI work routing
 dev-bricks lock-master multi-agent file locking
+dev-bricks system-gap-master serverless sync yard
 dev-bricks sync-master cross-machine agent sync
 dev-bricks sqlite-transit-sync serverless SQLite sync
 dev-bricks SQLite transit snapshots

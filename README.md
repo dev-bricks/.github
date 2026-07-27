@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-07-27. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 17 active repositories (16 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
+Last checked: 2026-07-28. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 17 active repositories (16 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
 
 | Repository | Public role |
 |---|---|
@@ -19,7 +19,7 @@ Last checked: 2026-07-27. Public-only list from live GitHub metadata; private or
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analysis for imports, dead definitions, and similar code blocks |
 | [apiprober](https://github.com/dev-bricks/apiprober) | Authorized REST API inventory, passive discovery, and OpenAPI-oriented documentation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual JSON knowledge-stub framework for documentation, ontology seeds, RAG, and LLM workflows |
-| [comas](https://github.com/dev-bricks/comas) | Communication for Autonomous Subagents: zero-dependency Python lifecycle, file protocol, and status polling layer |
+| [coma](https://github.com/dev-bricks/coma) | Communication for Autonomous Subagents (COMAS): zero-dependency Python lifecycle, file protocol, and status polling layer |
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial scheduler and automation-control tool for Claude Desktop |
@@ -27,7 +27,7 @@ Last checked: 2026-07-27. Public-only list from live GitHub metadata; private or
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Claude Fable 5 availability watcher for Claude Code |
 | [ticket-master](https://github.com/dev-bricks/ticket-master) | Multi-provider triage console for bugs, requests, tickets, and local AI work routing |
 | [lock-master](https://github.com/dev-bricks/lock-master) | Portable multi-agent file-lock system with Exclusive and Team Locks |
-| [sync-master](https://github.com/dev-bricks/sync-master) | Serverless cross-machine sync yard for multi-agent setups |
+| [system-gap-master](https://github.com/dev-bricks/system-gap-master) | Serverless cross-machine sync yard (sync-master) for multi-agent setups |
 | [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync) | Zero-dependency SQLite database sync via verified transit snapshots and table merge policies |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared community files, and machine-readable public index |
 
