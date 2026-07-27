@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-26
+## Last-checked: 2026-07-27
 
 # dev-bricks
 
@@ -7,11 +7,11 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 17 total, including 15 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Public repository count: 18 total, including 16 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
 
 ## Positioning
 
-dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, Gemini CLI integration, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
+dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, Gemini CLI integration, subagent process & file-protocol lifecycle management, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
 
 The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
 
@@ -45,6 +45,11 @@ The projects are intended for developers who want small, inspectable, local appl
   - Local-first bilingual JSON knowledge framework for AI-assisted research, documentation, learning systems, ontology seeds, and LLM workflows.
   - Ships 630+ compact German/English knowledge stubs across 12 scientific and cultural domains, with prepared ES/ZH/JA/RU language slots.
   - Includes Python tools for validation, statistics, consistency checks, Markdown export, and PWA-ready data scaffolding.
+
+- https://github.com/dev-bricks/comas
+  - COMAS - COMmunication for Autonomous Subagents.
+  - Zero-dependency Python standard-library lifecycle, file-protocol IPC, status polling, process isolation, and subagent coordination layer.
+  - Search focus: subagent process control, file-based IPC protocol, subagent status polling, autonomous subagent framework.
 
 - https://github.com/dev-bricks/companion-for-agy
   - PTY-based wrapper for agy (Antigravity CLI / Gemini CLI).
@@ -92,7 +97,7 @@ The projects are intended for developers who want small, inspectable, local appl
 
 - Python developers who want lightweight, local desktop tooling without cloud dependency
 - Developers working with OpenAI Codex Desktop, Gemini CLI (agy), or Claude Code
-- Multi-agent teams that need local file locking, ticket routing, and workflow handoff utilities
+- Multi-agent teams that need subagent lifecycle control, local file locking, ticket routing, and workflow handoff utilities
 - LLM builders who need structured JSON/Markdown seed data for research, documentation, ontology, or RAG contexts
 - Teams maintaining internal Python codebases and needing static analysis tools
 - API developers documenting or inventorying REST endpoints on owned or authorized services
@@ -104,6 +109,9 @@ The projects are intended for developers who want small, inspectable, local appl
 dev-bricks local-first developer tools
 dev-bricks Python IDE
 dev-bricks PySide6 code editor
+dev-bricks comas subagent lifecycle
+dev-bricks communication for autonomous subagents
+dev-bricks subagent file protocol status polling
 dev-bricks static Python analysis
 dev-bricks passive API discovery
 dev-bricks OpenAPI inventory

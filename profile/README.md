@@ -1,21 +1,23 @@
+<!-- last-checked: 2026-07-27 -->
 <p align="center">
-  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-16%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-17%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-success" alt="Local First"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-available-orange" alt="llms.txt"></a>
+  <a href="README_de.md"><img src="https://img.shields.io/badge/Sprache-Deutsch-lightgrey.svg?style=flat-square" alt="German Version"></a>
 </p>
 
 # dev-bricks
 
-**Local-first developer tools for Windows, Python, code analysis, API discovery, Codex maintenance, Gemini CLI integration, ticket routing, file locking, cross-machine agent sync, and structured LLM workflow scaffolding.**
+**Local-first developer tools for Windows, Python, code analysis, API discovery, Codex maintenance, Gemini CLI integration, subagent lifecycle management, ticket routing, file locking, cross-machine agent sync, and structured LLM workflow scaffolding.**
 
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
 > [!NOTE]
-> Public index checked 2026-07-26 from live GitHub metadata: 16 active repositories (15 tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`). Private or internal work is intentionally excluded from this public directory.
+> Public index checked 2026-07-27 from live GitHub metadata: 17 active repositories (16 tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`). Private or internal work is intentionally excluded from this public directory.
 
 > [!TIP]
-> Start with `CodeBox` or `pythonbox` for local IDE work, `apiprober` or `MethodenAnalyser` for project inspection, and `lock-master` + `ticket-master` + `sync-master` for multi-agent coordination.
+> Start with `CodeBox` or `pythonbox` for local IDE work, `apiprober` or `MethodenAnalyser` for project inspection, `comas` for subagent process & file-protocol control, and `lock-master` + `ticket-master` + `sync-master` for multi-agent coordination.
 
 ## Start Here
 
@@ -27,6 +29,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Passive REST API discovery for owned or authorized services | [apiprober](https://github.com/dev-bricks/apiprober) |
 | Static Python analysis for imports, dead definitions, and similar blocks | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) |
 | JSON knowledge stubs for research, documentation, learning maps, and LLM context pipelines | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) |
+| Standard-library subagent lifecycle, file protocol & status polling layer | [comas](https://github.com/dev-bricks/comas) |
 | PTY-based wrapper to capture agy (Gemini CLI) responses · [npm](https://www.npmjs.com/package/companion-for-agy) | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) |
 | Controlled startup gate for Codex Desktop automations | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
 | Scheduler and automation-control utility for Claude Desktop | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) |
@@ -47,6 +50,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [apiprober](https://github.com/dev-bricks/apiprober) | Passive REST API discovery, endpoint inventory, and OpenAPI-oriented documentation for owned or explicitly authorized services |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python analyzer for unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable findings |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Local-first bilingual JSON knowledge framework with 630+ DE/EN stubs, prepared ES/ZH/JA/RU language slots, Markdown export, and PWA-ready data scaffolding for AI research, documentation, ontology seeds, and LLM workflows |
+| [comas](https://github.com/dev-bricks/comas) | Communication for Autonomous Subagents: zero-dependency Python standard-library lifecycle, file protocol, status polling, and agent coordination layer |
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) · [npm](https://www.npmjs.com/package/companion-for-agy) | PTY-based wrapper for agy (Gemini CLI) that captures responses via ANSI color extraction; enables Claude Code, Codex, and CI/CD to read agy output |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Unofficial Windows startup gate for Codex Desktop automations; pauses active automations, launches Codex Desktop, and releases them gradually |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial tool for reliably creating and changing planned Claude Desktop tasks from inside the app, from outside it, or while the app is closed |
@@ -64,7 +68,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 |---|---|---|
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/apiprober) | Static code inspection and passive API documentation for authorized systems |
-| Cross-agent infrastructure | [lock-master](https://github.com/dev-bricks/lock-master), [ticket-master](https://github.com/dev-bricks/ticket-master), [sync-master](https://github.com/dev-bricks/sync-master), [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | The coordination layer for multi-agent, multi-machine setups: portable file locking, ticket routing, serverless cross-machine file and database sync, and Gemini CLI response capture — lock-master, ticket-master, and sync-master are listed as core components in the [ellmos-ai/agent-ops-stack](https://github.com/ellmos-ai/agent-ops-stack) manifest, while remaining independently usable outside that stack |
+| Cross-agent infrastructure | [comas](https://github.com/dev-bricks/comas), [lock-master](https://github.com/dev-bricks/lock-master), [ticket-master](https://github.com/dev-bricks/ticket-master), [sync-master](https://github.com/dev-bricks/sync-master), [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | The coordination and lifecycle layer for multi-agent, multi-machine setups: subagent process & file-protocol control, portable file locking, ticket routing, serverless cross-machine file and database sync, and Gemini CLI response capture |
 | Agent tooling | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Codex Desktop startup gating, Claude Desktop automation control, Codex repair and cleanup, local operational support, and Claude model availability monitoring (archived) |
 | Knowledge scaffolding | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Structured JSON and Markdown seed data for documentation glossaries, learning maps, ontology seeds, local RAG, and LLM context pipelines |
 
@@ -81,6 +85,7 @@ flowchart TD
   end
 
   subgraph INFRA["Cross-Agent & Multi-Machine Infrastructure"]
+    COM["comas<br/>Subagent Lifecycle & File Protocol"]
     LM["lock-master<br/>Exclusive & Team File Locks"]
     TM["ticket-master<br/>AI Work & Ticket Router"]
     SM["sync-master<br/>Serverless Sync Yard"]
@@ -114,6 +119,9 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 
 - dev-bricks local-first developer tools
 - dev-bricks Python IDE and PySide6 code editor
+- dev-bricks comas subagent lifecycle
+- dev-bricks communication for autonomous subagents
+- dev-bricks subagent file protocol status polling
 - dev-bricks static Python analysis
 - dev-bricks passive REST API discovery and OpenAPI inventory
 - dev-bricks Codex Desktop maintenance
@@ -150,4 +158,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-07-26 -->
+<!-- last-checked: 2026-07-27 -->

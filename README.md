@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-07-26. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 16 active repositories (15 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
+Last checked: 2026-07-27. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 17 active repositories (16 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
 
 | Repository | Public role |
 |---|---|
@@ -19,6 +19,7 @@ Last checked: 2026-07-26. Public-only list from live GitHub metadata; private or
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analysis for imports, dead definitions, and similar code blocks |
 | [apiprober](https://github.com/dev-bricks/apiprober) | Authorized REST API inventory, passive discovery, and OpenAPI-oriented documentation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual JSON knowledge-stub framework for documentation, ontology seeds, RAG, and LLM workflows |
+| [comas](https://github.com/dev-bricks/comas) | Communication for Autonomous Subagents: zero-dependency Python lifecycle, file protocol, and status polling layer |
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial scheduler and automation-control tool for Claude Desktop |
@@ -34,7 +35,8 @@ Last checked: 2026-07-26. Public-only list from live GitHub metadata; private or
 
 | Path | Purpose |
 |---|---|
-| `profile/README.md` | Public organization profile for `github.com/dev-bricks` |
+| `profile/README.md` | Public organization profile for `github.com/dev-bricks` (English) |
+| `profile/README_de.md` | Public organization profile for `github.com/dev-bricks` (German) |
 | `llms.txt` | Machine-readable context for search engines, crawlers, and LLM tools |
 | `CONTRIBUTING.md` | Shared contribution guidelines |
 | `SECURITY.md` | Shared security policy |
