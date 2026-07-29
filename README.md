@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-07-28. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 17 active repositories (16 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
+Last checked: 2026-07-30. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 18 active repositories (17 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
 
 | Repository | Public role |
 |---|---|
@@ -20,6 +20,7 @@ Last checked: 2026-07-28. Public-only list from live GitHub metadata; private or
 | [apiprober](https://github.com/dev-bricks/apiprober) | Authorized REST API inventory, passive discovery, and OpenAPI-oriented documentation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual JSON knowledge-stub framework for documentation, ontology seeds, RAG, and LLM workflows |
 | [coma](https://github.com/dev-bricks/coma) | Communication for Autonomous Subagents (COMAS): zero-dependency Python lifecycle, file protocol, and status polling layer |
+| [ellmos-scheduler](https://github.com/dev-bricks/ellmos-scheduler) | Zero-dependency Python CLI and API for managing cron schedules and one-shot timers |
 | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial scheduler and automation-control tool for Claude Desktop |

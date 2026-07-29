@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-28
+## Last-checked: 2026-07-30
 
 # dev-bricks
 
@@ -7,11 +7,11 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 18 total, including 16 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Public repository count: 19 total, including 17 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
 
 ## Positioning
 
-dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, Gemini CLI integration, subagent process & file-protocol lifecycle management, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
+dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, Gemini CLI integration, subagent process & file-protocol lifecycle management, cron & timer scheduling, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
 
 The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
 
@@ -50,6 +50,11 @@ The projects are intended for developers who want small, inspectable, local appl
   - COMAS - COMmunication for Autonomous Subagents (repository dev-bricks/coma).
   - Zero-dependency Python standard-library lifecycle, file-protocol IPC, status polling, process isolation, and subagent coordination layer.
   - Search focus: subagent process control, file-based IPC protocol, subagent status polling, autonomous subagent framework.
+
+- https://github.com/dev-bricks/ellmos-scheduler
+  - Zero-dependency Python standard-library CLI and API for managing cron schedules, one-shot timers, and recurring notifications.
+  - Supports 5-field cron parsing, one-shot timer conditions (`never`, `any`, `<sender-id>`), daemon classification, and state persistence.
+  - Search focus: Python cron scheduler, agent background timers, LLM task scheduler, recurring background notifications.
 
 - https://github.com/dev-bricks/companion-for-agy
   - PTY-based wrapper for agy (Antigravity CLI / Gemini CLI).
@@ -112,6 +117,9 @@ dev-bricks PySide6 code editor
 dev-bricks coma subagent lifecycle
 dev-bricks coma communication for autonomous subagents
 dev-bricks subagent file protocol status polling
+dev-bricks ellmos-scheduler cron timer scheduler
+dev-bricks multi-agent recurring tasks background timers
+dev-bricks zero-dependency Python cron scheduler
 dev-bricks static Python analysis
 dev-bricks passive API discovery
 dev-bricks OpenAPI inventory
