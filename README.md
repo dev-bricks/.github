@@ -9,7 +9,9 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-07-30. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 18 active repositories (17 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
+Last checked: 2026-08-04. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
+
+### dev-bricks Repositories
 
 | Repository | Public role |
 |---|---|
@@ -19,18 +21,23 @@ Last checked: 2026-07-30. Public-only list from live GitHub metadata; private or
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analysis for imports, dead definitions, and similar code blocks |
 | [apiprober](https://github.com/dev-bricks/apiprober) | Authorized REST API inventory, passive discovery, and OpenAPI-oriented documentation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual JSON knowledge-stub framework for documentation, ontology seeds, RAG, and LLM workflows |
-| [coma](https://github.com/dev-bricks/coma) | Communication for Autonomous Subagents (COMAS): zero-dependency Python lifecycle, file protocol, and status polling layer |
-| [ellmos-scheduler](https://github.com/dev-bricks/ellmos-scheduler) | Zero-dependency Python CLI and API for managing cron schedules and one-shot timers |
-| [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial scheduler and automation-control tool for Claude Desktop |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local repair, cleanup, and diagnostics tray/CLI for Codex Desktop |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Claude Fable 5 availability watcher for Claude Code |
-| [ticket-master](https://github.com/dev-bricks/ticket-master) | Multi-provider triage console for bugs, requests, tickets, and local AI work routing |
-| [lock-master](https://github.com/dev-bricks/lock-master) | Portable multi-agent file-lock system with Exclusive and Team Locks |
-| [system-gap-master](https://github.com/dev-bricks/system-gap-master) | Serverless cross-machine sync yard (sync-master) for multi-agent setups |
-| [sqlite-transit-sync](https://github.com/dev-bricks/sqlite-transit-sync) | Zero-dependency SQLite database sync via verified transit snapshots and table merge policies |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared community files, and machine-readable public index |
+
+### Integrated ellmos-ai Infrastructure
+
+| Repository | Public role |
+|---|---|
+| [coma](https://github.com/ellmos-ai/coma) | Communication for Autonomous Subagents (COMAS): zero-dependency Python lifecycle & file protocol layer |
+| [ellmos-scheduler](https://github.com/ellmos-ai/ellmos-scheduler) | Zero-dependency Python CLI and API for managing cron schedules and one-shot timers |
+| [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
+| [ticket-master](https://github.com/ellmos-ai/ticket-master) | Multi-provider triage console for bugs, requests, tickets, and local AI work routing |
+| [lock-master](https://github.com/ellmos-ai/lock-master) | Portable multi-agent file-lock system with Exclusive and Team Locks |
+| [system-gap-master](https://github.com/ellmos-ai/system-gap-master) | Serverless cross-machine sync yard (sync-master) for multi-agent setups |
+| [sqlite-transit-sync](https://github.com/ellmos-ai/sqlite-transit-sync) | Zero-dependency SQLite database sync via verified transit snapshots and table merge policies |
 
 ## Files
 

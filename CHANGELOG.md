@@ -2,7 +2,15 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
-## [Unreleased] - 2026-07-30
+## [1.1.2] - 2026-08-04
+
+### Changed
+- Synchronized public repository directory with live GitHub API state: 11 active public repositories (10 active tool repositories + organization profile repository `.github`) plus 1 archived repository (`fable-5-hunter`), total 12 public repos [G 2026-08-04].
+- Updated canonical URLs for transferred multi-agent infrastructure repositories (`coma`, `ellmos-scheduler`, `companion-for-agy`, `ticket-master`, `lock-master`, `system-gap-master`, `sqlite-transit-sync`) to point to `ellmos-ai/` organization namespace (`https://github.com/ellmos-ai/...`).
+- Synchronized `README.md` (root), `profile/README.md`, `profile/README_de.md`, and `llms.txt` to index timestamp `2026-08-04`.
+- Cleaned up malformed HTML comment syntax in `profile/README.md` and `profile/README_de.md`.
+
+## [1.1.1] - 2026-07-30
 
 ### Added
 - Integrated `ellmos-scheduler` (repository `dev-bricks/ellmos-scheduler`: zero-dependency Python CLI and API for cron schedules, one-shot timers, and background notifications) into all profile files, repository tables, project family groupings, search phrases, `llms.txt`, and architecture diagrams.

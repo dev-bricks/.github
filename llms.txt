@@ -1,4 +1,4 @@
-## Last-checked: 2026-07-30
+## Last-checked: 2026-08-04
 
 # dev-bricks
 
@@ -7,7 +7,7 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 19 total, including 17 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Public repository count: 12 total, including 10 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
 
 ## Positioning
 
@@ -46,22 +46,6 @@ The projects are intended for developers who want small, inspectable, local appl
   - Ships 630+ compact German/English knowledge stubs across 12 scientific and cultural domains, with prepared ES/ZH/JA/RU language slots.
   - Includes Python tools for validation, statistics, consistency checks, Markdown export, and PWA-ready data scaffolding.
 
-- https://github.com/dev-bricks/coma
-  - COMAS - COMmunication for Autonomous Subagents (repository dev-bricks/coma).
-  - Zero-dependency Python standard-library lifecycle, file-protocol IPC, status polling, process isolation, and subagent coordination layer.
-  - Search focus: subagent process control, file-based IPC protocol, subagent status polling, autonomous subagent framework.
-
-- https://github.com/dev-bricks/ellmos-scheduler
-  - Zero-dependency Python standard-library CLI and API for managing cron schedules, one-shot timers, and recurring notifications.
-  - Supports 5-field cron parsing, one-shot timer conditions (`never`, `any`, `<sender-id>`), daemon classification, and state persistence.
-  - Search focus: Python cron scheduler, agent background timers, LLM task scheduler, recurring background notifications.
-
-- https://github.com/dev-bricks/companion-for-agy
-  - PTY-based wrapper for agy (Antigravity CLI / Gemini CLI).
-  - Captures Gemini responses via ANSI color extraction from the terminal buffer.
-  - Enables Claude Code, Codex, and CI/CD pipelines to programmatically read agy output.
-  - Available on npm: https://www.npmjs.com/package/companion-for-agy
-
 - https://github.com/dev-bricks/safe-start-for-codex
   - Unofficial Windows startup gate for Codex Desktop automations.
   - Pauses currently active local automations, launches Codex Desktop, and releases the paused automations gradually to avoid startup surges.
@@ -80,23 +64,31 @@ The projects are intended for developers who want small, inspectable, local appl
   - Polls periodically and notifies you the moment the model is reachable again.
   - Delivers via Telegram, Discord, ntfy, desktop notification, or file fallback; runs 24/7 with autostart on Windows and macOS.
 
-- https://github.com/dev-bricks/ticket-master
+## Integrated ellmos-ai Multi-Agent Infrastructure
+
+- https://github.com/ellmos-ai/coma
+  - COMAS - COMmunication for Autonomous Subagents (repository ellmos-ai/coma).
+  - Zero-dependency Python standard-library lifecycle, file-protocol IPC, status polling, process isolation, and subagent coordination layer.
+
+- https://github.com/ellmos-ai/ellmos-scheduler
+  - Zero-dependency Python standard-library CLI and API for managing cron schedules, one-shot timers, and recurring notifications.
+  - Supports 5-field cron parsing, one-shot timer conditions (`never`, `any`, `<sender-id>`), daemon classification, and state persistence.
+
+- https://github.com/ellmos-ai/companion-for-agy
+  - PTY-based wrapper for agy (Antigravity CLI / Gemini CLI).
+  - Captures Gemini responses via ANSI color extraction from the terminal buffer; available on npm: https://www.npmjs.com/package/companion-for-agy
+
+- https://github.com/ellmos-ai/ticket-master
   - Cross-platform, multi-provider triage console for bugs, requests, and local AI work routing.
-  - Files structured tickets, scores them, and routes work to Claude, Codex, agy/Gemini, sub-agents, or a project task board.
-  - Cloud-ready with filename-based multi-system claims for shared local or hosted queues.
 
-- https://github.com/dev-bricks/lock-master
-  - Portable zero-dependency multi-agent file-lock system.
-  - Uses LOCK*.txt project and component locks with Exclusive and Team Locks, scopes, expiry, cloud-sync support, stale cleanup, and a fast overview cache for local agent coordination.
+- https://github.com/ellmos-ai/lock-master
+  - Portable zero-dependency multi-agent file-lock system (Exclusive and Team Locks).
 
-- https://github.com/dev-bricks/system-gap-master
-  - Serverless cross-machine sync yard for multi-agent AI setups (repository dev-bricks/system-gap-master, sync-master).
-  - Slot-per-host write ownership, a gated daily sync ritual with an agent-neutral skill and a zero-dependency gate script, message channels, agent-rule snapshots, and a bootstrap runbook for bringing up fresh machines.
+- https://github.com/ellmos-ai/system-gap-master
+  - Serverless cross-machine sync yard for multi-agent AI setups.
 
-- https://github.com/dev-bricks/sqlite-transit-sync
+- https://github.com/ellmos-ai/sqlite-transit-sync
   - User-neutral zero-dependency SQLite database sync module.
-  - Synchronizes local SQLite databases across devices via verified transit snapshots and table-level merge policies (row-level last-write-wins).
-  - Acts as an offline-first companion to system-gap-master for multi-agent or multi-machine setups without live network databases.
 
 ## Audience
 
