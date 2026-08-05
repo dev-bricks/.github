@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-08-04. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`).
+Last checked: 2026-08-06. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 10 active repositories (9 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -32,7 +32,6 @@ Last checked: 2026-08-04. Public-only list from live GitHub metadata; private or
 | Repository | Public role |
 |---|---|
 | [coma](https://github.com/ellmos-ai/coma) | Communication for Autonomous Subagents (COMAS): zero-dependency Python lifecycle & file protocol layer |
-| [ellmos-scheduler](https://github.com/ellmos-ai/ellmos-scheduler) | Zero-dependency Python CLI and API for managing cron schedules and one-shot timers |
 | [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [ticket-master](https://github.com/ellmos-ai/ticket-master) | Multi-provider triage console for bugs, requests, tickets, and local AI work routing |
 | [lock-master](https://github.com/ellmos-ai/lock-master) | Portable multi-agent file-lock system with Exclusive and Team Locks |
