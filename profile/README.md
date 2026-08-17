@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-08-06 -->
+<!-- last-checked: 2026-08-17 -->
 <p align="center">
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-10%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-success" alt="Local First"></a>
@@ -14,7 +14,7 @@
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
 > [!NOTE]
-> Public index checked 2026-08-06 from live GitHub metadata: 10 active repositories (9 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total. Private or internal work is intentionally excluded from this public directory.
+> Public index checked 2026-08-17 from live GitHub metadata: 10 active repositories (9 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total. Private or internal work is intentionally excluded from this public directory.
 
 > [!TIP]
 > Start with `CodeBox` or `pythonbox` for local IDE work, `apiprober` or `MethodenAnalyser` for project inspection, `coma` for subagent process & file-protocol control, and `lock-master` + `ticket-master` + `system-gap-master` for multi-agent coordination.
@@ -57,6 +57,17 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Zero-dependency watcher that polls the Claude Code CLI for Claude Fable 5 and notifies you the moment it is reachable again — via Telegram, Discord, ntfy, desktop toast, or file fallback |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, community workflows, security policy, contribution guidance, and machine-readable repository context |
+
+## Current Public Activity
+
+| Repository | Latest public push | Focus |
+|---|---:|---|
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-08-16 | Codex Desktop startup gating |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-16 | Claude Desktop scheduled-task automation |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-08-16 | Structured JSON/Markdown knowledge stubs |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-08-16 | Static Python code analysis |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-08-16 | Local-first developer dashboard and IDE |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-08-16 | PySide6 desktop code editor |
 
 ### Integrated ellmos-ai Infrastructure
 
@@ -172,4 +183,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-08-06 -->
+<!-- last-checked: 2026-08-17 -->

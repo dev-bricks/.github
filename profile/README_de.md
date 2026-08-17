@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-08-06 -->
+<!-- last-checked: 2026-08-17 -->
 <p align="center">
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Werkzeuge-10%20Aktive%20Öffentliche%20Repos-blue" alt="Aktive Öffentliche Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architektur-Local--First-success" alt="Local First"></a>
@@ -15,7 +15,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 > [!NOTE]
 > **Öffentlicher Verzeichnisstand:**
-> Geprüft am 06.08.2026 anhand der Live-GitHub-Metadaten: 10 aktive Repositories (9 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 11 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
+> Geprüft am 17.08.2026 anhand der Live-GitHub-Metadaten: 10 aktive Repositories (9 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 11 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
 
 > [!TIP]
 > **Einstiegsempfehlung:**
@@ -59,6 +59,17 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Windows-Tray und CLI für Reparatur, Diagnose und Log-Bereinigung von OpenAI Codex Desktop | Aktiv |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Benachrichtigungs-Watcher für die Erreichbarkeit von Claude Fable 5 in Claude Code *(archiviert)* | Archiviert |
 | [.github](https://github.com/dev-bricks/.github) | Organisationsprofil, Vorlagen für Issues/PRs, Community-Workflows und maschinenlesbarer Index | Aktiv |
+
+## Aktuelle Öffentliche Aktivität
+
+| Repository | Letzter öffentlicher Push | Fokus |
+|---|---:|---|
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-08-16 | Start-Gate für Codex Desktop Automationen |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-16 | Claude Desktop Aufgaben-Automation |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-08-16 | Strukturierte JSON/Markdown-Wissensstubs |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-08-16 | Statische Python-Code-Analyse |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-08-16 | Lokales Entwickler-Dashboard und IDE |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-08-16 | PySide6 Desktop-Code-Editor |
 
 ### Integrierte ellmos-ai Infrastruktur
 
@@ -174,4 +185,4 @@ dev-bricks ist die Entwickler-Sparte der Bricks-Produktlinie:
 
 Teil des [ellmos-ai](https://github.com/ellmos-ai) Ökosystems.
 
-<!-- last-checked: 2026-08-06 -->
+<!-- last-checked: 2026-08-17 -->

@@ -2,6 +2,13 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
+## [1.1.3] - 2026-08-17
+
+### Changed
+- Re-checked the public dev-bricks organization profile against live GitHub metadata: no public repository is missing from `README.md`, `profile/README.md`, `profile/README_de.md`, or `llms.txt`.
+- Synchronized the public index timestamp to `2026-08-17` while preserving the public-only boundary: 9 active public tool repositories, the `.github` organization profile repository, and the archived `fable-5-hunter` repository.
+- Added a current public activity snapshot highlighting the most recently refreshed public tools: `safe-start-for-codex`, `automizer-for-claude-desktop`, `WikiStub-Seed`, `MethodenAnalyser`, `DevCenter`, `CodeBox`, and `CareCenter-for-Codex`.
+
 ## [1.1.2] - 2026-08-04
 
 ### Changed

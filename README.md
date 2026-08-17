@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-08-06. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 10 active repositories (9 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total.
+Last checked: 2026-08-17. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 10 active repositories (9 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -26,6 +26,17 @@ Last checked: 2026-08-06. Public-only list from live GitHub metadata; private or
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local repair, cleanup, and diagnostics tray/CLI for Codex Desktop |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Claude Fable 5 availability watcher for Claude Code |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared community files, and machine-readable public index |
+
+### Current Public Activity
+
+| Repository | Latest public push | Focus |
+|---|---:|---|
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-08-16 | Codex Desktop startup gating |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-16 | Claude Desktop scheduled-task automation |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-08-16 | Structured JSON/Markdown knowledge stubs |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-08-16 | Static Python code analysis |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-08-16 | Local-first developer dashboard and IDE |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-08-16 | PySide6 desktop code editor |
 
 ### Integrated ellmos-ai Infrastructure
 

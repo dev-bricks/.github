@@ -1,4 +1,4 @@
-## Last-checked: 2026-08-06
+## Last-checked: 2026-08-17
 
 # dev-bricks
 
@@ -8,6 +8,7 @@ Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
 Public repository count: 11 total, including 9 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Recent public activity snapshot: safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, and CodeBox were all refreshed on 2026-08-16; CareCenter-for-Codex was refreshed on 2026-08-14.
 
 ## Positioning
 
@@ -63,6 +64,13 @@ The projects are intended for developers who want small, inspectable, local appl
   - Zero-dependency availability watcher for the Claude Fable 5 model in the Claude Code CLI (archived).
   - Polls periodically and notifies you the moment the model is reachable again.
   - Delivers via Telegram, Discord, ntfy, desktop notification, or file fallback; runs 24/7 with autostart on Windows and macOS.
+
+## Current public activity
+
+- 2026-08-16: safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, CodeBox
+- 2026-08-14: CareCenter-for-Codex
+- 2026-08-06: apiprober
+- 2026-08-05: pythonbox, .github
 
 ## Integrated ellmos-ai Multi-Agent Infrastructure
 
