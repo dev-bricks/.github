@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-08-17. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 10 active repositories (9 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total.
+Last checked: 2026-08-30. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -22,6 +22,7 @@ Last checked: 2026-08-17. Public-only list from live GitHub metadata; private or
 | [apiprober](https://github.com/dev-bricks/apiprober) | Authorized REST API inventory, passive discovery, and OpenAPI-oriented documentation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual JSON knowledge-stub framework for documentation, ontology seeds, RAG, and LLM workflows |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | Windows tray app that time-slices resource-heavy desktop apps |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial scheduler and automation-control tool for Claude Desktop |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local repair, cleanup, and diagnostics tray/CLI for Codex Desktop |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Claude Fable 5 availability watcher for Claude Code |
@@ -31,6 +32,7 @@ Last checked: 2026-08-17. Public-only list from live GitHub metadata; private or
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-08-30 | Desktop app time-slicing (v0.2.0) |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-08-16 | Codex Desktop startup gating |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-16 | Claude Desktop scheduled-task automation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-08-16 | Structured JSON/Markdown knowledge stubs |

@@ -1,4 +1,4 @@
-## Last-checked: 2026-08-17
+## Last-checked: 2026-08-30
 
 # dev-bricks
 
@@ -7,8 +7,8 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 11 total, including 9 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
-Recent public activity snapshot: safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, and CodeBox were all refreshed on 2026-08-16; CareCenter-for-Codex was refreshed on 2026-08-14.
+Public repository count: 12 total, including 10 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Recent public activity snapshot: app-rotator was published on 2026-08-30 (v0.2.0); safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, and CodeBox were all refreshed on 2026-08-16; CareCenter-for-Codex was refreshed on 2026-08-14.
 
 ## Positioning
 
@@ -47,6 +47,10 @@ The projects are intended for developers who want small, inspectable, local appl
   - Ships 630+ compact German/English knowledge stubs across 12 scientific and cultural domains, with prepared ES/ZH/JA/RU language slots.
   - Includes Python tools for validation, statistics, consistency checks, Markdown export, and PWA-ready data scaffolding.
 
+- https://github.com/dev-bricks/app-rotator
+  - Windows tray application that time-slices resource-heavy desktop apps (MIT, Python 3.11+).
+  - Runs exactly one configured app at a time, closes it after its slot, waits with all managed apps closed, continues in configured order.
+
 - https://github.com/dev-bricks/safe-start-for-codex
   - Unofficial Windows startup gate for Codex Desktop automations.
   - Pauses currently active local automations, launches Codex Desktop, and releases the paused automations gradually to avoid startup surges.
@@ -67,6 +71,7 @@ The projects are intended for developers who want small, inspectable, local appl
 
 ## Current public activity
 
+- 2026-08-30: app-rotator (first public release v0.2.0)
 - 2026-08-16: safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, CodeBox
 - 2026-08-14: CareCenter-for-Codex
 - 2026-08-06: apiprober
