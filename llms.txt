@@ -34,7 +34,7 @@ The projects are intended for developers who want small, inspectable, local appl
   - Lightweight Python IDE for Windows.
   - Includes PDB debugging, linting, code folding, Git status, and local execution workflows.
 
-- https://github.com/dev-bricks/apiprober
+- https://github.com/dev-bricks/ApiProber
   - Passive REST API discovery and documentation for owned or authorized services.
   - Designed for API documentation, endpoint inventory, OpenAPI-oriented exploration, and local SQLite-backed analysis.
 
