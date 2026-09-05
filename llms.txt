@@ -1,4 +1,4 @@
-## Last-checked: 2026-08-30
+## Last-checked: 2026-09-05
 
 # dev-bricks
 
@@ -74,7 +74,7 @@ The projects are intended for developers who want small, inspectable, local appl
 - 2026-08-30: app-rotator (first public release v0.2.0)
 - 2026-08-16: safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, CodeBox
 - 2026-08-14: CareCenter-for-Codex
-- 2026-08-06: apiprober
+- 2026-08-06: ApiProber
 - 2026-08-05: pythonbox, .github
 
 ## Integrated ellmos-ai Multi-Agent Infrastructure

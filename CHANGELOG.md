@@ -2,6 +2,15 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
+## [1.1.4] - 2026-09-05
+
+### Security
+- Pinned `actions/stale` to the verified immutable commit for `v10.4.0` and `actions/first-interaction` to the verified immutable commit for `v3.1.0`, while preserving the existing triggers, permissions, and behavior.
+
+### Changed
+- Re-read the live public dev-bricks inventory from the GitHub API: 11 active repositories (10 active tool repositories + `.github`) plus the archived `fable-5-hunter`, for 12 public repositories total; private and internal repositories remain excluded.
+- Synchronized `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt` to the 2026-09-05 inventory, including `app-rotator` and the canonical `ApiProber` repository name.
+
 ## [1.1.3] - 2026-08-17
 
 ### Changed

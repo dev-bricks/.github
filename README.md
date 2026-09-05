@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-08-30. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total.
+Last checked: 2026-09-05. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 12 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -19,7 +19,7 @@ Last checked: 2026-08-30. Public-only list from live GitHub metadata; private or
 | [CodeBox](https://github.com/dev-bricks/CodeBox) | PySide6 desktop code editor with LSP diagnostics and terminal support |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight local Python IDE with debugging, linting, and Git status |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analysis for imports, dead definitions, and similar code blocks |
-| [apiprober](https://github.com/dev-bricks/ApiProber) | Authorized REST API inventory, passive discovery, and OpenAPI-oriented documentation |
+| [ApiProber](https://github.com/dev-bricks/ApiProber) | Authorized REST API inventory, passive discovery, and OpenAPI-oriented documentation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual JSON knowledge-stub framework for documentation, ontology seeds, RAG, and LLM workflows |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | Windows tray app that time-slices resource-heavy desktop apps |
