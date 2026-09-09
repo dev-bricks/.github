@@ -9,6 +9,20 @@ All notable changes to the organization profile and community health repository 
 - Synchronized the public index timestamp to `2026-08-17` while preserving the public-only boundary: 9 active public tool repositories, the `.github` organization profile repository, and the archived `fable-5-hunter` repository.
 - Added a current public activity snapshot highlighting the most recently refreshed public tools: `safe-start-for-codex`, `automizer-for-claude-desktop`, `WikiStub-Seed`, `MethodenAnalyser`, `DevCenter`, `CodeBox`, and `CareCenter-for-Codex`.
 
+## [1.1.3] - 2026-09-09
+
+### Added
+- Integrated `app-rotator` (repository `dev-bricks/app-rotator`: configurable, fail-closed Windows tray rotator for time-slicing resource-heavy desktop applications including Codex Desktop, Claude Desktop, and Antigravity IDE) into all profile files, repository tables, project family groupings, search phrases, `llms.txt`, and architecture diagrams.
+- Created standalone high-resolution SVG showcase banner for `app-rotator` (`profile/assets/app-rotator-banner.svg`).
+- Added automated pytest contract test suite (`tests/test_profile_parity.py`) enforcing inventory parity, bilingual alignment, timestamp consistency, code-fence balance, and Mermaid syntax validation.
+
+### Changed
+- Synchronized public repository directory with live GitHub API state: 11 active public repositories (10 active tool repositories + organization profile repository `.github`) plus 1 archived repository (`fable-5-hunter`), total 12 public repos [G 2026-09-09].
+- Modernized Tool Showcase layout across English and German profile READMEs with centered spacing and consistent border styling.
+- Synchronized `README.md` (root), `profile/README.md`, `profile/README_de.md`, and `llms.txt` to index timestamp `2026-09-09`.
+- Updated Mermaid architecture diagrams to include `AR` (`app-rotator` Desktop Time-Slicing Tray).
+- Enhanced search keywords for desktop time-slicing, VRAM management, and GPU contention avoidance.
+
 ## [1.1.2] - 2026-08-04
 
 ### Changed

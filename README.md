@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-08-30. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 11 public repositories in total.
+Last checked: 2026-09-09. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 12 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -32,7 +32,8 @@ Last checked: 2026-08-30. Public-only list from live GitHub metadata; private or
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
-| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-08-30 | Desktop app time-slicing (v0.2.0) |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-09 | Desktop app time-slicing and VRAM governance |
+| [.github](https://github.com/dev-bricks/.github) | 2026-09-09 | Organization profile and public directory parity |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-08-16 | Codex Desktop startup gating |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-16 | Claude Desktop scheduled-task automation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-08-16 | Structured JSON/Markdown knowledge stubs |

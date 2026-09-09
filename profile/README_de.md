@@ -1,6 +1,6 @@
-<!-- last-checked: 2026-08-17 -->
+<!-- last-checked: 2026-09-09 -->
 <p align="center">
-  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Werkzeuge-10%20Aktive%20Öffentliche%20Repos-blue" alt="Aktive Öffentliche Repos"></a>
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Werkzeuge-11%20Aktive%20Öffentliche%20Repos-blue" alt="Aktive Öffentliche Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architektur-Local--First-success" alt="Local First"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Lizenz-MIT-green" alt="Lizenz"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-verfügbar-orange" alt="llms.txt"></a>
@@ -9,17 +9,17 @@
 
 # dev-bricks
 
-**Lokale Entwicklerwerkzeuge für Windows, Python, Code-Analyse, API-Erkundung, Subagenten-Lebenszyklus, Codex-Wartung, Gemini-CLI-Integration, Ticket-Routing, Dateisperren, maschinenübergreifenden Agenten-Sync und strukturierte LLM-Kontext-Pipeline-Scaffolding.**
+**Lokale Entwicklerwerkzeuge für Windows, Python, Code-Analyse, API-Erkundung, Desktop-App-Time-Slicing, Subagenten-Lebenszyklus, Codex-Wartung, Gemini-CLI-Integration, Ticket-Routing, Dateisperren, maschinenübergreifenden Agenten-Sync und strukturierte LLM-Kontext-Pipeline-Scaffolding.**
 
 dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsabläufe: Code editieren, Projekte analysieren, eigene APIs dokumentieren, lokale Entwicklerumgebungen übersichtlich halten und KI-Agenten-Ökosysteme verbinden — ohne Abhängigkeit von komplexen Cloud-Plattformen.
 
 > [!NOTE]
 > **Öffentlicher Verzeichnisstand:**
-> Geprüft am 17.08.2026 anhand der Live-GitHub-Metadaten: 10 aktive Repositories (9 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 11 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
+> Geprüft am 09.09.2026 anhand der Live-GitHub-Metadaten: 11 aktive Repositories (10 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 12 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
 
 > [!TIP]
 > **Einstiegsempfehlung:**
-> Starten Sie mit `CodeBox` oder `pythonbox` für lokale IDE-Arbeit, `apiprober` oder `MethodenAnalyser` für Projektinspektion, `coma` für Subagenten-Prozess- & Datei-Protokoll-Steuerung sowie `lock-master` + `ticket-master` + `system-gap-master` für die Koordination mehrerer KI-Agenten.
+> Starten Sie mit `CodeBox` oder `pythonbox` für lokale IDE-Arbeit, `ApiProber` oder `MethodenAnalyser` für Projektinspektion, `app-rotator` oder `safe-start-for-codex` für Laufzeitstabilität und Prozess-Time-Slicing, `coma` für Subagenten-Prozess- & Datei-Protokoll-Steuerung sowie `lock-master` + `ticket-master` + `system-gap-master` für die Koordination mehrerer KI-Agenten.
 
 ## Hier Starten
 
@@ -32,6 +32,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | Statische Code-Analyse für Python-Projekte | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Findet ungenutzte Imports, tote Definitionen, ähnliche Blöcke und liefert JSON-Analysen |
 | Strukturierter JSON-Wissensdaten-Stamm für RAG & LLMs | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Zweisprachiger Wissensstamm mit 630+ DE/EN-Stubs für Forschung, Dokumentation und KI-Kontexte |
 | Kontrollierter Start-Gate für Codex Desktop Automationen | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Pausiert lokale Automationen beim Codex-Start und gibt sie gestaffelt frei |
+| Ressourcenintensive Desktop-Apps (Codex, Claude, Antigravity) zeitlich staffeln (Time-Slicing) | [app-rotator](https://github.com/dev-bricks/app-rotator) | Konfigurierbare, Fail-Closed Windows-Tray-App zur zeitlichen Taktung lokaler KI-Anwendungen zur Vermeidung von VRAM- und GPU-Engpässen |
 | Aufgaben-Planer & Steuerung für Claude Desktop | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Zuverlässiges Erstellen und Ändern geplanter Aufgaben für Claude Desktop |
 | Lokales Wartungs-Tray & CLI für OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Diagnose, Bereinigung, Log-Wartung und Reparatur für Codex Desktop auf Windows |
 | Modell-Verfügbarkeits-Überwachung für Claude Fable 5 *(archiviert)* | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Zero-Dependency-Watcher für die Claude Code CLI zur Erreichbarkeits-Benachrichtigung |
@@ -55,6 +56,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Statischer Python-Analysator für tote Definitionen, ungenutzte Imports und AST-Strukturen | Aktiv |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Zweisprachiger JSON-Wissensrahmen mit 630+ DE/EN-Stubs für KI-Forschung, Dokumentation und RAG-Pipelines | Aktiv |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Start-Gate für Codex-Desktop-Automationen zur Vermeidung von Lastspitzen beim Systemstart | Aktiv |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | Konfigurierbare Windows-Tray-App zur zeitlichen Staffelung (Time-Slicing) ressourcenintensiver Desktop-KI-Apps zur Vermeidung von VRAM-/GPU-Engpässen | Aktiv |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Werkzeug für das Steuern und Ändern geplanter Claude Desktop Aufgaben | Aktiv |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Windows-Tray und CLI für Reparatur, Diagnose und Log-Bereinigung von OpenAI Codex Desktop | Aktiv |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Benachrichtigungs-Watcher für die Erreichbarkeit von Claude Fable 5 in Claude Code *(archiviert)* | Archiviert |
@@ -64,6 +66,8 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 | Repository | Letzter öffentlicher Push | Fokus |
 |---|---:|---|
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-09 | Desktop-App-Time-Slicing und VRAM-Governance |
+| [.github](https://github.com/dev-bricks/.github) | 2026-09-09 | Organisationsprofil und öffentliche Verzeichnisparität |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-08-16 | Start-Gate für Codex Desktop Automationen |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-16 | Claude Desktop Aufgaben-Automation |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-08-16 | Strukturierte JSON/Markdown-Wissensstubs |
@@ -86,7 +90,18 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 Die Banner sind die Links; Details stehen in den Tabellen oben und unten:
 
-<p align="center"><a href="https://github.com/dev-bricks/DevCenter"><img src="https://raw.githubusercontent.com/dev-bricks/DevCenter/master/assets/banner.svg" alt="DevCenter" width="680" style="border:2px solid #38bdf8;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/dev-bricks/CodeBox"><img src="https://raw.githubusercontent.com/dev-bricks/CodeBox/main/assets/banner.svg" alt="CodeBox" width="680" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/dev-bricks/pythonbox"><img src="https://raw.githubusercontent.com/dev-bricks/pythonbox/master/assets/banner.svg" alt="pythonbox" width="680" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/dev-bricks/ApiProber"><img src="https://raw.githubusercontent.com/dev-bricks/ApiProber/main/assets/banner_v2.svg" alt="apiprober" width="680" style="border:2px solid #fbbf24;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/dev-bricks/MethodenAnalyser"><img src="https://raw.githubusercontent.com/dev-bricks/MethodenAnalyser/master/assets/banner.svg" alt="MethodenAnalyser" width="680" style="border:2px solid #f472b6;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/dev-bricks/WikiStub-Seed"><img src="https://raw.githubusercontent.com/dev-bricks/WikiStub-Seed/master/assets/banner.svg" alt="WikiStub-Seed" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/dev-bricks/safe-start-for-codex"><img src="https://raw.githubusercontent.com/dev-bricks/safe-start-for-codex/main/assets/safe_start_banner.png" alt="safe-start-for-codex" width="680" style="border:2px solid #fb923c;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/dev-bricks/automizer-for-claude-desktop"><img src="https://raw.githubusercontent.com/dev-bricks/automizer-for-claude-desktop/main/assets/banner.png" alt="automizer-for-claude-desktop" width="680" style="border:2px solid #818cf8;border-radius:8px;display:block;margin:0 auto"></a><a href="https://github.com/dev-bricks/CareCenter-for-Codex"><img src="https://raw.githubusercontent.com/dev-bricks/CareCenter-for-Codex/main/assets/banner.svg" alt="CareCenter-for-Codex" width="680" style="border:2px solid #f87171;border-radius:8px;display:block;margin:0 auto"></a></p>
+<p align="center">
+  <a href="https://github.com/dev-bricks/DevCenter"><img src="https://raw.githubusercontent.com/dev-bricks/DevCenter/master/assets/banner.svg" alt="DevCenter" width="680" style="border:2px solid #38bdf8;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/CodeBox"><img src="https://raw.githubusercontent.com/dev-bricks/CodeBox/main/assets/banner.svg" alt="CodeBox" width="680" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/pythonbox"><img src="https://raw.githubusercontent.com/dev-bricks/pythonbox/master/assets/banner.svg" alt="pythonbox" width="680" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/app-rotator"><img src="https://raw.githubusercontent.com/dev-bricks/.github/main/profile/assets/app-rotator-banner.svg" alt="app-rotator" width="680" style="border:2px solid #06b6d4;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/ApiProber"><img src="https://raw.githubusercontent.com/dev-bricks/ApiProber/main/assets/banner_v2.svg" alt="ApiProber" width="680" style="border:2px solid #fbbf24;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/MethodenAnalyser"><img src="https://raw.githubusercontent.com/dev-bricks/MethodenAnalyser/master/assets/banner.svg" alt="MethodenAnalyser" width="680" style="border:2px solid #f472b6;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/WikiStub-Seed"><img src="https://raw.githubusercontent.com/dev-bricks/WikiStub-Seed/master/assets/banner.svg" alt="WikiStub-Seed" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/safe-start-for-codex"><img src="https://raw.githubusercontent.com/dev-bricks/safe-start-for-codex/main/assets/safe_start_banner.png" alt="safe-start-for-codex" width="680" style="border:2px solid #fb923c;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/automizer-for-claude-desktop"><img src="https://raw.githubusercontent.com/dev-bricks/automizer-for-claude-desktop/main/assets/banner.png" alt="automizer-for-claude-desktop" width="680" style="border:2px solid #818cf8;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/CareCenter-for-Codex"><img src="https://raw.githubusercontent.com/dev-bricks/CareCenter-for-Codex/main/assets/banner.svg" alt="CareCenter-for-Codex" width="680" style="border:2px solid #f87171;border-radius:8px;display:block;margin:0 auto 12px"></a>
+</p>
 
 ## Projektfamilien
 
@@ -94,7 +109,7 @@ Die Banner sind die Links; Details stehen in den Tabellen oben und unten:
 |---|---|---|
 | Desktop-IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Lokale PySide6-Entwickleroberflächen für Code-Editierung, Debugging und Build-Abläufe |
 | Analyse & Discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/ApiProber) | Statische Code-Inspektion und passive API-Dokumentation für autorisierte Systeme |
-| Agenten-Tools & Support | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archiviert)* | Codex-Start-Gating, Claude-Desktop-Steuerung, Codex-Reparatur und Modell-Monitoring |
+| Agenten-Tools & Support | [app-rotator](https://github.com/dev-bricks/app-rotator), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archiviert)* | Desktop-App-Time-Slicing und VRAM-Governance, Codex-Start-Gating, Claude-Desktop-Steuerung, Codex-Reparatur und Modell-Monitoring |
 | Wissens-Frameworks | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Strukturierte JSON/Markdown-Stammdaten für Dokumentations-Glossare, RAG und LLM-Pipelines |
 | Agenten-Infrastruktur | [coma](https://github.com/ellmos-ai/coma), [lock-master](https://github.com/ellmos-ai/lock-master), [ticket-master](https://github.com/ellmos-ai/ticket-master), [system-gap-master](https://github.com/ellmos-ai/system-gap-master), [sqlite-transit-sync](https://github.com/ellmos-ai/sqlite-transit-sync), [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | Die Koordinations- & Lebenszyklus-Schicht für Multi-Agenten-Teams: Subagenten-Steuerung & Datei-Protokoll, Dateisperren, Ticket-Routing, serverloser Datei- und DB-Sync sowie Gemini-CLI-Auslesung |
 
@@ -119,7 +134,8 @@ flowchart TD
     AGY["companion-for-agy<br/>Gemini CLI Antwort-Erfassung"]
   end
 
-  subgraph AGENT["Codex-Support & Wissensdaten"]
+  subgraph AGENT["Agenten-Laufzeit, Codex-Support & Wissensdaten"]
+    AR["app-rotator<br/>Desktop Time-Slicing Tray"]
     SSC["safe-start-for-codex<br/>Codex Start-Gate"]
     ACD["automizer-for-claude-desktop<br/>Claude Steuerung"]
     CCC["CareCenter-for-Codex<br/>Codex Wartungs-Tray"]
@@ -150,6 +166,11 @@ Nützliche Suchbegriffe, um dev-bricks-Projekte auf GitHub und in externen Suchm
 - dev-bricks subagent file protocol status polling
 - dev-bricks statische Python-Analyse
 - dev-bricks passive REST-API-Erkundung und OpenAPI-Inventar
+- dev-bricks app-rotator Desktop Time-Slicing
+- dev-bricks VRAM-Management für lokale KI-Desktop-Apps
+- dev-bricks Windows-Tray-App Ressourcen-Time-Slicing
+- dev-bricks Codex Claude Antigravity Time-Slicing
+- dev-bricks Fail-Closed Desktop-App-Rotator
 - dev-bricks Codex-Desktop-Wartung
 - dev-bricks Safe Start for Codex
 - dev-bricks Codex-Automation-Startup-Gate
@@ -185,4 +206,4 @@ dev-bricks ist die Entwickler-Sparte der Bricks-Produktlinie:
 
 Teil des [ellmos-ai](https://github.com/ellmos-ai) Ökosystems.
 
-<!-- last-checked: 2026-08-17 -->
+<!-- last-checked: 2026-09-09 -->

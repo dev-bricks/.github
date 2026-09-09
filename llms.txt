@@ -1,4 +1,4 @@
-## Last-checked: 2026-08-30
+## Last-checked: 2026-09-09
 
 # dev-bricks
 
@@ -8,11 +8,11 @@ Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
 Public repository count: 12 total, including 10 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
-Recent public activity snapshot: app-rotator was published on 2026-08-30 (v0.2.0); safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, and CodeBox were all refreshed on 2026-08-16; CareCenter-for-Codex was refreshed on 2026-08-14.
+Recent public activity snapshot: app-rotator and .github organization profile were refreshed on 2026-09-09; safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, and CodeBox were all refreshed on 2026-08-16; CareCenter-for-Codex was refreshed on 2026-08-14.
 
 ## Positioning
 
-dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, Gemini CLI integration, subagent process & file-protocol lifecycle management, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
+dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, desktop application time-slicing, Gemini CLI integration, subagent process & file-protocol lifecycle management, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
 
 The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
 
@@ -121,6 +121,11 @@ dev-bricks subagent file protocol status polling
 dev-bricks static Python analysis
 dev-bricks passive API discovery
 dev-bricks OpenAPI inventory
+dev-bricks app-rotator desktop time-slicing
+dev-bricks VRAM management for local AI desktop apps
+dev-bricks Windows tray app resource time-slicing
+dev-bricks Codex Claude Antigravity time-slicing
+dev-bricks fail-closed desktop app rotator
 dev-bricks Codex Desktop maintenance
 dev-bricks Safe Start for Codex
 dev-bricks Codex automation startup gate
