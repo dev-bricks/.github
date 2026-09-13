@@ -6,3 +6,7 @@ __pycache__/
 htmlcov/
 *.swp
 *~
+
+
+# Internes Aufgabenregister - gehoert nicht in ein oeffentliches Profil-Repo
+TODO.md
