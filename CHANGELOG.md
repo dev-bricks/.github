@@ -2,6 +2,11 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
+## [Unreleased] - 2026-09-20
+
+### Security
+- Re-pinned `actions/stale` to the verified immutable commit for `v10.4.0` and `actions/first-interaction` to the verified immutable commit for `v3.1.0`. This pinning was introduced on 2026-09-05 but was silently reverted to mutable version tags (`@v10`, `@v3`) by the unrelated 2026-09-09 profile update; restored here from the local `main` branch as a certified foreign change (behavior and triggers unchanged).
+
 ## [1.1.3] - 2026-08-17
 
 ### Changed
