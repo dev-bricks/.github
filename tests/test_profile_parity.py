@@ -19,7 +19,7 @@ PUBLIC_REPOS = [
     "CodeBox",
     "pythonbox",
     "app-rotator",
-    "apiprober",
+    "ApiProber",
     "MethodenAnalyser",
     "WikiStub-Seed",
     "safe-start-for-codex",
@@ -28,6 +28,21 @@ PUBLIC_REPOS = [
     "fable-5-hunter",
     ".github",
 ]
+
+PUBLIC_ACTIVITY_DATES = {
+    ".github": "2026-09-20",
+    "WikiStub-Seed": "2026-09-20",
+    "ApiProber": "2026-09-20",
+    "CodeBox": "2026-09-20",
+    "CareCenter-for-Codex": "2026-09-20",
+    "app-rotator": "2026-09-20",
+    "safe-start-for-codex": "2026-09-20",
+    "DevCenter": "2026-09-20",
+    "pythonbox": "2026-09-19",
+    "MethodenAnalyser": "2026-09-18",
+    "automizer-for-claude-desktop": "2026-08-24",
+    "fable-5-hunter": "2026-06-25",
+}
 
 
 @pytest.fixture(scope="module")
@@ -69,12 +84,29 @@ def test_public_repo_inventory(file_contents):
 
 
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-09-09."""
-    assert "2026-09-09" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-09-09 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-09-09 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-09-09" in file_contents["llms.txt"]
-    assert "2026-09-09" in file_contents["CHANGELOG.md"]
+    """Verify that verification timestamps are synchronized to 2026-09-20."""
+    assert "2026-09-20" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-09-20 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-09-20 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-09-20" in file_contents["llms.txt"]
+    assert "2026-09-20" in file_contents["CHANGELOG.md"]
+
+
+def test_public_activity_snapshot(file_contents):
+    """Verify the API-derived activity date for every public repository."""
+    for repo, date in PUBLIC_ACTIVITY_DATES.items():
+        marker = re.compile(
+            rf"https://github\.com/dev-bricks/{re.escape(repo)}\)[^|]*\| {date} \|"
+        )
+        for filename in ["README.md", "profile/README.md", "profile/README_de.md"]:
+            assert marker.search(file_contents[filename]), (
+                f"Missing activity date {date} for {repo} in {filename}"
+            )
+
+        assert any(
+            date in line and repo in line
+            for line in file_contents["llms.txt"].splitlines()
+        ), f"Missing activity date {date} for {repo} in llms.txt"
 
 
 def test_repository_counts_parity(file_contents):

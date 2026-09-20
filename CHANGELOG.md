@@ -7,6 +7,9 @@ All notable changes to the organization profile and community health repository 
 ### Security
 - Re-pinned `actions/stale` to the verified immutable commit for `v10.4.0` and `actions/first-interaction` to the verified immutable commit for `v3.1.0`. This pinning was introduced on 2026-09-05 but was silently reverted to mutable version tags (`@v10`, `@v3`) by the unrelated 2026-09-09 profile update; restored here from the local `main` branch as a certified foreign change (behavior and triggers unchanged).
 
+### Documentation
+- Refreshed `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt` from the public GitHub API readback on 2026-09-20: 12 public repositories, 11 active, 1 archived (`fable-5-hunter`), no forks, and an updated newest-first activity snapshot. The static profile-parity fixture now checks the same dated snapshot without network access.
+
 ## [1.1.3] - 2026-08-17
 
 ### Changed

@@ -1,4 +1,4 @@
-<!-- last-checked: 2026-09-09 -->
+<!-- last-checked: 2026-09-20 -->
 <p align="center">
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Werkzeuge-11%20Aktive%20Öffentliche%20Repos-blue" alt="Aktive Öffentliche Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architektur-Local--First-success" alt="Local First"></a>
@@ -15,7 +15,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 > [!NOTE]
 > **Öffentlicher Verzeichnisstand:**
-> Geprüft am 09.09.2026 anhand der Live-GitHub-Metadaten: 11 aktive Repositories (10 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 12 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
+> Geprüft am 20.09.2026 anhand der Live-GitHub-Metadaten: 11 aktive Repositories (10 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 12 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
 
 > [!TIP]
 > **Einstiegsempfehlung:**
@@ -66,14 +66,18 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 | Repository | Letzter öffentlicher Push | Fokus |
 |---|---:|---|
-| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-09 | Desktop-App-Time-Slicing und VRAM-Governance |
-| [.github](https://github.com/dev-bricks/.github) | 2026-09-09 | Organisationsprofil und öffentliche Verzeichnisparität |
-| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-08-16 | Start-Gate für Codex Desktop Automationen |
-| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-16 | Claude Desktop Aufgaben-Automation |
-| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-08-16 | Strukturierte JSON/Markdown-Wissensstubs |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-08-16 | Statische Python-Code-Analyse |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-08-16 | Lokales Entwickler-Dashboard und IDE |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-08-16 | PySide6 Desktop-Code-Editor |
+| [.github](https://github.com/dev-bricks/.github) | 2026-09-20 | Organisationsprofil und öffentliche Verzeichnisparität |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-20 | Strukturierte JSON/Markdown-Wissensstubs |
+| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-20 | Autorisiertes API-Inventar und OpenAPI-Erkundung |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-09-20 | PySide6 Desktop-Code-Editor |
+| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-20 | Reparatur und Diagnose für Codex Desktop |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-20 | Desktop-App-Time-Slicing und VRAM-Governance |
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-20 | Start-Gate für Codex Desktop Automationen |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-20 | Lokales Entwickler-Dashboard und IDE |
+| [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-19 | Leichtbau-Python-IDE |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-18 | Statische Python-Code-Analyse |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-24 | Claude-Desktop-Aufgaben-Automation |
+| [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archiviert)* | 2026-06-25 | Benachrichtigungs-Watcher für Claude Fable 5 |
 
 ### Integrierte ellmos-ai Infrastruktur
 
@@ -206,4 +210,4 @@ dev-bricks ist die Entwickler-Sparte der Bricks-Produktlinie:
 
 Teil des [ellmos-ai](https://github.com/ellmos-ai) Ökosystems.
 
-<!-- last-checked: 2026-09-09 -->
+<!-- last-checked: 2026-09-20 -->

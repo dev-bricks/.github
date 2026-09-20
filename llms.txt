@@ -1,4 +1,4 @@
-## Last-checked: 2026-09-09
+## Last-checked: 2026-09-20
 
 # dev-bricks
 
@@ -8,7 +8,7 @@ Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
 Public repository count: 12 total, including 10 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
-Recent public activity snapshot: app-rotator and .github organization profile were refreshed on 2026-09-09; safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, and CodeBox were all refreshed on 2026-08-16; CareCenter-for-Codex was refreshed on 2026-08-14.
+Recent public activity snapshot from the public GitHub API, newest first: .github 2026-09-20, WikiStub-Seed 2026-09-20, ApiProber 2026-09-20, CodeBox 2026-09-20, CareCenter-for-Codex 2026-09-20, app-rotator 2026-09-20, safe-start-for-codex 2026-09-20, DevCenter 2026-09-20, pythonbox 2026-09-19, MethodenAnalyser 2026-09-18, automizer-for-claude-desktop 2026-08-24, and archived fable-5-hunter 2026-06-25.
 
 ## Positioning
 
@@ -71,11 +71,11 @@ The projects are intended for developers who want small, inspectable, local appl
 
 ## Current public activity
 
-- 2026-08-30: app-rotator (first public release v0.2.0)
-- 2026-08-16: safe-start-for-codex, automizer-for-claude-desktop, WikiStub-Seed, MethodenAnalyser, DevCenter, CodeBox
-- 2026-08-14: CareCenter-for-Codex
-- 2026-08-06: apiprober
-- 2026-08-05: pythonbox, .github
+- 2026-09-20: `.github`, WikiStub-Seed, ApiProber, CodeBox, CareCenter-for-Codex, app-rotator, safe-start-for-codex, DevCenter
+- 2026-09-19: pythonbox
+- 2026-09-18: MethodenAnalyser
+- 2026-08-24: automizer-for-claude-desktop
+- 2026-06-25: `fable-5-hunter` (archived)
 
 ## Integrated ellmos-ai Multi-Agent Infrastructure
 
