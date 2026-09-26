@@ -25,11 +25,13 @@ PUBLIC_REPOS = [
     "safe-start-for-codex",
     "automizer-for-claude-desktop",
     "CareCenter-for-Codex",
+    "zombie-killer-tray",
     "fable-5-hunter",
     ".github",
 ]
 
 PUBLIC_ACTIVITY_DATES = {
+    "zombie-killer-tray": "2026-09-26",
     ".github": "2026-09-20",
     "WikiStub-Seed": "2026-09-20",
     "ApiProber": "2026-09-20",
@@ -76,7 +78,7 @@ def test_markdown_fence_balance(file_contents):
 
 
 def test_public_repo_inventory(file_contents):
-    """Verify that all 12 public repositories are documented across primary profile files."""
+    """Verify that all 13 public repositories are documented across primary profile files."""
     for filename in ["README.md", "profile/README.md", "profile/README_de.md", "llms.txt"]:
         text = file_contents[filename]
         for repo in PUBLIC_REPOS:
@@ -110,14 +112,14 @@ def test_public_activity_snapshot(file_contents):
 
 
 def test_repository_counts_parity(file_contents):
-    """Verify that active (11) and total (12) public repository counts are consistent."""
-    assert "11%20Active%20Public%20Repos" in file_contents["profile/README.md"]
-    assert "11%20Aktive%20" in file_contents["profile/README_de.md"]
+    """Verify that active (12) and total (13) public repository counts are consistent."""
+    assert "12%20Active%20Public%20Repos" in file_contents["profile/README.md"]
+    assert "12%20Aktive%20" in file_contents["profile/README_de.md"]
 
-    assert "12 public repositories in total" in file_contents["README.md"]
-    assert "12 public repositories in total" in file_contents["profile/README.md"]
-    assert "12 öffentliche Repositories insgesamt" in file_contents["profile/README_de.md"]
-    assert "Public repository count: 12 total" in file_contents["llms.txt"]
+    assert "13 public repositories in total" in file_contents["README.md"]
+    assert "13 public repositories in total" in file_contents["profile/README.md"]
+    assert "13 öffentliche Repositories insgesamt" in file_contents["profile/README_de.md"]
+    assert "Public repository count: 13 total" in file_contents["llms.txt"]
 
 
 def test_ecosystem_cross_linking(file_contents):

@@ -1,6 +1,6 @@
 <!-- last-checked: 2026-09-20 -->
 <p align="center">
-  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-11%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-12%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-success" alt="Local First"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-available-orange" alt="llms.txt"></a>
@@ -14,7 +14,7 @@
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
 > [!NOTE]
-> Public index checked 2026-09-20 from live GitHub metadata: 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 12 public repositories in total. Private or internal work is intentionally excluded from this public directory.
+> Public index checked 2026-09-20 from live GitHub metadata: 12 active repositories (11 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 13 public repositories in total. Private or internal work is intentionally excluded from this public directory.
 
 > [!TIP]
 > Start with `CodeBox` or `pythonbox` for local IDE work, `ApiProber` or `MethodenAnalyser` for project inspection, `app-rotator` or `safe-start-for-codex` for runtime stability and process time-slicing, `coma` for subagent process & file-protocol control, and `lock-master` + `ticket-master` + `system-gap-master` for multi-agent coordination.
@@ -33,6 +33,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Windows tray app that time-slices resource-heavy desktop apps | [app-rotator](https://github.com/dev-bricks/app-rotator) |
 | Scheduler and automation-control utility for Claude Desktop | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) |
 | Local maintenance tray and CLI for OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) |
+| Conservative cleanup of orphaned MCP and language-server processes | [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) |
 | Get notified the moment Claude Fable 5 is reachable again in Claude Code *(archived)* | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) |
 | Standard-library subagent lifecycle, file protocol & status polling layer (COMAS) | [coma](https://github.com/ellmos-ai/coma) |
 | PTY-based wrapper to capture agy (Gemini CLI) responses — [npm](https://www.npmjs.com/package/companion-for-agy) | [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) |
@@ -57,6 +58,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | Windows tray application that time-slices resource-heavy desktop apps: runs exactly one configured app at a time, closes it after its slot, and continues in configured order (MIT) |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial tool for reliably creating and changing planned Claude Desktop tasks from inside the app, from outside it, or while the app is closed |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Conservative Windows tray utility for safely cleaning up orphaned Model Context Protocol (MCP) and language-server processes without blanket process-tree kills |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Zero-dependency watcher that polls the Claude Code CLI for Claude Fable 5 and notifies you the moment it is reachable again — via Telegram, Discord, ntfy, desktop toast, or file fallback |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, community workflows, security policy, contribution guidance, and machine-readable repository context |
 
@@ -64,6 +66,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-26 | Conservative orphan-process cleanup for MCP/language servers |
 | [.github](https://github.com/dev-bricks/.github) | 2026-09-20 | Organization profile and public directory parity |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-20 | Structured JSON/Markdown knowledge stubs |
 | [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-20 | Authorized API inventory and OpenAPI discovery |
@@ -103,6 +106,7 @@ The banners are the links; details in the tables above and below:
   <a href="https://github.com/dev-bricks/safe-start-for-codex"><img src="https://raw.githubusercontent.com/dev-bricks/safe-start-for-codex/main/assets/safe_start_banner.png" alt="safe-start-for-codex" width="680" style="border:2px solid #fb923c;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/automizer-for-claude-desktop"><img src="https://raw.githubusercontent.com/dev-bricks/automizer-for-claude-desktop/main/assets/banner.png" alt="automizer-for-claude-desktop" width="680" style="border:2px solid #818cf8;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/CareCenter-for-Codex"><img src="https://raw.githubusercontent.com/dev-bricks/CareCenter-for-Codex/main/assets/banner.svg" alt="CareCenter-for-Codex" width="680" style="border:2px solid #f87171;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/zombie-killer-tray"><img src="https://raw.githubusercontent.com/dev-bricks/zombie-killer-tray/main/assets/banner.png" alt="zombie-killer-tray" width="680" style="border:2px solid #84cc16;border-radius:8px;display:block;margin:0 auto 12px"></a>
 </p>
 
 ## Project Families
@@ -111,7 +115,7 @@ The banners are the links; details in the tables above and below:
 |---|---|---|
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/ApiProber) | Static code inspection and passive API documentation for authorized systems |
-| Agent tooling & Support | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [app-rotator](https://github.com/dev-bricks/app-rotator), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Codex Desktop startup gating, Claude Desktop automation control, Codex repair and cleanup, local operational support, and Claude model availability monitoring (archived) |
+| Agent tooling & Support | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [app-rotator](https://github.com/dev-bricks/app-rotator), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Codex Desktop startup gating, Claude Desktop automation control, Codex repair and cleanup, orphaned MCP/language-server process hygiene, local operational support, and Claude model availability monitoring (archived) |
 | Knowledge scaffolding | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Structured JSON and Markdown seed data for documentation glossaries, learning maps, ontology seeds, local RAG, and LLM context pipelines |
 | Cross-agent infrastructure | [coma](https://github.com/ellmos-ai/coma), [lock-master](https://github.com/ellmos-ai/lock-master), [ticket-master](https://github.com/ellmos-ai/ticket-master), [system-gap-master](https://github.com/ellmos-ai/system-gap-master), [sqlite-transit-sync](https://github.com/ellmos-ai/sqlite-transit-sync), [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | The coordination and lifecycle layer for multi-agent, multi-machine setups: subagent process & file-protocol control, portable file locking, ticket routing, serverless cross-machine file and database sync, and Gemini CLI response capture |
 
@@ -141,6 +145,7 @@ flowchart TD
     SSC["safe-start-for-codex<br/>Codex Startup Gate"]
     ACD["automizer-for-claude-desktop<br/>Claude Automation Control"]
     CCC["CareCenter-for-Codex<br/>Codex Maintenance Tray"]
+    ZKT["zombie-killer-tray<br/>Orphaned MCP Process Cleanup"]
     WSS["WikiStub-Seed<br/>Bilingual Knowledge Seed"]
   end
 
@@ -174,6 +179,8 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 - dev-bricks Codex Claude Antigravity time-slicing
 - dev-bricks fail-closed desktop app rotator
 - dev-bricks Codex Desktop maintenance
+- dev-bricks zombie killer orphaned MCP process cleanup
+- dev-bricks conservative Windows orphan process reaper
 - dev-bricks Safe Start for Codex
 - dev-bricks Codex automation startup gate
 - dev-bricks automizer for Claude Desktop

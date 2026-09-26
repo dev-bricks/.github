@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-09-20. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 11 active repositories (10 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 12 public repositories in total.
+Last checked: 2026-09-20. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 12 active repositories (11 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 13 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -25,6 +25,7 @@ Last checked: 2026-09-20. Public-only list from live GitHub metadata; private or
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | Windows tray app that time-slices resource-heavy desktop apps |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial scheduler and automation-control tool for Claude Desktop |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local repair, cleanup, and diagnostics tray/CLI for Codex Desktop |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Conservative Windows tray for cleaning up orphaned MCP and language-server processes |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Claude Fable 5 availability watcher for Claude Code |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared community files, and machine-readable public index |
 
@@ -32,6 +33,7 @@ Last checked: 2026-09-20. Public-only list from live GitHub metadata; private or
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-26 | Conservative orphan-process cleanup for MCP/language servers |
 | [.github](https://github.com/dev-bricks/.github) | 2026-09-20 | Organization profile and public directory parity |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-20 | Structured JSON/Markdown knowledge stubs |
 | [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-20 | Authorized API inventory and OpenAPI discovery |
