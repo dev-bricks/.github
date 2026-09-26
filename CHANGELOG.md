@@ -2,6 +2,11 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
+## [Unreleased] - 2026-09-26
+
+### Documentation
+- Added `zombie-killer-tray` (conservative Windows tray for orphaned MCP/language-server process cleanup) to the public repository directory across `README.md`, `profile/README.md`, `profile/README_de.md`, and `llms.txt`: banner, repository tables, current-activity snapshot (2026-09-26), architecture diagram node, project family grouping, and search phrases. Public repository counts updated from 12 to 13 total (11 to 12 active). `tests/test_profile_parity.py` extended with the new repository and its measured activity date.
+
 ## [Unreleased] - 2026-09-20
 
 ### Security
