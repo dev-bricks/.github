@@ -1,8 +1,10 @@
-<!-- last-checked: 2026-09-20 -->
+<!-- last-checked: 2026-10-01 -->
 <p align="center">
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Werkzeuge-12%20Aktive%20Öffentliche%20Repos-blue" alt="Aktive Öffentliche Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architektur-Local--First-success" alt="Local First"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Lizenz-MIT-green" alt="Lizenz"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Sicherheits_SLA-48h_Reaktion-critical.svg?style=flat-square" alt="Sicherheits-SLA"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Geprüft-2026--10--01-blue.svg?style=flat-square" alt="Geprüft 2026-10-01"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-verfügbar-orange" alt="llms.txt"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Language-English-blue.svg?style=flat-square" alt="English Version"></a>
 </p>
@@ -15,7 +17,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 > [!NOTE]
 > **Öffentlicher Verzeichnisstand:**
-> Geprüft am 20.09.2026 anhand der Live-GitHub-Metadaten: 12 aktive Repositories (11 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 13 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
+> Geprüft am 01.10.2026 anhand der Live-GitHub-Metadaten: 12 aktive Repositories (11 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 13 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
 
 > [!TIP]
 > **Einstiegsempfehlung:**
@@ -68,18 +70,18 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 | Repository | Letzter öffentlicher Push | Fokus |
 |---|---:|---|
-| [.github](https://github.com/dev-bricks/.github) | 2026-09-20 | Organisationsprofil und öffentliche Verzeichnisparität |
-| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-20 | Strukturierte JSON/Markdown-Wissensstubs |
-| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-20 | Autorisiertes API-Inventar und OpenAPI-Erkundung |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-09-20 | PySide6 Desktop-Code-Editor |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-26 | Bereinigung verwaister MCP-/Language-Server-Prozesse |
-| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-20 | Reparatur und Diagnose für Codex Desktop |
-| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-20 | Desktop-App-Time-Slicing und VRAM-Governance |
-| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-20 | Start-Gate für Codex Desktop Automationen |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-20 | Lokales Entwickler-Dashboard und IDE |
-| [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-19 | Leichtbau-Python-IDE |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-18 | Statische Python-Code-Analyse |
-| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-24 | Claude-Desktop-Aufgaben-Automation |
+| [.github](https://github.com/dev-bricks/.github) | 2026-10-01 | Organisationsprofil und öffentliche Verzeichnisparität |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Statische Python-Code-Analyse |
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Start-Gate für Codex Desktop Automationen |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-09-30 | PySide6 Desktop-Code-Editor |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-30 | Lokales Entwickler-Dashboard und IDE |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop-App-Time-Slicing und VRAM-Governance |
+| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Reparatur und Diagnose für Codex Desktop |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-29 | Bereinigung verwaister MCP-/Language-Server-Prozesse |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-28 | Strukturierte JSON/Markdown-Wissensstubs |
+| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-22 | Autorisiertes API-Inventar und OpenAPI-Erkundung |
+| [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Leichtbau-Python-IDE |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-09-21 | Claude-Desktop-Aufgaben-Automation |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archiviert)* | 2026-06-25 | Benachrichtigungs-Watcher für Claude Fable 5 |
 
 ### Integrierte ellmos-ai Infrastruktur
@@ -102,7 +104,7 @@ Die Banner sind die Links; Details stehen in den Tabellen oben und unten:
   <a href="https://github.com/dev-bricks/CodeBox"><img src="https://raw.githubusercontent.com/dev-bricks/CodeBox/main/assets/banner.svg" alt="CodeBox" width="680" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/pythonbox"><img src="https://raw.githubusercontent.com/dev-bricks/pythonbox/master/assets/banner.svg" alt="pythonbox" width="680" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/app-rotator"><img src="https://raw.githubusercontent.com/dev-bricks/.github/main/profile/assets/app-rotator-banner.svg" alt="app-rotator" width="680" style="border:2px solid #06b6d4;border-radius:8px;display:block;margin:0 auto 12px"></a>
-  <a href="https://github.com/dev-bricks/ApiProber"><img src="https://raw.githubusercontent.com/dev-bricks/ApiProber/main/assets/banner_v2.svg" alt="ApiProber" width="680" style="border:2px solid #fbbf24;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/ApiProber"><img src="https://raw.githubusercontent.com/dev-bricks/ApiProber/main/assets/banner.svg" alt="ApiProber" width="680" style="border:2px solid #fbbf24;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/MethodenAnalyser"><img src="https://raw.githubusercontent.com/dev-bricks/MethodenAnalyser/master/assets/banner.svg" alt="MethodenAnalyser" width="680" style="border:2px solid #f472b6;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/WikiStub-Seed"><img src="https://raw.githubusercontent.com/dev-bricks/WikiStub-Seed/master/assets/banner.svg" alt="WikiStub-Seed" width="680" style="border:2px solid #2dd4bf;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/safe-start-for-codex"><img src="https://raw.githubusercontent.com/dev-bricks/safe-start-for-codex/main/assets/safe_start_banner.png" alt="safe-start-for-codex" width="680" style="border:2px solid #fb923c;border-radius:8px;display:block;margin:0 auto 12px"></a>
@@ -215,4 +217,4 @@ dev-bricks ist die Entwickler-Sparte der Bricks-Produktlinie:
 
 Teil des [ellmos-ai](https://github.com/ellmos-ai) Ökosystems.
 
-<!-- last-checked: 2026-09-20 -->
+<!-- last-checked: 2026-10-01 -->

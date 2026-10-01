@@ -2,11 +2,18 @@ __pycache__/
 *.py[cod]
 *.class
 .pytest_cache/
+.ruff_cache/
 .coverage
 htmlcov/
 *.swp
 *~
+*.log
 
+# Canonical Locks & Multi-Host Defense
+LOCK*
+LOCK.*
+*-WORKSTATION-LG*
+*-ASUS-GEI*
 
 # Internes Aufgabenregister - gehoert nicht in ein oeffentliches Profil-Repo
 TODO.md

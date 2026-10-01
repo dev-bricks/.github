@@ -2,6 +2,19 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
+## [Unreleased] - 2026-10-01
+
+### Health & Parity
+- **Turnusgemäßer Organisations-Startseiten-, Paritäts- und Discoverability-Health-Lauf** (`GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH`):
+  - **Live-Inventar-Audit:** Alle 17 Repositories auditiert (13 öffentliche Repositories inklusive `.github`, 11 aktive Werkzeuge, 1 archiviertes Werkzeug `fable-5-hunter`; 4 private Repositories strikt isoliert unter Zero-Leak-Invariante).
+  - **SEO & Discoverability:** `MethodenAnalyser` via GitHub CLI auf maximale 20/20 GitHub-Topics (`+dead-code`, `+refactoring`, `+code-quality`, `+code-metrics`, `+import-linter`) und kanonische `#readme` Homepage-URL angereichert. Damit sind alle 10 aktiven, ungesperrten Werkzeug-Repositories auf 100% (20/20) Topics gesättigt.
+  - **Live-Aktivitäts-Snapshot:** Synchronisation der echten GitHub-API `pushedAt`-Zeitstempel auf Stand 2026-10-01 (`.github` 2026-10-01, `MethodenAnalyser` 2026-09-30, `safe-start-for-codex` 2026-09-30, `CodeBox` 2026-09-30, `DevCenter` 2026-09-30, `app-rotator` 2026-09-29, `CareCenter-for-Codex` 2026-09-29, `zombie-killer-tray` 2026-09-29, `WikiStub-Seed` 2026-09-28, `ApiProber` 2026-09-22, `pythonbox` 2026-09-22, `automizer-for-claude-desktop` 2026-09-21, `fable-5-hunter` 2026-06-25) und konsistente Sortierung nach Aktualität über alle 4 Kernindexe.
+  - **Showcase-Harmonisierung:** `ApiProber` in `profile/README_de.md` auf kanonisches Fledermaus-Banner (`assets/banner.svg`) harmonisiert (100% bilinguale visuelle Parität mit EN; alle 11 Showcase-Bannereinbindungen via HTTP 200 verifiziert).
+  - **Security-Policy & SLA:** `SECURITY.md` auf moderne zweisprachige Struktur (DE/EN) mit 48h-Reaktions-SLA und Sicherheitsinvarianten (Local-First, Non-Elevation, Conservative Process Management) modernisiert.
+  - **Badges:** `Verified-2026--10--01` / `Geprüft-2026--10--01` und `Security_SLA-48h_Response` / `Sicherheits_SLA-48h_Reaktion` in beiden Startseiten eingepflegt.
+  - **Multi-Host Defense:** `.gitignore` gegen Host-Tokens (`*-WORKSTATION-LG*`, `*-ASUS-GEI*`), kanonische Locks (`LOCK*`, `LOCK.*`) und `.ruff_cache` gehärtet.
+  - **Vertragstests:** `tests/test_profile_parity.py` auf Stand 2026-10-01 aktualisiert und um Prüfungen für Zero-Private-Leak, Badge-Parität und zweisprachige Security-Policy erweitert.
+
 ## [Unreleased] - 2026-09-26
 
 ### Documentation

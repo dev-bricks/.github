@@ -1,8 +1,10 @@
-<!-- last-checked: 2026-09-20 -->
+<!-- last-checked: 2026-10-01 -->
 <p align="center">
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-12%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-success" alt="Local First"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Response-critical.svg?style=flat-square" alt="Security SLA"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Verified-2026--10--01-blue.svg?style=flat-square" alt="Verified 2026-10-01"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-available-orange" alt="llms.txt"></a>
   <a href="README_de.md"><img src="https://img.shields.io/badge/Sprache-Deutsch-lightgrey.svg?style=flat-square" alt="German Version"></a>
 </p>
@@ -14,7 +16,7 @@
 dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
 > [!NOTE]
-> Public index checked 2026-09-20 from live GitHub metadata: 12 active repositories (11 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 13 public repositories in total. Private or internal work is intentionally excluded from this public directory.
+> Public index checked 2026-10-01 from live GitHub metadata: 12 active repositories (11 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 13 public repositories in total. Private or internal work is intentionally excluded from this public directory.
 
 > [!TIP]
 > Start with `CodeBox` or `pythonbox` for local IDE work, `ApiProber` or `MethodenAnalyser` for project inspection, `app-rotator` or `safe-start-for-codex` for runtime stability and process time-slicing, `coma` for subagent process & file-protocol control, and `lock-master` + `ticket-master` + `system-gap-master` for multi-agent coordination.
@@ -66,18 +68,18 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-26 | Conservative orphan-process cleanup for MCP/language servers |
-| [.github](https://github.com/dev-bricks/.github) | 2026-09-20 | Organization profile and public directory parity |
-| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-20 | Structured JSON/Markdown knowledge stubs |
-| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-20 | Authorized API inventory and OpenAPI discovery |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-09-20 | PySide6 desktop code editor |
-| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-20 | Codex Desktop repair and diagnostics |
-| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-20 | Desktop app time-slicing and VRAM governance |
-| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-20 | Codex Desktop startup gating |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-20 | Local-first developer dashboard and IDE |
-| [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-19 | Lightweight local Python IDE |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-18 | Static Python code analysis |
-| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-08-24 | Claude Desktop scheduled-task automation |
+| [.github](https://github.com/dev-bricks/.github) | 2026-10-01 | Organization profile and public directory parity |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Static Python code analysis |
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Codex Desktop startup gating |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-09-30 | PySide6 desktop code editor |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-30 | Local-first developer dashboard and IDE |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop app time-slicing and VRAM governance |
+| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Codex Desktop repair and diagnostics |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-29 | Conservative orphan-process cleanup for MCP/language servers |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-28 | Structured JSON/Markdown knowledge stubs |
+| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-22 | Authorized API inventory and OpenAPI discovery |
+| [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Lightweight local Python IDE |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-09-21 | Claude Desktop scheduled-task automation |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | 2026-06-25 | Claude Fable 5 availability watcher |
 
 ### Integrated ellmos-ai Infrastructure
@@ -215,4 +217,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-09-20 -->
+<!-- last-checked: 2026-10-01 -->

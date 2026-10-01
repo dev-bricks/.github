@@ -12,6 +12,7 @@ PARITY_FILES = [
     REPO_ROOT / "profile" / "README_de.md",
     REPO_ROOT / "llms.txt",
     REPO_ROOT / "CHANGELOG.md",
+    REPO_ROOT / "SECURITY.md",
 ]
 
 PUBLIC_REPOS = [
@@ -30,19 +31,26 @@ PUBLIC_REPOS = [
     ".github",
 ]
 
+PRIVATE_REPOS_DENYLIST = [
+    "automation-master",
+    "githubbot",
+    "ralph-loop-codex-marketplace",
+    "trusted-peer-setup",
+]
+
 PUBLIC_ACTIVITY_DATES = {
-    "zombie-killer-tray": "2026-09-26",
-    ".github": "2026-09-20",
-    "WikiStub-Seed": "2026-09-20",
-    "ApiProber": "2026-09-20",
-    "CodeBox": "2026-09-20",
-    "CareCenter-for-Codex": "2026-09-20",
-    "app-rotator": "2026-09-20",
-    "safe-start-for-codex": "2026-09-20",
-    "DevCenter": "2026-09-20",
-    "pythonbox": "2026-09-19",
-    "MethodenAnalyser": "2026-09-18",
-    "automizer-for-claude-desktop": "2026-08-24",
+    ".github": "2026-10-01",
+    "MethodenAnalyser": "2026-09-30",
+    "safe-start-for-codex": "2026-09-30",
+    "CodeBox": "2026-09-30",
+    "DevCenter": "2026-09-30",
+    "app-rotator": "2026-09-29",
+    "CareCenter-for-Codex": "2026-09-29",
+    "zombie-killer-tray": "2026-09-29",
+    "WikiStub-Seed": "2026-09-28",
+    "ApiProber": "2026-09-22",
+    "pythonbox": "2026-09-22",
+    "automizer-for-claude-desktop": "2026-09-21",
     "fable-5-hunter": "2026-06-25",
 }
 
@@ -85,13 +93,23 @@ def test_public_repo_inventory(file_contents):
             assert repo in text, f"Missing public repo '{repo}' in {filename}"
 
 
+def test_zero_private_leak_guard(file_contents):
+    """Zero-leak invariant: ensure private repos are NEVER leaked into public profile surfaces."""
+    for filename in ["README.md", "profile/README.md", "profile/README_de.md", "llms.txt"]:
+        text = file_contents[filename]
+        for private_repo in PRIVATE_REPOS_DENYLIST:
+            assert private_repo not in text, (
+                f"SECURITY VIOLATION: Private repository '{private_repo}' leaked into public file {filename}!"
+            )
+
+
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-09-20."""
-    assert "2026-09-20" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-09-20 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-09-20 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-09-20" in file_contents["llms.txt"]
-    assert "2026-09-20" in file_contents["CHANGELOG.md"]
+    """Verify that verification timestamps are synchronized to 2026-10-01."""
+    assert "2026-10-01" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-10-01 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-10-01 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-10-01" in file_contents["llms.txt"]
+    assert "2026-10-01" in file_contents["CHANGELOG.md"]
 
 
 def test_public_activity_snapshot(file_contents):
@@ -120,6 +138,27 @@ def test_repository_counts_parity(file_contents):
     assert "13 public repositories in total" in file_contents["profile/README.md"]
     assert "13 öffentliche Repositories insgesamt" in file_contents["profile/README_de.md"]
     assert "Public repository count: 13 total" in file_contents["llms.txt"]
+
+
+def test_verified_and_sla_badges_parity(file_contents):
+    """Verify Verified and Security SLA badges exist and are synchronized."""
+    en_profile = file_contents["profile/README.md"]
+    de_profile = file_contents["profile/README_de.md"]
+
+    assert "Verified-2026--10--01" in en_profile
+    assert "Security_SLA-48h_Response" in en_profile
+
+    assert "Geprüft-2026--10--01" in de_profile
+    assert "Sicherheits_SLA-48h_Reaktion" in de_profile
+
+
+def test_security_policy_bilingual_parity(file_contents):
+    """Verify SECURITY.md is bilingual and establishes 48h response SLA."""
+    sec = file_contents["SECURITY.md"]
+    assert "Security Policy / Sicherheitsrichtlinie" in sec
+    assert "48 hours" in sec
+    assert "Zero-Egress & Local-First" in sec
+    assert "Unprivileged User Mode" in sec
 
 
 def test_ecosystem_cross_linking(file_contents):
