@@ -40,12 +40,13 @@ Last checked: 2026-10-01. Public-only list from live GitHub metadata; private or
 | [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-30 | Local-first developer dashboard and IDE |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop app time-slicing and VRAM governance |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Codex Desktop repair and diagnostics |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-29 | Conservative orphan-process cleanup for MCP/language servers |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-03 | Conservative orphan-process cleanup for MCP/language servers |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-28 | Structured JSON/Markdown knowledge stubs |
 | [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-22 | Authorized API inventory and OpenAPI discovery |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Lightweight local Python IDE |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-09-21 | Claude Desktop scheduled-task automation |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | 2026-06-25 | Claude Fable 5 availability watcher |
+**Targeted update:** Zombie-Killer-Tray reflects a targeted main-branch readback on 2026-10-03; other activity rows retain the 2026-10-01 snapshot.
 
 ### Integrated ellmos-ai Infrastructure
 

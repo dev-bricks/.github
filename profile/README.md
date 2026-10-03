@@ -2,8 +2,7 @@
 <p align="center">
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-12%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-success" alt="Local First"></a>
-  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
-  <a href="https://github.com/dev-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_SLA-48h_Response-critical.svg?style=flat-square" alt="Security SLA"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_Policy-blue.svg?style=flat-square" alt="Security Policy"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Verified-2026--10--01-blue.svg?style=flat-square" alt="Verified 2026-10-01"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-available-orange" alt="llms.txt"></a>
   <a href="README_de.md"><img src="https://img.shields.io/badge/Sprache-Deutsch-lightgrey.svg?style=flat-square" alt="German Version"></a>
@@ -60,7 +59,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | Windows tray application that time-slices resource-heavy desktop apps: runs exactly one configured app at a time, closes it after its slot, and continues in configured order (MIT) |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial tool for reliably creating and changing planned Claude Desktop tasks from inside the app, from outside it, or while the app is closed |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local Windows tray and CLI for OpenAI Codex Desktop repair, cleanup, diagnostics, and safe maintenance |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Conservative Windows tray utility for safely cleaning up orphaned Model Context Protocol (MCP) and language-server processes without blanket process-tree kills |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Conservative Windows tray utility for cleaning up selected orphaned MCP and language-server processes one at a time, without blanket process-tree termination |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Zero-dependency watcher that polls the Claude Code CLI for Claude Fable 5 and notifies you the moment it is reachable again — via Telegram, Discord, ntfy, desktop toast, or file fallback |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared issue templates, community workflows, security policy, contribution guidance, and machine-readable repository context |
 
@@ -68,6 +67,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-03 | Conservative orphan-process cleanup for MCP/language servers |
 | [.github](https://github.com/dev-bricks/.github) | 2026-10-01 | Organization profile and public directory parity |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Static Python code analysis |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Codex Desktop startup gating |
@@ -75,12 +75,12 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-30 | Local-first developer dashboard and IDE |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop app time-slicing and VRAM governance |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Codex Desktop repair and diagnostics |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-29 | Conservative orphan-process cleanup for MCP/language servers |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-28 | Structured JSON/Markdown knowledge stubs |
 | [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-22 | Authorized API inventory and OpenAPI discovery |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Lightweight local Python IDE |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-09-21 | Claude Desktop scheduled-task automation |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | 2026-06-25 | Claude Fable 5 availability watcher |
+**Targeted update:** Zombie-Killer-Tray reflects a targeted main-branch readback on 2026-10-03; other activity rows retain the 2026-10-01 snapshot.
 
 ### Integrated ellmos-ai Infrastructure
 
@@ -158,7 +158,7 @@ flowchart TD
 
 ## Design Principles
 
-- **Local first:** project data, analysis results, and editor state stay on the user's machine by default.
+- **Local first:** many projects are designed for local use; storage, network, and telemetry behavior is documented per repository.
 - **Small tools over platforms:** each repository targets a concrete workflow instead of replacing an entire development stack.
 - **Windows pragmatism:** desktop apps prioritize reliable local execution, predictable packaging, and low setup overhead.
 - **Clear boundaries:** security-adjacent tools such as API discovery are documented for owned or explicitly authorized services.

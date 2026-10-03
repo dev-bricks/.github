@@ -1,4 +1,4 @@
-"""Parity, inventory, and health contract tests for dev-bricks organization profile."""
+"""Text and link parity checks for dev-bricks organization profile, inventory, and public metadata."""
 
 import re
 from pathlib import Path
@@ -46,7 +46,7 @@ PUBLIC_ACTIVITY_DATES = {
     "DevCenter": "2026-09-30",
     "app-rotator": "2026-09-29",
     "CareCenter-for-Codex": "2026-09-29",
-    "zombie-killer-tray": "2026-09-29",
+    "zombie-killer-tray": "2026-10-03",
     "WikiStub-Seed": "2026-09-28",
     "ApiProber": "2026-09-22",
     "pythonbox": "2026-09-22",
@@ -113,7 +113,7 @@ def test_check_timestamp_parity(file_contents):
 
 
 def test_public_activity_snapshot(file_contents):
-    """Verify the API-derived activity date for every public repository."""
+    """Verify documented activity dates across the public text surfaces."""
     for repo, date in PUBLIC_ACTIVITY_DATES.items():
         marker = re.compile(
             rf"https://github\.com/dev-bricks/{re.escape(repo)}\)[^|]*\| {date} \|"
@@ -140,25 +140,29 @@ def test_repository_counts_parity(file_contents):
     assert "Public repository count: 13 total" in file_contents["llms.txt"]
 
 
-def test_verified_and_sla_badges_parity(file_contents):
-    """Verify Verified and Security SLA badges exist and are synchronized."""
+def test_verified_and_security_policy_badges_parity(file_contents):
+    """Verify dated badges and canonical security-policy links in both profiles."""
     en_profile = file_contents["profile/README.md"]
     de_profile = file_contents["profile/README_de.md"]
+    policy_href = "https://github.com/dev-bricks/.github/blob/main/SECURITY.md"
 
     assert "Verified-2026--10--01" in en_profile
-    assert "Security_SLA-48h_Response" in en_profile
+    assert "Security_Policy" in en_profile
+    assert f'href="{policy_href}"' in en_profile
 
-    assert "Geprüft-2026--10--01" in de_profile
-    assert "Sicherheits_SLA-48h_Reaktion" in de_profile
+    assert "Gepr\u00fcft-2026--10--01" in de_profile
+    assert "Sicherheitsrichtlinie" in de_profile
+    assert f'href="{policy_href}"' in de_profile
+    assert (REPO_ROOT / "SECURITY.md").is_file()
 
 
 def test_security_policy_bilingual_parity(file_contents):
-    """Verify SECURITY.md is bilingual and establishes 48h response SLA."""
+    """Verify the organization response commitment and repository-specific scope."""
     sec = file_contents["SECURITY.md"]
     assert "Security Policy / Sicherheitsrichtlinie" in sec
     assert "48 hours" in sec
-    assert "Zero-Egress & Local-First" in sec
-    assert "Unprivileged User Mode" in sec
+    assert "These properties vary by repository" in sec
+    assert "Zombie-Killer-Tray tray launcher can request UAC elevation" in sec
 
 
 def test_ecosystem_cross_linking(file_contents):
