@@ -12,6 +12,8 @@ If you discover a security vulnerability or security concern within any reposito
    - `lukas@open-bricks.org`
    - `support@lukasgeiger.com`
 
+Project-specific SECURITY policies govern the repositories they cover. For a report about a product repository, consult that repository's current policy for its response commitments.
+
 ---
 
 ## Response Timeline / Reaktionszeit
@@ -33,6 +35,6 @@ If you discover a security vulnerability or security concern within any reposito
 
 ## Security Invariants / Sicherheitsinvarianten
 
-- **Zero-Egress & Local-First:** All developer tools, static analyzers, and desktop apps run locally on the developer machine by default with zero unconsented telemetry or outbound data egress.
-- **Unprivileged User Mode (Non-Elevation):** dev-bricks desktop applications and tray utilities run as normal user processes without requesting administrator elevation.
-- **Conservative Process Management:** Process management tools such as `zombie-killer-tray` and `app-rotator` use strict parent-PID validation and heartbeat checks without performing indiscriminate process-tree kills.
+- **Network, telemetry, and data behavior:** These properties vary by repository and are described in its current documentation and SECURITY policy; no blanket zero-egress guarantee applies to every linked project.
+- **Privilege requirements:** Requirements depend on the repository and workflow. The Zombie-Killer-Tray tray launcher can request UAC elevation for termination workflows; see its project documentation.
+- **Process management:** Safeguards vary by tool. Zombie-Killer-Tray validates sampled process identity, CPU ticks, and parent state before individual termination attempts; see each project's documented limits.

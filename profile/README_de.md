@@ -2,8 +2,7 @@
 <p align="center">
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Werkzeuge-12%20Aktive%20Öffentliche%20Repos-blue" alt="Aktive Öffentliche Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architektur-Local--First-success" alt="Local First"></a>
-  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Lizenz-MIT-green" alt="Lizenz"></a>
-  <a href="https://github.com/dev-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Sicherheits_SLA-48h_Reaktion-critical.svg?style=flat-square" alt="Sicherheits-SLA"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Sicherheitsrichtlinie-blue.svg?style=flat-square" alt="Sicherheitsrichtlinie"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Geprüft-2026--10--01-blue.svg?style=flat-square" alt="Geprüft 2026-10-01"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-verfügbar-orange" alt="llms.txt"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Language-English-blue.svg?style=flat-square" alt="English Version"></a>
@@ -62,7 +61,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | Konfigurierbare Windows-Tray-App zur zeitlichen Staffelung (Time-Slicing) ressourcenintensiver Desktop-KI-Apps zur Vermeidung von VRAM-/GPU-Engpässen | Aktiv |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Werkzeug für das Steuern und Ändern geplanter Claude Desktop Aufgaben | Aktiv |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Windows-Tray und CLI für Reparatur, Diagnose und Log-Bereinigung von OpenAI Codex Desktop | Aktiv |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Konservativer Windows-Tray zur sicheren Bereinigung verwaister Model-Context-Protocol- (MCP) und Language-Server-Prozesse ohne pauschale Prozessbaum-Kills | Aktiv |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Konservativer Windows-Tray zur Bereinigung ausgewählter verwaister MCP- und Language-Server-Prozesse einzeln, ohne pauschale Prozessbaum-Beendigung | Aktiv |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Benachrichtigungs-Watcher für die Erreichbarkeit von Claude Fable 5 in Claude Code *(archiviert)* | Archiviert |
 | [.github](https://github.com/dev-bricks/.github) | Organisationsprofil, Vorlagen für Issues/PRs, Community-Workflows und maschinenlesbarer Index | Aktiv |
 
@@ -70,6 +69,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 | Repository | Letzter öffentlicher Push | Fokus |
 |---|---:|---|
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-03 | Bereinigung ausgewählter verwaister MCP-/Language-Server-Prozesse |
 | [.github](https://github.com/dev-bricks/.github) | 2026-10-01 | Organisationsprofil und öffentliche Verzeichnisparität |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Statische Python-Code-Analyse |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Start-Gate für Codex Desktop Automationen |
@@ -77,12 +77,12 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-30 | Lokales Entwickler-Dashboard und IDE |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop-App-Time-Slicing und VRAM-Governance |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Reparatur und Diagnose für Codex Desktop |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-09-29 | Bereinigung verwaister MCP-/Language-Server-Prozesse |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-28 | Strukturierte JSON/Markdown-Wissensstubs |
 | [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-22 | Autorisiertes API-Inventar und OpenAPI-Erkundung |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Leichtbau-Python-IDE |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-09-21 | Claude-Desktop-Aufgaben-Automation |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archiviert)* | 2026-06-25 | Benachrichtigungs-Watcher für Claude Fable 5 |
+**Gezieltes Update:** Zombie-Killer-Tray wurde am 03.10.2026 gezielt auf dem Branch `main` geprüft; die übrigen Aktivitätszeilen behalten den Snapshot vom 01.10.2026.
 
 ### Integrierte ellmos-ai Infrastruktur
 
@@ -160,7 +160,7 @@ flowchart TD
 
 ## Entwicklungs-Prinzipien
 
-- **Local-First:** Projektdaten, Analyseergebnisse und Editor-Zustände verbleiben standardmäßig auf dem lokalen Rechner.
+- **Local-First:** Viele Projekte sind auf lokale Nutzung ausgelegt; Speicher-, Netzwerk- und Telemetrieverhalten ist in der jeweiligen Repository-Dokumentation beschrieben.
 - **Spezialisierte Werkzeuge:** Jedes Repo fokussiert sich auf eine konkrete Aufgabe statt komplexe Plattformen zu imitieren.
 - **Pragmatische Windows-Unterstützung:** Verlässliche lokale Ausführung, saubere Distribution und minimaler Setup-Aufwand.
 - **Transparente Grenzen:** API-Erkundungswerkzeuge sind ausschließlich für eigene oder explizit freigegebene Systeme dokumentiert.
