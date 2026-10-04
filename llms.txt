@@ -8,7 +8,7 @@ Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
 Public repository count: 13 total, including 11 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
-Recent public activity snapshot from the public GitHub API, newest first: CodeBox 2026-10-04, zombie-killer-tray 2026-10-03 (targeted main-branch readback), .github 2026-10-01, MethodenAnalyser 2026-09-30, safe-start-for-codex 2026-09-30, DevCenter 2026-09-30, app-rotator 2026-09-29, CareCenter-for-Codex 2026-09-29, WikiStub-Seed 2026-09-28, ApiProber 2026-09-22, pythonbox 2026-09-22, automizer-for-claude-desktop 2026-09-21, and archived fable-5-hunter 2026-06-25.
+Recent public activity snapshot from the public GitHub API, newest first: CodeBox 2026-10-04, DevCenter 2026-10-04, zombie-killer-tray 2026-10-03 (targeted main-branch readback), .github 2026-10-01, MethodenAnalyser 2026-09-30, safe-start-for-codex 2026-09-30, app-rotator 2026-09-29, CareCenter-for-Codex 2026-09-29, WikiStub-Seed 2026-09-28, ApiProber 2026-09-22, pythonbox 2026-09-22, automizer-for-claude-desktop 2026-09-21, and archived fable-5-hunter 2026-06-25.
 Targeted update: Zombie-Killer-Tray reflects a targeted main-branch readback on 2026-10-03; remaining activity dates retain the 2026-10-01 snapshot.
 
 ## Positioning
@@ -76,10 +76,10 @@ The projects are intended for developers who want small, inspectable, local appl
 
 ## Current public activity
 
-- 2026-10-04: `CodeBox`
+- 2026-10-04: `CodeBox`, `DevCenter`
 - 2026-10-03: `zombie-killer-tray` (targeted main-branch readback)
 - 2026-10-01: `.github`
-- 2026-09-30: MethodenAnalyser, safe-start-for-codex, DevCenter
+- 2026-09-30: MethodenAnalyser, safe-start-for-codex
 - 2026-09-29: app-rotator, CareCenter-for-Codex
 - 2026-09-28: WikiStub-Seed
 - 2026-09-22: ApiProber, pythonbox

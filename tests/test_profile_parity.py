@@ -43,7 +43,7 @@ PUBLIC_ACTIVITY_DATES = {
     "MethodenAnalyser": "2026-09-30",
     "safe-start-for-codex": "2026-09-30",
     "CodeBox": "2026-10-04",
-    "DevCenter": "2026-09-30",
+    "DevCenter": "2026-10-04",
     "app-rotator": "2026-09-29",
     "CareCenter-for-Codex": "2026-09-29",
     "zombie-killer-tray": "2026-10-03",

@@ -37,7 +37,7 @@ Last checked: 2026-10-01. Public-only list from live GitHub metadata; private or
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Static Python code analysis |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Codex Desktop startup gating |
 | [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-04 | PySide6 desktop code editor |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-30 | Local-first developer dashboard and IDE |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-10-04 | Local-first developer dashboard and IDE |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop app time-slicing and VRAM governance |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Codex Desktop repair and diagnostics |
 | [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-03 | Conservative orphan-process cleanup for MCP/language servers |
