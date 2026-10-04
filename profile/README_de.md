@@ -52,7 +52,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | Repository | Rolle | Status |
 |---|---|---|
 | [DevCenter](https://github.com/dev-bricks/DevCenter) | Lokale Python-IDE und Entwickler-Toolkit mit Dashboards, statischer Analyse und PyInstaller-Workflows | Aktiv |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | PySide6 Desktop-Code-Editor mit LSP-Diagnose, Terminal, Projektnavigation und Git-Anbindung | Aktiv |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | PySide6 Desktop-Code-Editor mit LSP-Diagnose, Terminal, Projektnavigation, Git-Anbindung und Oberfläche in 6 Sprachen (DE, EN, ES, ZH, JA, RU) | Aktiv |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | Schlanke Windows-Python-IDE mit PDB-Debugging, Linting, Code-Folding und lokaler Ausführung | Aktiv |
 | [apiprober](https://github.com/dev-bricks/ApiProber) | Passiver REST-API-Scout, Endpunkt-Inventar und OpenAPI-orientierte Dokumentation für berechtigte Dienste | Aktiv |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Statischer Python-Analysator für tote Definitionen, ungenutzte Imports und AST-Strukturen | Aktiv |
@@ -73,7 +73,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | [.github](https://github.com/dev-bricks/.github) | 2026-10-01 | Organisationsprofil und öffentliche Verzeichnisparität |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Statische Python-Code-Analyse |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Start-Gate für Codex Desktop Automationen |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-09-30 | PySide6 Desktop-Code-Editor |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-04 | PySide6 Desktop-Code-Editor |
 | [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-30 | Lokales Entwickler-Dashboard und IDE |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop-App-Time-Slicing und VRAM-Governance |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Reparatur und Diagnose für Codex Desktop |

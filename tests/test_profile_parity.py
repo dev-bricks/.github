@@ -42,7 +42,7 @@ PUBLIC_ACTIVITY_DATES = {
     ".github": "2026-10-01",
     "MethodenAnalyser": "2026-09-30",
     "safe-start-for-codex": "2026-09-30",
-    "CodeBox": "2026-09-30",
+    "CodeBox": "2026-10-04",
     "DevCenter": "2026-09-30",
     "app-rotator": "2026-09-29",
     "CareCenter-for-Codex": "2026-09-29",

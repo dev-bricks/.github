@@ -50,7 +50,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Repository | Role |
 |---|---|
 | [DevCenter](https://github.com/dev-bricks/DevCenter) | Local-first Python IDE and developer toolkit with project dashboards, static analysis, PyInstaller workflows, and optional AI-assisted coding |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | PySide6 desktop code editor with LSP diagnostics, terminal workflows, project navigation, Git integration, and multi-language support |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | PySide6 desktop code editor with LSP diagnostics, terminal workflows, project navigation, Git integration, and a UI in 6 languages (DE, EN, ES, ZH, JA, RU) |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight Windows Python IDE with PDB debugging, linting, code folding, Git status, and local execution workflows |
 | [apiprober](https://github.com/dev-bricks/ApiProber) | Passive REST API discovery, endpoint inventory, and OpenAPI-oriented documentation for owned or explicitly authorized services |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python analyzer for unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable findings |
@@ -71,7 +71,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [.github](https://github.com/dev-bricks/.github) | 2026-10-01 | Organization profile and public directory parity |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Static Python code analysis |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Codex Desktop startup gating |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-09-30 | PySide6 desktop code editor |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-04 | PySide6 desktop code editor |
 | [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-09-30 | Local-first developer dashboard and IDE |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop app time-slicing and VRAM governance |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Codex Desktop repair and diagnostics |
