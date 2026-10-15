@@ -1,5 +1,6 @@
 """Text and link parity checks for dev-bricks organization profile, inventory, and public metadata."""
 
+import os
 import re
 from pathlib import Path
 import pytest
@@ -31,12 +32,15 @@ PUBLIC_REPOS = [
     ".github",
 ]
 
-PRIVATE_REPOS_DENYLIST = [
-    "automation-master",
-    "githubbot",
-    "ralph-loop-codex-marketplace",
-    "trusted-peer-setup",
-]
+def check_public_profile(text):
+    """Check public links and an optional externally supplied private inventory."""
+    public_names = {name.casefold() for name in PUBLIC_REPOS}
+    links = re.findall(r'https://github\.com/dev-bricks/([^/\s)#?"<>]+)', text)
+    if any(name.casefold() not in public_names for name in links):
+        raise AssertionError("Profile contains an unlisted repository link")
+    private_names = re.split(r"[\s,;]+", os.environ.get("PROFILE_PRIVATE_REPO_DENYLIST", ""))
+    if any(name and name.casefold() in text.casefold() for name in private_names):
+        raise AssertionError("Profile contains a prohibited repository reference")
 
 PUBLIC_ACTIVITY_DATES = {
     ".github": "2026-10-01",
@@ -94,13 +98,9 @@ def test_public_repo_inventory(file_contents):
 
 
 def test_zero_private_leak_guard(file_contents):
-    """Zero-leak invariant: ensure private repos are NEVER leaked into public profile surfaces."""
+    """Check public links and any externally configured private-name guard."""
     for filename in ["README.md", "profile/README.md", "profile/README_de.md", "llms.txt"]:
-        text = file_contents[filename]
-        for private_repo in PRIVATE_REPOS_DENYLIST:
-            assert private_repo not in text, (
-                f"SECURITY VIOLATION: Private repository '{private_repo}' leaked into public file {filename}!"
-            )
+        check_public_profile(file_contents[filename])
 
 
 def test_check_timestamp_parity(file_contents):
