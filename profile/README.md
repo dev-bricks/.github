@@ -1,24 +1,24 @@
-<!-- last-checked: 2026-10-01 -->
+<!-- last-checked: 2026-10-23 -->
 <p align="center">
-  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-12%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Tools-13%20Active%20Public%20Repos-blue" alt="Active Public Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architecture-Local--First-success" alt="Local First"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Security_Policy-blue.svg?style=flat-square" alt="Security Policy"></a>
-  <a href="https://github.com/dev-bricks/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Verified-2026--10--01-blue.svg?style=flat-square" alt="Verified 2026-10-01"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Verified-2026--10--23-blue.svg?style=flat-square" alt="Verified 2026-10-23"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-available-orange" alt="llms.txt"></a>
   <a href="README_de.md"><img src="https://img.shields.io/badge/Sprache-Deutsch-lightgrey.svg?style=flat-square" alt="German Version"></a>
 </p>
 
 # dev-bricks
 
-**Local-first developer tools for Windows, Python, code analysis, API discovery, Codex maintenance, Gemini CLI integration, subagent lifecycle management, ticket routing, file locking, cross-machine agent sync, and structured LLM workflow scaffolding.**
+**Local-first developer tools for Windows, Python, code analysis, API discovery, Codex maintenance, Gemini CLI integration, repository maintenance, subagent lifecycle management, ticket routing, file locking, cross-machine agent sync, and structured LLM workflow scaffolding.**
 
-dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
+dev-bricks builds small, practical tools for software-development workflows: editing code, analyzing projects, probing owned APIs, maintaining repositories, keeping local developer workspaces understandable, and bridging AI agent ecosystems — without depending on heavy cloud platforms.
 
 > [!NOTE]
-> Public index checked 2026-10-01 from live GitHub metadata: 12 active repositories (11 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 13 public repositories in total. Private or internal work is intentionally excluded from this public directory.
+> Public index checked 2026-10-23 from live GitHub metadata: 13 active repositories (12 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 14 public repositories in total. Private or internal work is intentionally excluded from this public directory.
 
 > [!TIP]
-> Start with `CodeBox` or `pythonbox` for local IDE work, `ApiProber` or `MethodenAnalyser` for project inspection, `app-rotator` or `safe-start-for-codex` for runtime stability and process time-slicing, `coma` for subagent process & file-protocol control, and `lock-master` + `ticket-master` + `system-gap-master` for multi-agent coordination.
+> Start with `CodeBox` or `pythonbox` for local IDE work, `ApiProber` or `MethodenAnalyser` for project inspection, `githubbot-core` for repository maintenance and review receipts, `app-rotator` or `safe-start-for-codex` for runtime stability and process time-slicing, `coma` for subagent process & file-protocol control, and `lock-master` + `ticket-master` + `system-gap-master` for multi-agent coordination.
 
 ## Start Here
 
@@ -29,6 +29,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | Lightweight Python IDE with debugger, linting, and Git status | [pythonbox](https://github.com/dev-bricks/pythonbox) |
 | Passive REST API discovery for owned or authorized services | [apiprober](https://github.com/dev-bricks/ApiProber) |
 | Static Python analysis for imports, dead definitions, and similar blocks | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) |
+| Issue triage, repository reports, and exact-SHA review receipts | [githubbot-core](https://github.com/dev-bricks/githubbot-core) |
 | JSON knowledge stubs for research, documentation, learning maps, and LLM context pipelines | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) |
 | Controlled startup gate for Codex Desktop automations | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) |
 | Windows tray app that time-slices resource-heavy desktop apps | [app-rotator](https://github.com/dev-bricks/app-rotator) |
@@ -54,6 +55,7 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight Windows Python IDE with PDB debugging, linting, code folding, Git status, and local execution workflows |
 | [apiprober](https://github.com/dev-bricks/ApiProber) | Passive REST API discovery, endpoint inventory, and OpenAPI-oriented documentation for owned or explicitly authorized services |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python analyzer for unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable findings |
+| [githubbot-core](https://github.com/dev-bricks/githubbot-core) | Neutral GitHub maintenance core (Python, standard library only): issue triage, repository reports, preview/apply actions, a plugin SPI, and exact-SHA review receipts |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Local-first bilingual JSON knowledge framework with 630+ DE/EN stubs, prepared ES/ZH/JA/RU language slots, Markdown export, and PWA-ready data scaffolding for AI research, documentation, ontology seeds, and LLM workflows |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Unofficial Windows startup gate for Codex Desktop automations; pauses active automations, launches Codex Desktop, and releases them gradually |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | Windows tray application that time-slices resource-heavy desktop apps: runs exactly one configured app at a time, closes it after its slot, and continues in configured order (MIT) |
@@ -67,20 +69,22 @@ dev-bricks builds small, practical tools for software-development workflows: edi
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-03 | Conservative orphan-process cleanup for MCP/language servers |
-| [.github](https://github.com/dev-bricks/.github) | 2026-10-01 | Organization profile and public directory parity |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Static Python code analysis |
-| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Codex Desktop startup gating |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-04 | PySide6 desktop code editor |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-10-04 | Local-first developer dashboard and IDE |
-| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop app time-slicing and VRAM governance |
-| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Codex Desktop repair and diagnostics |
-| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-28 | Structured JSON/Markdown knowledge stubs |
-| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-22 | Authorized API inventory and OpenAPI discovery |
+| [.github](https://github.com/dev-bricks/.github) | 2026-10-23 | Organization profile and public directory parity |
+| [githubbot-core](https://github.com/dev-bricks/githubbot-core) | 2026-10-22 | Neutral GitHub maintenance, triage, and review receipts |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-22 | PySide6 desktop code editor |
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-10-22 | Codex Desktop startup gating |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-22 | Conservative orphan-process cleanup for MCP/language servers |
+| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-10-21 | Authorized API inventory and OpenAPI discovery |
+| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-10-21 | Codex Desktop repair and diagnostics |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-10-21 | Structured JSON/Markdown knowledge stubs |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-10-19 | Local-first developer dashboard and IDE |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-10-18 | Static Python code analysis |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-10-16 | Claude Desktop scheduled-task automation |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-10-07 | Desktop app time-slicing and VRAM governance |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Lightweight local Python IDE |
-| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-09-21 | Claude Desktop scheduled-task automation |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | 2026-06-25 | Claude Fable 5 availability watcher |
-**Targeted update:** Zombie-Killer-Tray reflects a targeted main-branch readback on 2026-10-03; other activity rows retain the 2026-10-01 snapshot.
+
+**Snapshot:** all rows come from one live GitHub API readback on 2026-10-23; the `.github` row reflects this profile update.
 
 ### Integrated ellmos-ai Infrastructure
 
@@ -101,6 +105,7 @@ The banners are the links; details in the tables above and below:
   <a href="https://github.com/dev-bricks/DevCenter"><img src="https://raw.githubusercontent.com/dev-bricks/DevCenter/master/assets/banner.svg" alt="DevCenter" width="680" style="border:2px solid #38bdf8;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/CodeBox"><img src="https://raw.githubusercontent.com/dev-bricks/CodeBox/main/assets/banner.svg" alt="CodeBox" width="680" style="border:2px solid #a78bfa;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/pythonbox"><img src="https://raw.githubusercontent.com/dev-bricks/pythonbox/master/assets/banner.svg" alt="pythonbox" width="680" style="border:2px solid #34d399;border-radius:8px;display:block;margin:0 auto 12px"></a>
+  <a href="https://github.com/dev-bricks/githubbot-core"><img src="https://raw.githubusercontent.com/dev-bricks/githubbot-core/main/assets/banner.svg" alt="githubbot-core" width="680" style="border:2px solid #94a3b8;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/app-rotator"><img src="https://raw.githubusercontent.com/dev-bricks/.github/main/profile/assets/app-rotator-banner.svg" alt="app-rotator" width="680" style="border:2px solid #06b6d4;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/ApiProber"><img src="https://raw.githubusercontent.com/dev-bricks/ApiProber/main/assets/banner.svg" alt="ApiProber" width="680" style="border:2px solid #fbbf24;border-radius:8px;display:block;margin:0 auto 12px"></a>
   <a href="https://github.com/dev-bricks/MethodenAnalyser"><img src="https://raw.githubusercontent.com/dev-bricks/MethodenAnalyser/master/assets/banner.svg" alt="MethodenAnalyser" width="680" style="border:2px solid #f472b6;border-radius:8px;display:block;margin:0 auto 12px"></a>
@@ -117,6 +122,7 @@ The banners are the links; details in the tables above and below:
 |---|---|---|
 | Desktop IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Local PySide6 developer interfaces for editing, debugging, project navigation, and build workflows |
 | Analysis and discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/ApiProber) | Static code inspection and passive API documentation for authorized systems |
+| Repository maintenance | [githubbot-core](https://github.com/dev-bricks/githubbot-core) | Neutral, stdlib-only GitHub maintenance: issue triage, duplicate detection, repository reports, preview/apply actions, plugin SPI, and exact-SHA review receipts |
 | Agent tooling & Support | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [app-rotator](https://github.com/dev-bricks/app-rotator), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Codex Desktop startup gating, Claude Desktop automation control, Codex repair and cleanup, orphaned MCP/language-server process hygiene, local operational support, and Claude model availability monitoring (archived) |
 | Knowledge scaffolding | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Structured JSON and Markdown seed data for documentation glossaries, learning maps, ontology seeds, local RAG, and LLM context pipelines |
 | Cross-agent infrastructure | [coma](https://github.com/ellmos-ai/coma), [lock-master](https://github.com/ellmos-ai/lock-master), [ticket-master](https://github.com/ellmos-ai/ticket-master), [system-gap-master](https://github.com/ellmos-ai/system-gap-master), [sqlite-transit-sync](https://github.com/ellmos-ai/sqlite-transit-sync), [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | The coordination and lifecycle layer for multi-agent, multi-machine setups: subagent process & file-protocol control, portable file locking, ticket routing, serverless cross-machine file and database sync, and Gemini CLI response capture |
@@ -131,6 +137,10 @@ flowchart TD
     PB["pythonbox<br/>Lightweight Python IDE"]
     MA["MethodenAnalyser<br/>Static Code Analyzer"]
     AP["ApiProber<br/>Passive REST API Discovery"]
+  end
+
+  subgraph REPO["Repository Maintenance"]
+    GBC["githubbot-core<br/>Triage, Reports & Review Receipts"]
   end
 
   subgraph INFRA["Cross-Agent & Multi-Machine Infrastructure (ellmos-ai)"]
@@ -153,6 +163,7 @@ flowchart TD
 
   DC --- INFRA
   CB --- INFRA
+  REPO --- INFRA
   INFRA --- AGENT
 ```
 
@@ -175,6 +186,11 @@ Useful phrases for finding dev-bricks projects on GitHub and external search:
 - dev-bricks subagent file protocol status polling
 - dev-bricks static Python analysis
 - dev-bricks passive REST API discovery and OpenAPI inventory
+- dev-bricks githubbot-core GitHub maintenance core
+- dev-bricks stdlib-only GitHub issue triage CLI
+- dev-bricks repository reports and duplicate detection
+- dev-bricks exact-SHA code review receipts
+- dev-bricks preview and apply dry-run GitHub actions
 - dev-bricks app-rotator desktop time-slicing
 - dev-bricks VRAM management for local AI desktop apps
 - dev-bricks Windows tray app resource time-slicing
@@ -217,4 +233,4 @@ dev-bricks is the developer-tool branch of the brick suite:
 
 Part of the [ellmos-ai](https://github.com/ellmos-ai) ecosystem.
 
-<!-- last-checked: 2026-10-01 -->
+<!-- last-checked: 2026-10-23 -->

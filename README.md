@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-10-01. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 12 active repositories (11 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 13 public repositories in total.
+Last checked: 2026-10-23. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 13 active repositories (12 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 14 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -20,6 +20,7 @@ Last checked: 2026-10-01. Public-only list from live GitHub metadata; private or
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | Lightweight local Python IDE with debugging, linting, and Git status |
 | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | Static Python code analysis for imports, dead definitions, and similar code blocks |
 | [apiprober](https://github.com/dev-bricks/ApiProber) | Authorized REST API inventory, passive discovery, and OpenAPI-oriented documentation |
+| [githubbot-core](https://github.com/dev-bricks/githubbot-core) | Neutral GitHub maintenance core: issue triage, reports, preview/apply actions, plugin SPI, and exact-SHA review receipts |
 | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Multilingual JSON knowledge-stub framework for documentation, ontology seeds, RAG, and LLM workflows |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | Startup gate for Codex Desktop automations |
 | [app-rotator](https://github.com/dev-bricks/app-rotator) | Windows tray app that time-slices resource-heavy desktop apps |
@@ -33,20 +34,22 @@ Last checked: 2026-10-01. Public-only list from live GitHub metadata; private or
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
-| [.github](https://github.com/dev-bricks/.github) | 2026-10-01 | Organization profile and public directory parity |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-09-30 | Static Python code analysis |
-| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-09-30 | Codex Desktop startup gating |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-04 | PySide6 desktop code editor |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-10-04 | Local-first developer dashboard and IDE |
-| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-09-29 | Desktop app time-slicing and VRAM governance |
-| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-09-29 | Codex Desktop repair and diagnostics |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-03 | Conservative orphan-process cleanup for MCP/language servers |
-| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-09-28 | Structured JSON/Markdown knowledge stubs |
-| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-09-22 | Authorized API inventory and OpenAPI discovery |
+| [.github](https://github.com/dev-bricks/.github) | 2026-10-23 | Organization profile and public directory parity |
+| [githubbot-core](https://github.com/dev-bricks/githubbot-core) | 2026-10-22 | Neutral GitHub maintenance, triage, and review receipts |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-22 | PySide6 desktop code editor |
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-10-22 | Codex Desktop startup gating |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-22 | Conservative orphan-process cleanup for MCP/language servers |
+| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-10-21 | Authorized API inventory and OpenAPI discovery |
+| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-10-21 | Codex Desktop repair and diagnostics |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-10-21 | Structured JSON/Markdown knowledge stubs |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-10-19 | Local-first developer dashboard and IDE |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-10-18 | Static Python code analysis |
+| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-10-16 | Claude Desktop scheduled-task automation |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-10-07 | Desktop app time-slicing and VRAM governance |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Lightweight local Python IDE |
-| [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-09-21 | Claude Desktop scheduled-task automation |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | 2026-06-25 | Claude Fable 5 availability watcher |
-**Targeted update:** Zombie-Killer-Tray reflects a targeted main-branch readback on 2026-10-03; other activity rows retain the 2026-10-01 snapshot.
+
+**Snapshot:** all rows come from one live GitHub API readback on 2026-10-23; the `.github` row reflects this profile update.
 
 ### Integrated ellmos-ai Infrastructure
 

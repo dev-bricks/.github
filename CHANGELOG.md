@@ -2,6 +2,17 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
+## [Unreleased] - 2026-10-23
+
+### Health & Parity
+- **Turnusgemäßer Organisations-Startseiten-, Register- und Discoverability-Health-Lauf** (`GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH`):
+  - **Registerbefund (Lücke geschlossen):** Der öffentliche Live-Abgleich gegen `GET /orgs/dev-bricks/repos` ergab 14 öffentliche Repositories; `githubbot-core` (MIT, Python-Standardbibliothek, öffentlich seit dem letzten Lauf) fehlte in allen vier Startseiten-Indizes. Das Repository ist jetzt in `README.md`, `profile/README.md`, `profile/README_de.md` und `llms.txt` aufgenommen — mit Start-Here-Zeile, Verzeichniseintrag, Aktivitätszeile, Projektfamilie „Repository-Wartung", Mermaid-Knoten, Showcase-Banner und Suchbegriffen (EN/DE).
+  - **Zählerstände:** Öffentlicher Index von 13 auf 14 Repositories angehoben (12 aktive Werkzeug-Repositories + Organisations-Profil-Repository + 1 archiviertes Repository `fable-5-hunter`); Badges auf `13 Active Public Repos` / `13 Aktive Öffentliche Repos` synchronisiert.
+  - **Live-Aktivitäts-Snapshot:** Alle 14 Aktivitätszeilen aus einer einzigen Live-Abfrage der GitHub-API vom 2026-10-23 neu gesetzt (`githubbot-core` 2026-10-22, `CodeBox` 2026-10-22, `safe-start-for-codex` 2026-10-22, `zombie-killer-tray` 2026-10-22, `ApiProber` 2026-10-21, `CareCenter-for-Codex` 2026-10-21, `WikiStub-Seed` 2026-10-21, `DevCenter` 2026-10-19, `MethodenAnalyser` 2026-10-18, `automizer-for-claude-desktop` 2026-10-16, `app-rotator` 2026-10-07, `pythonbox` 2026-09-22, `fable-5-hunter` 2026-06-25). Die frühere „Targeted update"-Fußnote entfällt, weil kein gemischter Snapshot-Stand mehr vorliegt.
+  - **Zweisprachige Parität:** EN- und DE-Startseite tragen identische Struktur, Tabellenzeilen, Badges, Showcase-Banner und Architekturdiagramm-Knoten; Verifikationsdatum in beiden Fassungen auf `2026-10-23` gesetzt.
+  - **Zero-Leak-Härtung:** Die Private-Leak-Prüfung in `tests/test_profile_parity.py` arbeitet nicht mehr mit einfacher Teilstring-Suche, sondern grenzbewusst per Regex. Damit bleibt das private `githubbot` weiterhin gesperrt, während das eigenständige öffentliche `githubbot-core` zulässig ist; ein neuer Test belegt genau diese Unterscheidung.
+  - **Vertragstests:** `tests/test_profile_parity.py` auf Stand 2026-10-23 aktualisiert (Repo-Inventar, Aktivitätsdaten, Zählerstände, Badge-Parität, Mermaid-Knoten) — 12/12 Tests grün.
+
 ## [Unreleased] - 2026-10-01
 
 ### Health & Parity

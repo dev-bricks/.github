@@ -1,4 +1,4 @@
-## Last-checked: 2026-10-01
+## Last-checked: 2026-10-23
 
 # dev-bricks
 
@@ -7,13 +7,13 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 13 total, including 11 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
-Recent public activity snapshot from the public GitHub API, newest first: CodeBox 2026-10-04, DevCenter 2026-10-04, zombie-killer-tray 2026-10-03 (targeted main-branch readback), .github 2026-10-01, MethodenAnalyser 2026-09-30, safe-start-for-codex 2026-09-30, app-rotator 2026-09-29, CareCenter-for-Codex 2026-09-29, WikiStub-Seed 2026-09-28, ApiProber 2026-09-22, pythonbox 2026-09-22, automizer-for-claude-desktop 2026-09-21, and archived fable-5-hunter 2026-06-25.
-Targeted update: Zombie-Killer-Tray reflects a targeted main-branch readback on 2026-10-03; remaining activity dates retain the 2026-10-01 snapshot.
+Public repository count: 14 total, including 12 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Recent public activity snapshot from the public GitHub API, newest first: .github 2026-10-23, githubbot-core 2026-10-22, CodeBox 2026-10-22, safe-start-for-codex 2026-10-22, zombie-killer-tray 2026-10-22, ApiProber 2026-10-21, CareCenter-for-Codex 2026-10-21, WikiStub-Seed 2026-10-21, DevCenter 2026-10-19, MethodenAnalyser 2026-10-18, automizer-for-claude-desktop 2026-10-16, app-rotator 2026-10-07, pythonbox 2026-09-22, and archived fable-5-hunter 2026-06-25.
+Snapshot note: all activity dates come from one live GitHub API readback on 2026-10-23; the .github entry reflects this profile update.
 
 ## Positioning
 
-dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, desktop application time-slicing, Gemini CLI integration, subagent process & file-protocol lifecycle management, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
+dev-bricks is a GitHub organization for local-first developer tools, desktop IDE utilities, static code analysis, passive API discovery, neutral GitHub repository maintenance, desktop application time-slicing, Gemini CLI integration, subagent process & file-protocol lifecycle management, multi-agent workflow routing, file locking, cross-machine agent state sync, structured knowledge-stub datasets, and local maintenance tooling and startup gates for OpenAI Codex Desktop environments.
 
 The projects are intended for developers who want small, inspectable, local applications instead of large cloud-first developer platforms.
 
@@ -42,6 +42,11 @@ The projects are intended for developers who want small, inspectable, local appl
 - https://github.com/dev-bricks/MethodenAnalyser
   - Static Python code analyzer.
   - Finds unused imports, dead definitions, similar code blocks, AST structure, and JSON-exportable analysis results.
+
+- https://github.com/dev-bricks/githubbot-core
+  - Neutral GitHub maintenance core written in Python with the standard library only.
+  - Issue triage, duplicate detection, repository reports, preview/apply (dry-run first) actions, a plugin SPI, and code-review receipts bound to an exact commit SHA.
+  - Search focus: GitHub automation, repository maintenance, issue triage CLI, pull-request review receipts.
 
 - https://github.com/dev-bricks/WikiStub-Seed
   - Local-first bilingual JSON knowledge framework for AI-assisted research, documentation, learning systems, ontology seeds, and LLM workflows.
@@ -76,16 +81,16 @@ The projects are intended for developers who want small, inspectable, local appl
 
 ## Current public activity
 
-- 2026-10-04: `CodeBox`, `DevCenter`
-- 2026-10-03: `zombie-killer-tray` (targeted main-branch readback)
-- 2026-10-01: `.github`
-- 2026-09-30: MethodenAnalyser, safe-start-for-codex
-- 2026-09-29: app-rotator, CareCenter-for-Codex
-- 2026-09-28: WikiStub-Seed
-- 2026-09-22: ApiProber, pythonbox
-- 2026-09-21: automizer-for-claude-desktop
+- 2026-10-23: `.github`
+- 2026-10-22: `githubbot-core`, `CodeBox`, `safe-start-for-codex`, `zombie-killer-tray`
+- 2026-10-21: ApiProber, CareCenter-for-Codex, WikiStub-Seed
+- 2026-10-19: DevCenter
+- 2026-10-18: MethodenAnalyser
+- 2026-10-16: automizer-for-claude-desktop
+- 2026-10-07: app-rotator
+- 2026-09-22: pythonbox
 - 2026-06-25: `fable-5-hunter` (archived)
-> **Targeted update:** Zombie-Killer-Tray reflects a targeted main-branch readback on 2026-10-03; other activity dates retain the 2026-10-01 snapshot.
+> **Snapshot:** all activity dates come from one live GitHub API readback on 2026-10-23; the `.github` entry reflects this profile update.
 
 ## Integrated ellmos-ai Multi-Agent Infrastructure
 
@@ -113,6 +118,7 @@ The projects are intended for developers who want small, inspectable, local appl
 
 - Python developers who want lightweight, local desktop tooling without cloud dependency
 - Developers working with OpenAI Codex Desktop, Gemini CLI (agy), or Claude Code
+- Maintainers who need neutral, auditable GitHub repository maintenance and review receipts
 - Multi-agent teams that need subagent lifecycle control, local file locking, ticket routing, and workflow handoff utilities
 - LLM builders who need structured JSON/Markdown seed data for research, documentation, ontology, or RAG contexts
 - Teams maintaining internal Python codebases and needing static analysis tools
@@ -131,6 +137,11 @@ dev-bricks subagent file protocol status polling
 dev-bricks static Python analysis
 dev-bricks passive API discovery
 dev-bricks OpenAPI inventory
+dev-bricks githubbot-core GitHub maintenance core
+dev-bricks stdlib-only GitHub issue triage CLI
+dev-bricks repository reports and duplicate detection
+dev-bricks exact-SHA code review receipts
+dev-bricks preview and apply dry-run GitHub actions
 dev-bricks app-rotator desktop time-slicing
 dev-bricks VRAM management for local AI desktop apps
 dev-bricks Windows tray app resource time-slicing

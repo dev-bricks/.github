@@ -22,6 +22,7 @@ PUBLIC_REPOS = [
     "app-rotator",
     "ApiProber",
     "MethodenAnalyser",
+    "githubbot-core",
     "WikiStub-Seed",
     "safe-start-for-codex",
     "automizer-for-claude-desktop",
@@ -39,18 +40,19 @@ PRIVATE_REPOS_DENYLIST = [
 ]
 
 PUBLIC_ACTIVITY_DATES = {
-    ".github": "2026-10-01",
-    "MethodenAnalyser": "2026-09-30",
-    "safe-start-for-codex": "2026-09-30",
-    "CodeBox": "2026-10-04",
-    "DevCenter": "2026-10-04",
-    "app-rotator": "2026-09-29",
-    "CareCenter-for-Codex": "2026-09-29",
-    "zombie-killer-tray": "2026-10-03",
-    "WikiStub-Seed": "2026-09-28",
-    "ApiProber": "2026-09-22",
+    ".github": "2026-10-23",
+    "githubbot-core": "2026-10-22",
+    "CodeBox": "2026-10-22",
+    "safe-start-for-codex": "2026-10-22",
+    "zombie-killer-tray": "2026-10-22",
+    "ApiProber": "2026-10-21",
+    "CareCenter-for-Codex": "2026-10-21",
+    "WikiStub-Seed": "2026-10-21",
+    "DevCenter": "2026-10-19",
+    "MethodenAnalyser": "2026-10-18",
+    "automizer-for-claude-desktop": "2026-10-16",
+    "app-rotator": "2026-10-07",
     "pythonbox": "2026-09-22",
-    "automizer-for-claude-desktop": "2026-09-21",
     "fable-5-hunter": "2026-06-25",
 }
 
@@ -86,7 +88,7 @@ def test_markdown_fence_balance(file_contents):
 
 
 def test_public_repo_inventory(file_contents):
-    """Verify that all 13 public repositories are documented across primary profile files."""
+    """Verify that all 14 public repositories are documented across primary profile files."""
     for filename in ["README.md", "profile/README.md", "profile/README_de.md", "llms.txt"]:
         text = file_contents[filename]
         for repo in PUBLIC_REPOS:
@@ -94,22 +96,38 @@ def test_public_repo_inventory(file_contents):
 
 
 def test_zero_private_leak_guard(file_contents):
-    """Zero-leak invariant: ensure private repos are NEVER leaked into public profile surfaces."""
+    """Zero-leak invariant: ensure private repos are NEVER leaked into public profile surfaces.
+
+    Matching is boundary-aware: the private repository `githubbot` must not appear, while the
+    public repository `githubbot-core` is a different name and is allowed.
+    """
     for filename in ["README.md", "profile/README.md", "profile/README_de.md", "llms.txt"]:
         text = file_contents[filename]
         for private_repo in PRIVATE_REPOS_DENYLIST:
-            assert private_repo not in text, (
+            pattern = re.compile(
+                rf"(?<![\w.-]){re.escape(private_repo)}(?![\w-])"
+            )
+            assert not pattern.search(text), (
                 f"SECURITY VIOLATION: Private repository '{private_repo}' leaked into public file {filename}!"
             )
 
 
+def test_private_leak_guard_distinguishes_similar_names():
+    """The leak guard must reject `githubbot` but accept the public `githubbot-core`."""
+    pattern = re.compile(r"(?<![\w.-])githubbot(?![\w-])")
+    assert pattern.search("https://github.com/dev-bricks/githubbot")
+    assert pattern.search("the githubbot pipeline")
+    assert not pattern.search("https://github.com/dev-bricks/githubbot-core")
+    assert not pattern.search("githubbot-core triage")
+
+
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-10-01."""
-    assert "2026-10-01" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-10-01 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-10-01 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-10-01" in file_contents["llms.txt"]
-    assert "2026-10-01" in file_contents["CHANGELOG.md"]
+    """Verify that verification timestamps are synchronized to 2026-10-23."""
+    assert "2026-10-23" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-10-23 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-10-23 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-10-23" in file_contents["llms.txt"]
+    assert "2026-10-23" in file_contents["CHANGELOG.md"]
 
 
 def test_public_activity_snapshot(file_contents):
@@ -130,14 +148,14 @@ def test_public_activity_snapshot(file_contents):
 
 
 def test_repository_counts_parity(file_contents):
-    """Verify that active (12) and total (13) public repository counts are consistent."""
-    assert "12%20Active%20Public%20Repos" in file_contents["profile/README.md"]
-    assert "12%20Aktive%20" in file_contents["profile/README_de.md"]
+    """Verify that active (13) and total (14) public repository counts are consistent."""
+    assert "13%20Active%20Public%20Repos" in file_contents["profile/README.md"]
+    assert "13%20Aktive%20" in file_contents["profile/README_de.md"]
 
-    assert "13 public repositories in total" in file_contents["README.md"]
-    assert "13 public repositories in total" in file_contents["profile/README.md"]
-    assert "13 öffentliche Repositories insgesamt" in file_contents["profile/README_de.md"]
-    assert "Public repository count: 13 total" in file_contents["llms.txt"]
+    assert "14 public repositories in total" in file_contents["README.md"]
+    assert "14 public repositories in total" in file_contents["profile/README.md"]
+    assert "14 öffentliche Repositories insgesamt" in file_contents["profile/README_de.md"]
+    assert "Public repository count: 14 total" in file_contents["llms.txt"]
 
 
 def test_verified_and_security_policy_badges_parity(file_contents):
@@ -146,11 +164,11 @@ def test_verified_and_security_policy_badges_parity(file_contents):
     de_profile = file_contents["profile/README_de.md"]
     policy_href = "https://github.com/dev-bricks/.github/blob/main/SECURITY.md"
 
-    assert "Verified-2026--10--01" in en_profile
+    assert "Verified-2026--10--23" in en_profile
     assert "Security_Policy" in en_profile
     assert f'href="{policy_href}"' in en_profile
 
-    assert "Gepr\u00fcft-2026--10--01" in de_profile
+    assert "Gepr\u00fcft-2026--10--23" in de_profile
     assert "Sicherheitsrichtlinie" in de_profile
     assert f'href="{policy_href}"' in de_profile
     assert (REPO_ROOT / "SECURITY.md").is_file()
@@ -200,3 +218,4 @@ def test_mermaid_architecture_syntax(file_contents):
         assert "```mermaid" in text, f"Missing Mermaid diagram in {filename}"
         assert "flowchart TD" in text, f"Missing flowchart TD in {filename}"
         assert 'AR["app-rotator<br/>Desktop Time-Slicing Tray"]' in text, f"Missing app-rotator AR node in {filename}"
+        assert "githubbot-core<br/>" in text, f"Missing githubbot-core node in {filename}"
