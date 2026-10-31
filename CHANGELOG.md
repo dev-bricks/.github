@@ -2,6 +2,10 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
+## [Unreleased] - 2026-10-31
+
+- **Kanonischer Namensraum (`D-20261030-010` / `D-20261030-011`):** `companion-for-agy` wieder kanonisch unter `https://github.com/dev-bricks/companion-for-agy` geführt; Verifikationsdatum in `README.md`, `profile/README.md`, `profile/README_de.md`, `llms.txt` und `tests/test_profile_parity.py` auf `2026-10-31` synchronisiert.
+
 ## [Unreleased] - 2026-10-23
 
 ### Health & Parity
