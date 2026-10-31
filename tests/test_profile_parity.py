@@ -2,6 +2,7 @@
 
 import re
 from pathlib import Path
+
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -28,6 +29,7 @@ PUBLIC_REPOS = [
     "automizer-for-claude-desktop",
     "CareCenter-for-Codex",
     "zombie-killer-tray",
+    "companion-for-agy",
     "fable-5-hunter",
     ".github",
 ]
@@ -40,7 +42,7 @@ PRIVATE_REPOS_DENYLIST = [
 ]
 
 PUBLIC_ACTIVITY_DATES = {
-    ".github": "2026-10-23",
+    ".github": "2026-10-31",
     "githubbot-core": "2026-10-22",
     "CodeBox": "2026-10-22",
     "safe-start-for-codex": "2026-10-22",
@@ -122,12 +124,12 @@ def test_private_leak_guard_distinguishes_similar_names():
 
 
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-10-23."""
-    assert "2026-10-23" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-10-23 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-10-23 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-10-23" in file_contents["llms.txt"]
-    assert "2026-10-23" in file_contents["CHANGELOG.md"]
+    """Verify that verification timestamps are synchronized to 2026-10-31."""
+    assert "2026-10-31" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-10-31 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-10-31 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-10-31" in file_contents["llms.txt"]
+    assert "2026-10-31" in file_contents["CHANGELOG.md"]
 
 
 def test_public_activity_snapshot(file_contents):
@@ -164,11 +166,11 @@ def test_verified_and_security_policy_badges_parity(file_contents):
     de_profile = file_contents["profile/README_de.md"]
     policy_href = "https://github.com/dev-bricks/.github/blob/main/SECURITY.md"
 
-    assert "Verified-2026--10--23" in en_profile
+    assert "Verified-2026--10--31" in en_profile
     assert "Security_Policy" in en_profile
     assert f'href="{policy_href}"' in en_profile
 
-    assert "Gepr\u00fcft-2026--10--23" in de_profile
+    assert "Gepr\u00fcft-2026--10--31" in de_profile
     assert "Sicherheitsrichtlinie" in de_profile
     assert f'href="{policy_href}"' in de_profile
     assert (REPO_ROOT / "SECURITY.md").is_file()

@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-10-23. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 13 active repositories (12 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 14 public repositories in total.
+Last checked: 2026-10-31. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 13 active repositories (12 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 14 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -34,7 +34,7 @@ Last checked: 2026-10-23. Public-only list from live GitHub metadata; private or
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
-| [.github](https://github.com/dev-bricks/.github) | 2026-10-23 | Organization profile and public directory parity |
+| [.github](https://github.com/dev-bricks/.github) | 2026-10-31 | Organization profile and public directory parity |
 | [githubbot-core](https://github.com/dev-bricks/githubbot-core) | 2026-10-22 | Neutral GitHub maintenance, triage, and review receipts |
 | [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-22 | PySide6 desktop code editor |
 | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-10-22 | Codex Desktop startup gating |
@@ -49,14 +49,14 @@ Last checked: 2026-10-23. Public-only list from live GitHub metadata; private or
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Lightweight local Python IDE |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | 2026-06-25 | Claude Fable 5 availability watcher |
 
-**Snapshot:** all rows come from one live GitHub API readback on 2026-10-23; the `.github` row reflects this profile update.
+**Snapshot:** all rows come from one live GitHub API readback on 2026-10-31; the `.github` row reflects this profile update.
 
 ### Integrated ellmos-ai Infrastructure
 
 | Repository | Public role |
 |---|---|
 | [coma](https://github.com/ellmos-ai/coma) | Communication for Autonomous Subagents (COMAS): zero-dependency Python lifecycle & file protocol layer |
-| [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
+| [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [ticket-master](https://github.com/ellmos-ai/ticket-master) | Multi-provider triage console for bugs, requests, tickets, and local AI work routing |
 | [lock-master](https://github.com/ellmos-ai/lock-master) | Portable multi-agent file-lock system with Exclusive and Team Locks |
 | [system-gap-master](https://github.com/ellmos-ai/system-gap-master) | Serverless cross-machine sync yard (sync-master) for multi-agent setups |
