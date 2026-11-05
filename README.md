@@ -9,7 +9,7 @@ The profile README also serves as the public repository directory for the organi
 
 ## Current Public Index
 
-Last checked: 2026-10-23. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 13 active repositories (12 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 14 public repositories in total.
+Last checked: 2026-11-05. Public-only list from live GitHub metadata; private or internal work is intentionally excluded from this public start page. 14 active repositories (13 active tool repositories + organization profile repository) plus 1 archived repository (`fable-5-hunter`) — 15 public repositories in total.
 
 ### dev-bricks Repositories
 
@@ -27,6 +27,7 @@ Last checked: 2026-10-23. Public-only list from live GitHub metadata; private or
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Unofficial scheduler and automation-control tool for Claude Desktop |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Local repair, cleanup, and diagnostics tray/CLI for Codex Desktop |
 | [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Conservative Windows tray for cleaning up orphaned MCP and language-server processes |
+| [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | Local companion CLI and PTY-based response capture for Google Antigravity (AGY) and Gemini CLI workflows |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | Claude Fable 5 availability watcher for Claude Code |
 | [.github](https://github.com/dev-bricks/.github) | Organization profile, shared community files, and machine-readable public index |
 
@@ -34,29 +35,29 @@ Last checked: 2026-10-23. Public-only list from live GitHub metadata; private or
 
 | Repository | Latest public push | Focus |
 |---|---:|---|
-| [.github](https://github.com/dev-bricks/.github) | 2026-10-23 | Organization profile and public directory parity |
-| [githubbot-core](https://github.com/dev-bricks/githubbot-core) | 2026-10-22 | Neutral GitHub maintenance, triage, and review receipts |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-22 | PySide6 desktop code editor |
-| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-10-22 | Codex Desktop startup gating |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-22 | Conservative orphan-process cleanup for MCP/language servers |
-| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-10-21 | Authorized API inventory and OpenAPI discovery |
-| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-10-21 | Codex Desktop repair and diagnostics |
-| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-10-21 | Structured JSON/Markdown knowledge stubs |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-10-19 | Local-first developer dashboard and IDE |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-10-18 | Static Python code analysis |
+| [.github](https://github.com/dev-bricks/.github) | 2026-11-05 | Organization profile, shared community files, and public directory parity |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-11-04 | Desktop app time-slicing and VRAM governance |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-11-04 | Static Python code analysis for unused imports and dead definitions |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-11-03 | Conservative orphan-process cleanup for MCP/language servers |
+| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-11-03 | Authorized API inventory and OpenAPI discovery |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-11-03 | Local-first developer dashboard and IDE |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-11-02 | PySide6 desktop code editor with LSP and terminal support |
+| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-11-02 | Codex Desktop repair, cleanup, and diagnostics |
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-11-02 | Codex Desktop startup gating |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-11-02 | Structured JSON/Markdown knowledge stubs |
+| [githubbot-core](https://github.com/dev-bricks/githubbot-core) | 2026-11-02 | Neutral GitHub maintenance, triage, and review receipts |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-10-16 | Claude Desktop scheduled-task automation |
-| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-10-07 | Desktop app time-slicing and VRAM governance |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Lightweight local Python IDE |
+| [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | 2026-09-16 | Antigravity / Gemini CLI companion & PTY output capture |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archived)* | 2026-06-25 | Claude Fable 5 availability watcher |
 
-**Snapshot:** all rows come from one live GitHub API readback on 2026-10-23; the `.github` row reflects this profile update.
+**Snapshot:** all rows come from one live GitHub API readback on 2026-11-05; the `.github` row reflects this profile update.
 
 ### Integrated ellmos-ai Infrastructure
 
 | Repository | Public role |
 |---|---|
 | [coma](https://github.com/ellmos-ai/coma) | Communication for Autonomous Subagents (COMAS): zero-dependency Python lifecycle & file protocol layer |
-| [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | PTY wrapper for agy / Gemini CLI response capture |
 | [ticket-master](https://github.com/ellmos-ai/ticket-master) | Multi-provider triage console for bugs, requests, tickets, and local AI work routing |
 | [lock-master](https://github.com/ellmos-ai/lock-master) | Portable multi-agent file-lock system with Exclusive and Team Locks |
 | [system-gap-master](https://github.com/ellmos-ai/system-gap-master) | Serverless cross-machine sync yard (sync-master) for multi-agent setups |

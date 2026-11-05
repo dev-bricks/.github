@@ -1,4 +1,4 @@
-## Last-checked: 2026-10-23
+## Last-checked: 2026-11-05
 
 # dev-bricks
 
@@ -7,9 +7,9 @@
 Canonical organization: https://github.com/dev-bricks
 Organization profile repository: https://github.com/dev-bricks/.github
 Ecosystem: open-bricks, file-bricks, doc-bricks, ellmos-ai
-Public repository count: 14 total, including 12 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
-Recent public activity snapshot from the public GitHub API, newest first: .github 2026-10-23, githubbot-core 2026-10-22, CodeBox 2026-10-22, safe-start-for-codex 2026-10-22, zombie-killer-tray 2026-10-22, ApiProber 2026-10-21, CareCenter-for-Codex 2026-10-21, WikiStub-Seed 2026-10-21, DevCenter 2026-10-19, MethodenAnalyser 2026-10-18, automizer-for-claude-desktop 2026-10-16, app-rotator 2026-10-07, pythonbox 2026-09-22, and archived fable-5-hunter 2026-06-25.
-Snapshot note: all activity dates come from one live GitHub API readback on 2026-10-23; the .github entry reflects this profile update.
+Public repository count: 15 total, including 13 active tool repositories, 1 archived tool repository (fable-5-hunter), and this organization profile repository. Public-only index; private or internal work is intentionally excluded.
+Recent public activity snapshot from the public GitHub API, newest first: .github 2026-11-05, app-rotator 2026-11-04, MethodenAnalyser 2026-11-04, zombie-killer-tray 2026-11-03, ApiProber 2026-11-03, DevCenter 2026-11-03, CodeBox 2026-11-02, CareCenter-for-Codex 2026-11-02, safe-start-for-codex 2026-11-02, WikiStub-Seed 2026-11-02, githubbot-core 2026-11-02, automizer-for-claude-desktop 2026-10-16, pythonbox 2026-09-22, companion-for-agy 2026-09-16, and archived fable-5-hunter 2026-06-25.
+Snapshot note: all activity dates come from one live GitHub API readback on 2026-11-05; the .github entry reflects this profile update.
 
 ## Positioning
 
@@ -74,6 +74,11 @@ The projects are intended for developers who want small, inspectable, local appl
   - Conservative Windows tray utility for cleaning up orphaned Model Context Protocol (MCP) and language-server processes.
   - Verifies process identity and dead-parent state, and requires equal CPU tick readings across sampled observations before termination; never performs blanket process-tree kills.
 
+- https://github.com/dev-bricks/companion-for-agy
+  - Local companion CLI and PTY-based response capture for Google Antigravity (AGY) and Gemini CLI workflows.
+  - Captures Gemini responses via ANSI color extraction from the terminal buffer; available on npm: https://www.npmjs.com/package/companion-for-agy
+  - Search focus: Gemini CLI companion, agy PTY wrapper, Antigravity CLI terminal capture.
+
 - https://github.com/dev-bricks/fable-5-hunter
   - Zero-dependency availability watcher for the Claude Fable 5 model in the Claude Code CLI (archived).
   - Polls periodically and notifies you the moment the model is reachable again.
@@ -81,26 +86,21 @@ The projects are intended for developers who want small, inspectable, local appl
 
 ## Current public activity
 
-- 2026-10-23: `.github`
-- 2026-10-22: `githubbot-core`, `CodeBox`, `safe-start-for-codex`, `zombie-killer-tray`
-- 2026-10-21: ApiProber, CareCenter-for-Codex, WikiStub-Seed
-- 2026-10-19: DevCenter
-- 2026-10-18: MethodenAnalyser
+- 2026-11-05: `.github`
+- 2026-11-04: app-rotator, MethodenAnalyser
+- 2026-11-03: zombie-killer-tray, ApiProber, DevCenter
+- 2026-11-02: CodeBox, CareCenter-for-Codex, safe-start-for-codex, WikiStub-Seed, githubbot-core
 - 2026-10-16: automizer-for-claude-desktop
-- 2026-10-07: app-rotator
 - 2026-09-22: pythonbox
+- 2026-09-16: companion-for-agy
 - 2026-06-25: `fable-5-hunter` (archived)
-> **Snapshot:** all activity dates come from one live GitHub API readback on 2026-10-23; the `.github` entry reflects this profile update.
+> **Snapshot:** all activity dates come from one live GitHub API readback on 2026-11-05; the `.github` entry reflects this profile update.
 
 ## Integrated ellmos-ai Multi-Agent Infrastructure
 
 - https://github.com/ellmos-ai/coma
   - COMAS - COMmunication for Autonomous Subagents (repository ellmos-ai/coma).
   - Zero-dependency Python standard-library lifecycle, file-protocol IPC, status polling, process isolation, and subagent coordination layer.
-
-- https://github.com/ellmos-ai/companion-for-agy
-  - PTY-based wrapper for agy (Antigravity CLI / Gemini CLI).
-  - Captures Gemini responses via ANSI color extraction from the terminal buffer; available on npm: https://www.npmjs.com/package/companion-for-agy
 
 - https://github.com/ellmos-ai/ticket-master
   - Cross-platform, multi-provider triage console for bugs, requests, and local AI work routing.

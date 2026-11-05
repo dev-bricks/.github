@@ -1,9 +1,9 @@
-<!-- last-checked: 2026-10-23 -->
+<!-- last-checked: 2026-11-05 -->
 <p align="center">
-  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Werkzeuge-13%20Aktive%20Öffentliche%20Repos-blue" alt="Aktive Öffentliche Repos"></a>
+  <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Werkzeuge-14%20Aktive%20Öffentliche%20Repos-blue" alt="Aktive Öffentliche Repos"></a>
   <a href="https://github.com/dev-bricks"><img src="https://img.shields.io/badge/Architektur-Local--First-success" alt="Local First"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/Sicherheitsrichtlinie-blue.svg?style=flat-square" alt="Sicherheitsrichtlinie"></a>
-  <a href="https://github.com/dev-bricks/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Geprüft-2026--10--23-blue.svg?style=flat-square" alt="Geprüft 2026-10-23"></a>
+  <a href="https://github.com/dev-bricks/.github/blob/main/CHANGELOG.md"><img src="https://img.shields.io/badge/Geprüft-2026--11--05-blue.svg?style=flat-square" alt="Geprüft 2026-11-05"></a>
   <a href="https://github.com/dev-bricks/.github/blob/main/llms.txt"><img src="https://img.shields.io/badge/llms.txt-verfügbar-orange" alt="llms.txt"></a>
   <a href="README.md"><img src="https://img.shields.io/badge/Language-English-blue.svg?style=flat-square" alt="English Version"></a>
 </p>
@@ -16,11 +16,11 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 > [!NOTE]
 > **Öffentlicher Verzeichnisstand:**
-> Geprüft am 23.10.2026 anhand der Live-GitHub-Metadaten: 13 aktive Repositories (12 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 14 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
+> Geprüft am 05.11.2026 anhand der Live-GitHub-Metadaten: 14 aktive Repositories (13 Werkzeug-Repositories + Organisations-Profil-Repository) sowie 1 archiviertes Repository (`fable-5-hunter`) — 15 öffentliche Repositories insgesamt. Private und interne Arbeiten sind in diesem öffentlichen Index bewusst ausgeschlossen.
 
 > [!TIP]
 > **Einstiegsempfehlung:**
-> Starten Sie mit `CodeBox` oder `pythonbox` für lokale IDE-Arbeit, `ApiProber` oder `MethodenAnalyser` für Projektinspektion, `githubbot-core` für Repository-Wartung und prüfbare Review-Belege, `app-rotator` oder `safe-start-for-codex` für Laufzeitstabilität und Prozess-Time-Slicing, `coma` für Subagenten-Prozess- & Datei-Protokoll-Steuerung sowie `lock-master` + `ticket-master` + `system-gap-master` für die Koordination mehrerer KI-Agenten.
+> Starten Sie mit `CodeBox` oder `pythonbox` für lokale IDE-Arbeit, `ApiProber` oder `MethodenAnalyser` für Projektinspektion, `githubbot-core` für Repository-Wartung und prüfbare Review-Belege, `app-rotator` oder `safe-start-for-codex` für Laufzeitstabilität und Prozess-Time-Slicing, `companion-for-agy` für Gemini-CLI-Integration, `coma` für Subagenten-Prozess- & Datei-Protokoll-Steuerung sowie `lock-master` + `ticket-master` + `system-gap-master` für die Koordination mehrerer KI-Agenten.
 
 ## Hier Starten
 
@@ -38,9 +38,9 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | Aufgaben-Planer & Steuerung für Claude Desktop | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Zuverlässiges Erstellen und Ändern geplanter Aufgaben für Claude Desktop |
 | Lokales Wartungs-Tray & CLI für OpenAI Codex Desktop | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Diagnose, Bereinigung, Log-Wartung und Reparatur für Codex Desktop auf Windows |
 | Bereinigung verwaister MCP- und Language-Server-Prozesse | [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Konservativer Windows-Tray, der verwaiste MCP-/Language-Server-Prozesse ohne pauschale Prozessbaum-Kills beendet |
+| agy / Gemini CLI Antwort-Erfassung im Terminal · [npm](https://www.npmjs.com/package/companion-for-agy) | [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | Lokales Begleit-CLI & PTY-Wrapper für ANSI-Farbauslesung aus Gemini-CLI-Ausgaben für Claude Code & Codex |
 | Modell-Verfügbarkeits-Überwachung für Claude Fable 5 *(archiviert)* | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Zero-Dependency-Watcher für die Claude Code CLI zur Erreichbarkeits-Benachrichtigung |
 | Standardbibliotheks-Subagenten-Lebenszyklus & Datei-Protokoll (COMAS) | [coma](https://github.com/ellmos-ai/coma) | Null-Abhängigkeiten Python-Schicht für Spawn, Datei-Protokoll-IPC, Status-Polling und Prozessisolierung |
-| agy / Gemini CLI Antwort-Erfassung im Terminal · [npm](https://www.npmjs.com/package/companion-for-agy) | [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | PTY-Wrapper für ANSI-Farbauslesung aus Gemini-CLI-Ausgaben für Claude Code & Codex |
 | Triage-Konsole & Ticket-Router für lokale KI-Provider | [ticket-master](https://github.com/ellmos-ai/ticket-master) | Erfasst Fehler und Anfragen als strukturierte Tickets und leitet sie an KI-Agenten weiter |
 | Portables Multi-Agenten-Dateisperrsystem | [lock-master](https://github.com/ellmos-ai/lock-master) | Exklusive und Team-Sperren (LOCK*.txt) mit Ablaufzeit, Cloud-Sync-Support und Stale-Cleanup |
 | Serverloser Cross-Machine-Sync-Hof für KI-Agenten | [system-gap-master](https://github.com/ellmos-ai/system-gap-master) | Host-Schreibrechte-Regel, tägliches Sync-Ritual, Nachrichten-Kanäle und Bootstrap-Runbook |
@@ -64,6 +64,7 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | Werkzeug für das Steuern und Ändern geplanter Claude Desktop Aufgaben | Aktiv |
 | [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | Windows-Tray und CLI für Reparatur, Diagnose und Log-Bereinigung von OpenAI Codex Desktop | Aktiv |
 | [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | Konservativer Windows-Tray zur Bereinigung ausgewählter verwaister MCP- und Language-Server-Prozesse einzeln, ohne pauschale Prozessbaum-Beendigung | Aktiv |
+| [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | Lokales Begleit-CLI & PTY-Wrapper für agy (Gemini CLI) zur programmierten Terminal-Antwort-Erfassung via ANSI-Farbauslesung · [npm](https://www.npmjs.com/package/companion-for-agy) | Aktiv |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) | Benachrichtigungs-Watcher für die Erreichbarkeit von Claude Fable 5 in Claude Code *(archiviert)* | Archiviert |
 | [.github](https://github.com/dev-bricks/.github) | Organisationsprofil, Vorlagen für Issues/PRs, Community-Workflows und maschinenlesbarer Index | Aktiv |
 
@@ -71,37 +72,37 @@ dev-bricks entwickelt kompakte, praktische Software für tägliche Entwicklungsa
 
 | Repository | Letzter öffentlicher Push | Fokus |
 |---|---:|---|
-| [.github](https://github.com/dev-bricks/.github) | 2026-10-23 | Organisationsprofil und öffentliche Verzeichnisparität |
-| [githubbot-core](https://github.com/dev-bricks/githubbot-core) | 2026-10-22 | Neutrale GitHub-Wartung, Triage und Review-Belege |
-| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-10-22 | PySide6 Desktop-Code-Editor |
-| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-10-22 | Start-Gate für Codex Desktop Automationen |
-| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-10-22 | Bereinigung ausgewählter verwaister MCP-/Language-Server-Prozesse |
-| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-10-21 | Autorisiertes API-Inventar und OpenAPI-Erkundung |
-| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-10-21 | Reparatur und Diagnose für Codex Desktop |
-| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-10-21 | Strukturierte JSON/Markdown-Wissensstubs |
-| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-10-19 | Lokales Entwickler-Dashboard und IDE |
-| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-10-18 | Statische Python-Code-Analyse |
+| [.github](https://github.com/dev-bricks/.github) | 2026-11-05 | Organisationsprofil und öffentliche Verzeichnisparität |
+| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-11-04 | Desktop-App-Time-Slicing und VRAM-Governance |
+| [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser) | 2026-11-04 | Statische Python-Code-Analyse für ungenutzte Imports und tote Definitionen |
+| [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray) | 2026-11-03 | Bereinigung ausgewählter verwaister MCP-/Language-Server-Prozesse |
+| [ApiProber](https://github.com/dev-bricks/ApiProber) | 2026-11-03 | Autorisiertes API-Inventar und OpenAPI-Erkundung |
+| [DevCenter](https://github.com/dev-bricks/DevCenter) | 2026-11-03 | Lokales Entwickler-Dashboard und IDE |
+| [CodeBox](https://github.com/dev-bricks/CodeBox) | 2026-11-02 | PySide6 Desktop-Code-Editor mit LSP und Terminal |
+| [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex) | 2026-11-02 | Reparatur und Diagnose für Codex Desktop |
+| [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex) | 2026-11-02 | Start-Gate für Codex Desktop Automationen |
+| [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | 2026-11-02 | Strukturierte JSON/Markdown-Wissensstubs |
+| [githubbot-core](https://github.com/dev-bricks/githubbot-core) | 2026-11-02 | Neutrale GitHub-Wartung, Triage und Review-Belege |
 | [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop) | 2026-10-16 | Claude-Desktop-Aufgaben-Automation |
-| [app-rotator](https://github.com/dev-bricks/app-rotator) | 2026-10-07 | Desktop-App-Time-Slicing und VRAM-Governance |
 | [pythonbox](https://github.com/dev-bricks/pythonbox) | 2026-09-22 | Leichtbau-Python-IDE |
+| [companion-for-agy](https://github.com/dev-bricks/companion-for-agy) | 2026-09-16 | Antigravity / Gemini CLI Begleit-CLI & Terminal-Antwort-Erfassung |
 | [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archiviert)* | 2026-06-25 | Benachrichtigungs-Watcher für Claude Fable 5 |
 
-**Momentaufnahme:** Alle Zeilen stammen aus einer einzigen Live-Abfrage der GitHub-API vom 23.10.2026; die `.github`-Zeile spiegelt diese Profilaktualisierung wider.
+**Momentaufnahme:** Alle Zeilen stammen aus einer einzigen Live-Abfrage der GitHub-API vom 05.11.2026; die `.github`-Zeile spiegelt diese Profilaktualisierung wider.
 
 ### Integrierte ellmos-ai Infrastruktur
 
 | Repository | Rolle | Status |
 |---|---|---|
 | [coma](https://github.com/ellmos-ai/coma) | Communication for Autonomous Subagents (COMAS): Null-Abhängigkeiten Lebenszyklus-, Datei-Protokoll- & Status-Polling-Schicht | Aktiv |
-| [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | PTY-Wrapper für agy (Gemini CLI) zur programmierten Auslesung von Terminal-Antworten | Aktiv |
 | [ticket-master](https://github.com/ellmos-ai/ticket-master) | Triage-Konsole und Ticket-Router zur Verteilung von Aufgaben an Claude, Codex, Gemini oder Subagenten | Aktiv |
 | [lock-master](https://github.com/ellmos-ai/lock-master) | Portables Dateisperrsystem für Multi-Agenten-Setups mit Exklusiv- & Team-Locks | Aktiv |
 | [system-gap-master](https://github.com/ellmos-ai/system-gap-master) | Serverloser Sync-Hof (sync-master) für mehrere Maschinen und KI-Agenten mit daily sync ritual und Bootstrap-Runbook | Aktiv |
 | [sqlite-transit-sync](https://github.com/ellmos-ai/sqlite-transit-sync) | SQLite-Datenbank-Sync über Transit-Snapshots und Zeilen-Merge-Regeln ohne Server | Aktiv |
 
-## Werkzeug-Showcase
+## Werkzeug-Präsentation (Showcase)
 
-Die Banner sind die Links; Details stehen in den Tabellen oben und unten:
+Die Banner dienen als Direktlinks; Details finden sich in den Tabellen oben und unten:
 
 <p align="center">
   <a href="https://github.com/dev-bricks/DevCenter"><img src="https://raw.githubusercontent.com/dev-bricks/DevCenter/master/assets/banner.svg" alt="DevCenter" width="680" style="border:2px solid #38bdf8;border-radius:8px;display:block;margin:0 auto 12px"></a>
@@ -118,49 +119,49 @@ Die Banner sind die Links; Details stehen in den Tabellen oben und unten:
   <a href="https://github.com/dev-bricks/zombie-killer-tray"><img src="https://raw.githubusercontent.com/dev-bricks/zombie-killer-tray/main/assets/banner.png" alt="zombie-killer-tray" width="680" style="border:2px solid #84cc16;border-radius:8px;display:block;margin:0 auto 12px"></a>
 </p>
 
-## Projektfamilien
+## Projekt-Familien
 
 | Familie | Repositories | Schwerpunkt |
 |---|---|---|
-| Desktop-IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Lokale PySide6-Entwickleroberflächen für Code-Editierung, Debugging und Build-Abläufe |
-| Analyse & Discovery | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/ApiProber) | Statische Code-Inspektion und passive API-Dokumentation für autorisierte Systeme |
-| Repository-Wartung | [githubbot-core](https://github.com/dev-bricks/githubbot-core) | Neutrale GitHub-Wartung ohne Fremdabhängigkeiten: Issue-Triage, Duplikaterkennung, Repository-Berichte, Preview/Apply-Aktionen, Plugin-SPI und Review-Belege auf exakten Commit-SHA |
-| Agenten-Tools & Support | [app-rotator](https://github.com/dev-bricks/app-rotator), [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archiviert)* | Desktop-App-Time-Slicing und VRAM-Governance, Codex-Start-Gating, Claude-Desktop-Steuerung, Codex-Reparatur, verwaiste MCP-/Language-Server-Prozesshygiene und Modell-Monitoring |
+| Desktop-IDEs | [DevCenter](https://github.com/dev-bricks/DevCenter), [CodeBox](https://github.com/dev-bricks/CodeBox), [pythonbox](https://github.com/dev-bricks/pythonbox) | Lokale PySide6-Entwickleroberflächen für Code-Bearbeitung, Debugging, Projektnavigation und Build-Workflows |
+| Analyse & Erkundung | [MethodenAnalyser](https://github.com/dev-bricks/MethodenAnalyser), [apiprober](https://github.com/dev-bricks/ApiProber) | Statische Code-Inspektion und passive API-Dokumentation für berechtigte Systeme |
+| Repository-Wartung | [githubbot-core](https://github.com/dev-bricks/githubbot-core) | Neutraler GitHub-Wartungskern ohne Fremdabhängigkeiten: Issue-Triage, Duplikaterkennung, Repository-Berichte, Preview/Apply-Aktionen, Plugin-SPI und Review-Belege auf exakten Commit-SHA |
+| Agenten-Tools & Support | [safe-start-for-codex](https://github.com/dev-bricks/safe-start-for-codex), [app-rotator](https://github.com/dev-bricks/app-rotator), [automizer-for-claude-desktop](https://github.com/dev-bricks/automizer-for-claude-desktop), [CareCenter-for-Codex](https://github.com/dev-bricks/CareCenter-for-Codex), [zombie-killer-tray](https://github.com/dev-bricks/zombie-killer-tray), [companion-for-agy](https://github.com/dev-bricks/companion-for-agy), [fable-5-hunter](https://github.com/dev-bricks/fable-5-hunter) *(archiviert)* | Codex-Start-Gating, Desktop-App-Time-Slicing, Claude-Desktop-Steuerung, Codex-Reparatur, verwaiste MCP-/Language-Server-Prozesshygiene, Gemini-CLI-Antworterfassung und Modell-Monitoring (archiviert) |
 | Wissens-Frameworks | [WikiStub-Seed](https://github.com/dev-bricks/WikiStub-Seed) | Strukturierte JSON/Markdown-Stammdaten für Dokumentations-Glossare, RAG und LLM-Pipelines |
-| Agenten-Infrastruktur | [coma](https://github.com/ellmos-ai/coma), [lock-master](https://github.com/ellmos-ai/lock-master), [ticket-master](https://github.com/ellmos-ai/ticket-master), [system-gap-master](https://github.com/ellmos-ai/system-gap-master), [sqlite-transit-sync](https://github.com/ellmos-ai/sqlite-transit-sync), [companion-for-agy](https://github.com/ellmos-ai/companion-for-agy) | Die Koordinations- & Lebenszyklus-Schicht für Multi-Agenten-Teams: Subagenten-Steuerung & Datei-Protokoll, Dateisperren, Ticket-Routing, serverloser Datei- und DB-Sync sowie Gemini-CLI-Auslesung |
+| Agenten-Infrastruktur | [coma](https://github.com/ellmos-ai/coma), [lock-master](https://github.com/ellmos-ai/lock-master), [ticket-master](https://github.com/ellmos-ai/ticket-master), [system-gap-master](https://github.com/ellmos-ai/system-gap-master), [sqlite-transit-sync](https://github.com/ellmos-ai/sqlite-transit-sync) | Die Koordinations- & Lebenszyklus-Schicht für Multi-Agenten-Teams: Subagenten-Steuerung & Datei-Protokoll, Dateisperren, Ticket-Routing und serverloser Datei- und DB-Sync |
 
 ## Systemarchitektur
 
 ```mermaid
 flowchart TD
-  subgraph IDE["Desktop & Entwickler-Tools"]
-    DC["DevCenter<br/>Python IDE & Dashboard"]
-    CB["CodeBox<br/>PySide6 Code Editor"]
+  subgraph IDE["Desktop- & Entwickler-Werkzeuge"]
+    DC["DevCenter<br/>Python-IDE & Dashboard"]
+    CB["CodeBox<br/>PySide6 Code-Editor"]
     PB["pythonbox<br/>Leichtbau-Python-IDE"]
-    MA["MethodenAnalyser<br/>Statische Code-Analyse"]
-    AP["apiprober<br/>Passiver REST-API-Scout"]
+    MA["MethodenAnalyser<br/>Statischer Code-Analyser"]
+    AP["ApiProber<br/>Passive REST-API-Erkundung"]
   end
 
   subgraph REPO["Repository-Wartung"]
     GBC["githubbot-core<br/>Triage, Berichte & Review-Belege"]
   end
 
-  subgraph INFRA["Agenten- & Multi-Machine-Infrastruktur (ellmos-ai)"]
-    COM["coma<br/>Subagenten-Lebenszyklus & Datei-Protokoll (COMAS)"]
+  subgraph INFRA["Agenten-Infrastruktur (ellmos-ai)"]
+    COM["coma<br/>Subagenten-Lebenszyklus & Datei-Protokoll"]
     LM["lock-master<br/>Exklusive & Team-Dateisperren"]
-    TM["ticket-master<br/>KI-Work & Ticket-Router"]
-    SGM["system-gap-master<br/>Serverless Sync-Hof"]
-    STS["sqlite-transit-sync<br/>SQLite Transit-Snapshots"]
-    AGY["companion-for-agy<br/>Gemini CLI Antwort-Erfassung"]
+    TM["ticket-master<br/>KI-Arbeits- & Ticket-Router"]
+    SGM["system-gap-master<br/>Serverloser Sync-Hof"]
+    STS["sqlite-transit-sync<br/>SQLite-Transit-Snapshots"]
   end
 
-  subgraph AGENT["Agenten-Laufzeit, Codex-Support & Wissensdaten"]
+  subgraph AGENT["Agenten-Laufzeit, Governance & Wissen"]
     AR["app-rotator<br/>Desktop Time-Slicing Tray"]
-    SSC["safe-start-for-codex<br/>Codex Start-Gate"]
-    ACD["automizer-for-claude-desktop<br/>Claude Steuerung"]
-    CCC["CareCenter-for-Codex<br/>Codex Wartungs-Tray"]
-    ZKT["zombie-killer-tray<br/>Bereinigung verwaister MCP-Prozesse"]
-    WSS["WikiStub-Seed<br/>Zweisprachiger Wissensstamm"]
+    SSC["safe-start-for-codex<br/>Codex-Start-Gating"]
+    ACD["automizer-for-claude-desktop<br/>Claude-Automationssteuerung"]
+    CCC["CareCenter-for-Codex<br/>Codex-Wartungs-Tray"]
+    ZKT["zombie-killer-tray<br/>MCP-Prozessbereinigung"]
+    AGY["companion-for-agy<br/>Gemini CLI Antwort-Erfassung"]
+    WSS["WikiStub-Seed<br/>Zweisprachige Wissensdaten"]
   end
 
   DC --- INFRA
@@ -169,68 +170,70 @@ flowchart TD
   INFRA --- AGENT
 ```
 
-## Entwicklungs-Prinzipien
+## Entwurfsprinzipien
 
-- **Local-First:** Viele Projekte sind auf lokale Nutzung ausgelegt; Speicher-, Netzwerk- und Telemetrieverhalten ist in der jeweiligen Repository-Dokumentation beschrieben.
-- **Spezialisierte Werkzeuge:** Jedes Repo fokussiert sich auf eine konkrete Aufgabe statt komplexe Plattformen zu imitieren.
-- **Pragmatische Windows-Unterstützung:** Verlässliche lokale Ausführung, saubere Distribution und minimaler Setup-Aufwand.
-- **Transparente Grenzen:** API-Erkundungswerkzeuge sind ausschließlich für eigene oder explizit freigegebene Systeme dokumentiert.
-- **Nachvollziehbare Automation:** Skripte, Tests und Exporte sind sowohl für Entwickler als auch für KI-Agenten verständlich strukturiert.
+- **Lokal zuerst (Local First):** Werkzeuge sind für die lokale Ausführung konzipiert; Datenspeicherung und Netzwerkverhalten sind pro Repository transparent dokumentiert.
+- **Spezifische Werkzeuge statt monolithischer Plattformen:** Jedes Projekt adressiert einen konkreten Arbeitsschritt im Alltag.
+- **Windows-Pragmatismus:** Desktop-Anwendungen setzen auf zuverlässige Ausführung, geringe Einstiegshürden und saubere Systemintegration.
+- **Klare Grenzen:** Sicherheitsrelevante Werkzeuge (wie API-Erkundung) sind ausschließlich für eigene oder autorisierte Systeme dokumentiert.
+- **Verständliche Automation:** Skripte, Tests und Exporte sind für Menschen und LLM-gestützte Pflege gleichermaßen transparent gestaltet.
 
-## Suche & Entdeckung
+## Suche & Auffindbarkeit
 
-Nützliche Suchbegriffe, um dev-bricks-Projekte auf GitHub und in externen Suchmaschinen zu finden:
+Bewährte Suchbegriffe zum Auffinden von dev-bricks Projekten auf GitHub und externen Suchmaschinen:
 
-- dev-bricks local-first developer tools
+- dev-bricks lokale Entwicklerwerkzeuge
 - dev-bricks Python IDE und PySide6 Code-Editor
-- dev-bricks coma subagent lifecycle
+- dev-bricks coma Subagenten-Lebenszyklus
 - dev-bricks coma communication for autonomous subagents
-- dev-bricks subagent file protocol status polling
-- dev-bricks statische Python-Analyse
+- dev-bricks Subagenten Datei-Protokoll Status-Polling
+- dev-bricks statische Code-Analyse Python
 - dev-bricks passive REST-API-Erkundung und OpenAPI-Inventar
-- dev-bricks githubbot-core GitHub-Wartungskern
-- dev-bricks GitHub Issue-Triage ohne Fremdabhängigkeiten
+- dev-bricks githubbot-core GitHub Wartungskern
+- dev-bricks Python Standardbibliothek Issue-Triage CLI
 - dev-bricks Repository-Berichte und Duplikaterkennung
-- dev-bricks Review-Belege auf exaktem Commit-SHA
-- dev-bricks Preview- und Apply-Aktionen mit Trockenlauf
-- dev-bricks app-rotator Desktop Time-Slicing
-- dev-bricks VRAM-Management für lokale KI-Desktop-Apps
-- dev-bricks Windows-Tray-App Ressourcen-Time-Slicing
+- dev-bricks prüfbare Code-Review-Belege Commit-SHA
+- dev-bricks Preview und Apply Dry-Run GitHub-Aktionen
+- dev-bricks app-rotator Desktop-Time-Slicing
+- dev-bricks VRAM-Management lokale KI-Desktop-Apps
+- dev-bricks Windows Tray App Ressourcen-Staffelung
 - dev-bricks Codex Claude Antigravity Time-Slicing
-- dev-bricks Fail-Closed Desktop-App-Rotator
-- dev-bricks Codex-Desktop-Wartung
-- dev-bricks Safe Start for Codex
-- dev-bricks Codex-Automation-Startup-Gate
-- dev-bricks automizer for Claude Desktop
-- dev-bricks Claude Desktop geplante Aufgaben Automation
-- dev-bricks companion for agy Gemini-CLI-Wrapper
-- dev-bricks Claude Fable 5 Verfügbarkeits-Watcher für Claude Code
-- dev-bricks ticket-master AI-Ticket-Routing
-- dev-bricks lokales KI-Work-Routing
-- dev-bricks Multi-Agenten-Orchestrierungswerkzeuge
-- dev-bricks lock-master Multi-Agenten-Dateisperren
+- dev-bricks Fail-Closed Desktop App-Rotator
+- dev-bricks Codex Desktop Wartung und Reparatur
+- dev-bricks zombie killer verwaiste MCP-Prozess-Bereinigung
+- dev-bricks sichere Windows Prozessbereinigung
+- dev-bricks Safe Start für Codex
+- dev-bricks Codex Automationen Start-Gate
+- dev-bricks automizer für Claude Desktop
+- dev-bricks Claude Desktop geplante Aufgaben steuern
+- dev-bricks companion for agy Gemini CLI Wrapper
+- dev-bricks Claude Fable 5 Erreichbarkeits-Watcher
+- dev-bricks ticket-master KI-Ticket-Routing
+- dev-bricks lokales KI-Aufgaben-Routing
+- dev-bricks Multi-Agenten-Orchestrierung
+- dev-bricks lock-master Dateisperren für KI-Agenten
 - dev-bricks system-gap-master serverloser Sync-Hof
 - dev-bricks sync-master maschinenübergreifender Agenten-Sync
 - dev-bricks sqlite-transit-sync serverloser SQLite-Sync
-- dev-bricks SQLite-Transit-Snapshots mit Zeilen-Merge-Policen
+- dev-bricks SQLite-Transit-Snapshots Zeilen-Merge
 - dev-bricks serverloser Sync-Hof für KI-Agenten
-- dev-bricks Agenten-Infrastruktur mit Sperren, Tickets und Sync
+- dev-bricks Cross-Agenten-Infrastruktur Lock Ticket Sync
 - dev-bricks WikiStub-Seed JSON-Wissensrahmen
-- dev-bricks mehrsprachige Wissens-Stubs
-- dev-bricks LLM-Wissensbasis-Seed
-- dev-bricks Ontologie-Seed-Datensatz
-- dev-bricks Windows-Entwicklerwerkzeuge
+- dev-bricks zweisprachige Wissensstubs
+- dev-bricks LLM-Wissensbasis Seed
+- dev-bricks Ontologie-Starter-Datensatz
+- dev-bricks Windows Entwickler-Tools
 
 ## Maschinenlesbarer Kontext
 
-Für Crawler, Suchmaschinen und LLM-Assistenten steht [`llms.txt`](https://github.com/dev-bricks/.github/blob/main/llms.txt) bereit.
+Für Crawler, LLM-Tools und automatisierte Agenten steht [`llms.txt`](https://github.com/dev-bricks/.github/blob/main/llms.txt) bereit. Die Datei enthält die kanonischen Repositories, Rollenbeschreibungen und bevorzugten Suchbegriffe der dev-bricks Organisation.
 
 ## Ökosystem
 
 dev-bricks ist die Entwickler-Sparte der Bricks-Produktlinie:
 
-[open-bricks](https://github.com/open-bricks) · [file-bricks](https://github.com/file-bricks) · [doc-bricks](https://github.com/doc-bricks)
+[open-bricks](https://github.com/open-bricks) — [file-bricks](https://github.com/file-bricks) — [doc-bricks](https://github.com/doc-bricks)
 
 Teil des [ellmos-ai](https://github.com/ellmos-ai) Ökosystems.
 
-<!-- last-checked: 2026-10-23 -->
+<!-- last-checked: 2026-11-05 -->
