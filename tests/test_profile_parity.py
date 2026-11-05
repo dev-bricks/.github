@@ -28,6 +28,7 @@ PUBLIC_REPOS = [
     "automizer-for-claude-desktop",
     "CareCenter-for-Codex",
     "zombie-killer-tray",
+    "companion-for-agy",
     "fable-5-hunter",
     ".github",
 ]
@@ -37,22 +38,25 @@ PRIVATE_REPOS_DENYLIST = [
     "githubbot",
     "ralph-loop-codex-marketplace",
     "trusted-peer-setup",
+    "software-test-apks",
+    "local-genie",
 ]
 
 PUBLIC_ACTIVITY_DATES = {
-    ".github": "2026-10-23",
-    "githubbot-core": "2026-10-22",
-    "CodeBox": "2026-10-22",
-    "safe-start-for-codex": "2026-10-22",
-    "zombie-killer-tray": "2026-10-22",
-    "ApiProber": "2026-10-21",
-    "CareCenter-for-Codex": "2026-10-21",
-    "WikiStub-Seed": "2026-10-21",
-    "DevCenter": "2026-10-19",
-    "MethodenAnalyser": "2026-10-18",
+    ".github": "2026-11-05",
+    "app-rotator": "2026-11-04",
+    "MethodenAnalyser": "2026-11-04",
+    "zombie-killer-tray": "2026-11-03",
+    "ApiProber": "2026-11-03",
+    "DevCenter": "2026-11-03",
+    "CodeBox": "2026-11-02",
+    "CareCenter-for-Codex": "2026-11-02",
+    "safe-start-for-codex": "2026-11-02",
+    "WikiStub-Seed": "2026-11-02",
+    "githubbot-core": "2026-11-02",
     "automizer-for-claude-desktop": "2026-10-16",
-    "app-rotator": "2026-10-07",
     "pythonbox": "2026-09-22",
+    "companion-for-agy": "2026-09-16",
     "fable-5-hunter": "2026-06-25",
 }
 
@@ -88,7 +92,7 @@ def test_markdown_fence_balance(file_contents):
 
 
 def test_public_repo_inventory(file_contents):
-    """Verify that all 14 public repositories are documented across primary profile files."""
+    """Verify that all 15 public repositories are documented across primary profile files."""
     for filename in ["README.md", "profile/README.md", "profile/README_de.md", "llms.txt"]:
         text = file_contents[filename]
         for repo in PUBLIC_REPOS:
@@ -122,12 +126,12 @@ def test_private_leak_guard_distinguishes_similar_names():
 
 
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-10-23."""
-    assert "2026-10-23" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-10-23 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-10-23 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-10-23" in file_contents["llms.txt"]
-    assert "2026-10-23" in file_contents["CHANGELOG.md"]
+    """Verify that verification timestamps are synchronized to 2026-11-05."""
+    assert "2026-11-05" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-11-05 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-11-05 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-11-05" in file_contents["llms.txt"]
+    assert "2026-11-05" in file_contents["CHANGELOG.md"]
 
 
 def test_public_activity_snapshot(file_contents):
@@ -148,14 +152,14 @@ def test_public_activity_snapshot(file_contents):
 
 
 def test_repository_counts_parity(file_contents):
-    """Verify that active (13) and total (14) public repository counts are consistent."""
-    assert "13%20Active%20Public%20Repos" in file_contents["profile/README.md"]
-    assert "13%20Aktive%20" in file_contents["profile/README_de.md"]
+    """Verify that active (14) and total (15) public repository counts are consistent."""
+    assert "14%20Active%20Public%20Repos" in file_contents["profile/README.md"]
+    assert "14%20Aktive%20" in file_contents["profile/README_de.md"]
 
-    assert "14 public repositories in total" in file_contents["README.md"]
-    assert "14 public repositories in total" in file_contents["profile/README.md"]
-    assert "14 öffentliche Repositories insgesamt" in file_contents["profile/README_de.md"]
-    assert "Public repository count: 14 total" in file_contents["llms.txt"]
+    assert "15 public repositories in total" in file_contents["README.md"]
+    assert "15 public repositories in total" in file_contents["profile/README.md"]
+    assert "15 öffentliche Repositories insgesamt" in file_contents["profile/README_de.md"]
+    assert "Public repository count: 15 total" in file_contents["llms.txt"]
 
 
 def test_verified_and_security_policy_badges_parity(file_contents):
@@ -164,11 +168,11 @@ def test_verified_and_security_policy_badges_parity(file_contents):
     de_profile = file_contents["profile/README_de.md"]
     policy_href = "https://github.com/dev-bricks/.github/blob/main/SECURITY.md"
 
-    assert "Verified-2026--10--23" in en_profile
+    assert "Verified-2026--11--05" in en_profile
     assert "Security_Policy" in en_profile
     assert f'href="{policy_href}"' in en_profile
 
-    assert "Gepr\u00fcft-2026--10--23" in de_profile
+    assert "Gepr\u00fcft-2026--11--05" in de_profile
     assert "Sicherheitsrichtlinie" in de_profile
     assert f'href="{policy_href}"' in de_profile
     assert (REPO_ROOT / "SECURITY.md").is_file()

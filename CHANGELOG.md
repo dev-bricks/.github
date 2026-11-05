@@ -2,6 +2,18 @@
 
 All notable changes to the organization profile and community health repository will be documented in this file.
 
+## [Unreleased] - 2026-11-05
+
+### Health & Parity
+- **Turnusgemäßer Organisations-Startseiten-, Register- und Discoverability-Health-Lauf** (GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH):
+  - **Register- & Paritätsbefund (D-20261030-011):** Live-Abgleich gegen die GitHub-API (GET /orgs/dev-bricks/repos) verifiziert 15 öffentliche Repositories (13 aktive Werkzeug-Repositories, 1 Organisations-Profil-Repository und 1 archiviertes Tool able-5-hunter). companion-for-agy (PTY-Wrapper für agy / Gemini CLI Terminal-Antwort-Erfassung) ist kanonisch als dev-bricks Werkzeug eingepflegt (https://github.com/dev-bricks/companion-for-agy).
+  - **Zählerstände:** Öffentlicher Index von 14 auf 15 Repositories aktualisiert (13 aktive Werkzeuge + .github Profil-Repository + able-5-hunter archiviert); Badges auf 14 Active Public Repos / 14 Aktive Öffentliche Repos synchronisiert.
+  - **Live-Aktivitäts-Snapshot:** Alle 15 Aktivitätszeilen auf den tagesaktuellen Live-Stand vom 2026-11-05 synchronisiert (.github 2026-11-05, pp-rotator 2026-11-04, MethodenAnalyser 2026-11-04, zombie-killer-tray 2026-11-03, ApiProber 2026-11-03, DevCenter 2026-11-03, CodeBox 2026-11-02, CareCenter-for-Codex 2026-11-02, safe-start-for-codex 2026-11-02, WikiStub-Seed 2026-11-02, githubbot-core 2026-11-02, utomizer-for-claude-desktop 2026-10-16, pythonbox 2026-09-22, companion-for-agy 2026-09-16, able-5-hunter 2026-06-25).
+  - **Zweisprachige Parität & Badges:** Verified-2026--11--05 (EN) und Geprüft-2026--11--05 (DE) synchronisiert; 100% bilinguale Parität über alle 4 Indizes (README.md, profile/README.md, profile/README_de.md, llms.txt).
+  - **Zero-Leak-Invariante:** 6 private Repositories (	rusted-peer-setup, githubbot, utomation-master, software-test-apks, local-genie,
+alph-loop-codex-marketplace) strikt ungenannt und vor Leaks geschützt.
+  - **Vertragstests:** 	ests/test_profile_parity.py auf Stand 2026-11-05 erweitert und aktualisiert.
+
 ## [Unreleased] - 2026-10-23
 
 ### Health & Parity
